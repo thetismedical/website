@@ -129,6 +129,13 @@ main {
   font-size: 3rem;
   flex-basis: 30rem;
 }
+
+.logo {
+  width: 28rem;
+  fill:  #17181a;
+  padding-top: 2rem;
+  padding-left: 6rem;
+}
 .nav-links h3 {
   padding: 3rem 0rem;
 }
