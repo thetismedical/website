@@ -16,8 +16,8 @@ main {
 
 #logo {
   color: white;
-  /* font-family: "Abril Fatface"; */
-  font-family: 'Sigmar One', cursive;
+  font-family: "Abril Fatface";
+  /* font-family: 'Sigmar One', cursive; */
 }
 .nav-header {
   min-height: 10vh;
@@ -86,9 +86,10 @@ main {
   color: rgb(167, 110, 231);
 }
 .hero-desc h2 {
-  /* font-family: "Abril Fatface"; */
-  font-family: 'Sigmar One', cursive;
-  font-size: 5rem;
+  font-family: "Abril Fatface";
+  /* font-family: 'Sigmar One', cursive; */
+  font-size: 4.4rem;
+  /* line-height: 90%; */
 }
 .hero-desc p {
   padding: 3rem 0rem;
