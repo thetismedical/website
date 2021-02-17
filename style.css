@@ -377,10 +377,12 @@ body.hide {
     padding-top: 10rem;
     font-size: 3rem;
     text-align: center;
+    width: 100%;
   }
   .contact p {
     font-size: 1.2rem;
     padding: 2rem;
     text-align: center;
+    width: 100%;
   }
 }
