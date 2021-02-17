@@ -131,7 +131,7 @@ main {
 }
 
 .logo {
-  width: 28rem;
+  width: 78vh;
   fill:  #17181a;
   padding-top: 2.8rem;
   padding-left: 8rem;
@@ -366,7 +366,15 @@ body.hide {
     font-size: 2rem;
     text-align: center;
   }
+
+  .logo{
+    width:80%;
+    padding:1rem;
+    position: absolute;
+    fill: none;
+  }
   .contact h2 {
+    padding-top: 10rem;
     font-size: 3rem;
     text-align: center;
   }
