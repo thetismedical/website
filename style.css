@@ -131,10 +131,13 @@ main {
 }
 
 .logo {
-  width: 78vh;
+  width: 68vh;
   fill:  #17181a;
   padding-top: 2.8rem;
   padding-left: 8rem;
+  min-height: 50vh;
+  flex: 1;
+  flex-basis: 25rem;
 }
 .nav-links h3 {
   padding: 3rem 0rem;
@@ -219,7 +222,7 @@ body.hide {
 }
 
 /* Other Pages */
-.fashion1,
+/* .fashion1,
 .fashion2,
 .fashion3 {
   min-height: 90vh;
@@ -313,7 +316,7 @@ body.hide {
     height: 50vh;
     object-position: top;
   }
-}
+} */
 
 @media screen and (max-width: 1024px) {
   main {
@@ -373,6 +376,7 @@ body.hide {
     position: absolute;
     fill: none;
   }
+  
   .contact h2 {
     padding-top: 10rem;
     font-size: 3rem;
