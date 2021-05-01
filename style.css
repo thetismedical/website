@@ -369,8 +369,6 @@ body.hide {
   }
   .nav-bar {
     display: block;
-    width: 50%;
-    overflow-x: hidden;
     text-align: center;
   }
   .nav-links {
