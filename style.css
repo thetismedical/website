@@ -18,6 +18,7 @@
 
 html {
   scroll-behavior: smooth;
+
 }
 
 .col {
@@ -30,6 +31,7 @@ body {
   overflow-x: hidden;
   position: relative;
 }
+
 
 main {
   position: absolute;
@@ -720,6 +722,7 @@ body.hide {
   .fraction-wrap{
     width: 40vw;
     max-width: 120px;
+    padding: 1vh 0;
   }
 
   .info.col {
@@ -812,12 +815,12 @@ body.hide {
   }
 
   .fraction-line {
-    width: 30vw;
-    max-width: 100px;
+    width: 27vw;
+    max-width: 90px;
     height: 0.25rem;
     margin: 0.4rem black;
     background-color: var(--main-font-color);
-    transform: translate(2vw, 2vh) rotate(-60deg) ;
+    transform: translate(20%, 0vh) rotate(-55deg) ;
   }
 
   .process-arrow {
