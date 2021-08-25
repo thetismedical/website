@@ -83,11 +83,13 @@ main {
   min-width: 75vw;
   min-height: 130vh;
   padding-top: 2vh;
+  z-index: -1;
 }
 
 a.explore.landing{
   align-self: flex-start;
   margin: 0;
+  z-index: 2;
 }
 
 
@@ -644,7 +646,7 @@ body.hide {
 
   .landing-para {
     padding-top: 60vh;
-    width: 15vw;
+    width: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -695,6 +697,7 @@ body.hide {
     min-height: 0;
     padding: 0;
     margin: 0;
+    transform: translateX(-30vw)
   }
 
   .dotty-logo img {
