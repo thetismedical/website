@@ -155,7 +155,7 @@ a.explore.landing{
 
 .intro {
   align-self: flex-start;
-  width: 35vw;
+  width: 65vw;
   font-size: 1.25rem;
 }
 
@@ -606,6 +606,25 @@ body.hide {
     object-position: top;
   }
 } */
+
+/* OTHER PAGES */
+
+.big-links{
+  display: flex;
+  justify-content: space-between;
+  font-size: 4rem;
+  width: 60vw;
+}
+
+.big-links a{
+  color: var(--main-font-color);
+}
+
+.splint-intro{
+  padding: 6vh 0;
+  width: 100%;
+  font-size: 1.5rem;
+}
 
 @media screen and (max-width: 684px) {
   main {
