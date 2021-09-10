@@ -187,7 +187,7 @@ a.explore.landing {
 
 #night-splint-img,
 #emergency-splint-img {
-  padding: 0 0 2vh 0;
+  padding: 4vh 0;
 }
 
 
@@ -641,7 +641,7 @@ body.hide {
     width: 90%;
     margin: auto;
     padding: 4vh 0rem;
-    z-index: 2;
+    z-index: 10;
     position: relative;
   }
 
@@ -957,23 +957,29 @@ body.hide {
   .nav-content {
     display: flex;
     flex-direction: column;
-    padding: 0 15vw;
-    transform: translateY(18vh);
+    padding: 0 10vw;
+    transform: translateY(12vh);
     align-items: left;
-    color: var(--main-bg-color)
+    color: var(--main-bg-color);
+    padding-bottom: 5rem;
+
   }
 
   .nav-content h1 {
-    font-size: 2.5rem;
+    font-size:1.75rem;
     padding: 2vh 0;
   }
 
   .nav-content p {
-    width: 55vw;
-    font-size: 1.25rem;
+    width: 80vw;
+    font-size: 1rem;
     text-align: justify;
 
   }
+  .cursor {
+    border: none;
+  }
+
 }
 
 @media screen and (min-width: 684px) and (max-width: 900px) {
@@ -988,6 +994,10 @@ body.hide {
   .info.col {
     padding: 0;
   }
+  .cursor {
+    border: none;
+  }
+
 }
 
 @media screen and (min-width: 900px) and (max-width: 1260px) {
@@ -997,6 +1007,10 @@ body.hide {
 
   .info.col {
     padding: 0.5rem;
+  }
+
+  .cursor {
+    border: none;
   }
 
 }

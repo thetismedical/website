@@ -91,6 +91,9 @@ const mouse = document.querySelector(".cursor");
 const mouseTxt = mouse.querySelector("span");
 const burger = document.querySelector(".burger");
 
+if (window.innerWidth > 1024) {
+
+
 function cursor(e) {
   mouse.style.top = e.pageY + "px";
   mouse.style.left = e.pageX + "px";
@@ -98,7 +101,6 @@ function cursor(e) {
 
 function activeCursor(e) {
   const item = e.target;
-  if (window.innerWidth > 1024) {
     if (item.id === "logo" || item.classList.contains("burger")) {
       mouse.classList.add("nav-active");
     } else {
