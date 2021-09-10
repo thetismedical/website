@@ -6,6 +6,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-9P117T56R5"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
+
     function gtag() {
       dataLayer.push(arguments);
     }
@@ -29,7 +30,8 @@
   <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-  <meta name="description" content="Medical device company selling orthopedic products for injured or torn Achilles Tendon. We sell a Ruptured Achilles Splint for rehabilitation to patients. Often worn at night. We also sell an A&E Emergency Room Splint for Achilles Trauma to hospitals.">
+  <meta name="description"
+    content="Medical device company selling orthopedic products for injured or torn Achilles Tendon. We sell a Ruptured Achilles Splint for rehabilitation to patients. Often worn at night. We also sell an A&E Emergency Room Splint for Achilles Trauma to hospitals.">
 </head>
 
 <body data-barba="wrapper">
@@ -37,8 +39,8 @@
   <header class="nav-header">
     <h1><a href="./" id="logo">Thetis Medical.</a></h1>
     <div class="burger">
-      <!-- <div class="line1"></div> -->
-      <!-- <div class="line2"></div> -->
+      <div class="line1"></div>
+      <div class="line2"></div>
     </div>
   </header>
   <main data-barba="container" data-barba-namespace="home">
@@ -55,7 +57,7 @@
           </ul>
           <ul class='landing-nav'>
             <a href='#process'>Process</a>
-            <a href='#about'>About</a>
+            <a href='#quality'>Quality</a>
           </ul>
           <ul class='landing-nav'>
             <a href='#performance'>Performance</a>
@@ -76,17 +78,19 @@
       <div class="info-wrap row">
         <div class="info col">
           <h2>Night Splint</h2>
-          <p class='splint-desc'>A splint for patients post Achilles rupture recovery. Aimed to improve sleep and make recovery more pleasant.</p>
-          <img src="./images/night-splint.png" alt="Rehab Splint Image">
+          <p id='night-splint-desc'>The ONLY splint for post Achilles rupture recovery. Aimed to improve sleep and make
+            recovery more pleasant. Patent pending.</p>
+          <img id='night-splint-img' src="./images/night-splint.png" alt="Rehab Splint Image">
           <a href='mailto:sales@thetismedical.com' class="explore">Buy Now</a>
-          <a href='./night.html'>Learn More</a>
+          <a class='learn-more' href='./night-splint.html'>Learn More</a>
         </div>
         <div class="info col">
           <h2>Emergency Splint</h2>
-          <p class='splint-desc'>A splint for hospitals to treat suspected Achilles injury. Combining low cost and easy to apply and remove. </p>
-          <img src="./images/A&E.png" alt="Rehab Splint Image">
+          <p id='emergency-splint-desc'>A novel splint for hospitals to treat suspected Achilles injury. Combining low
+            cost and easy to apply and remove. Patent pending.</p>
+          <img id='emergency-splint-img' src="./images/A&E.png" alt="Rehab Splint Image">
           <a href='mailto:sales@thetismedical.com' class="explore">Buy Now</a>
-          <a href='./A&E.html'>Learn More</a>
+          <a class='learn-more' href='./emergency-splint.html'>Learn More</a>
         </div>
       </div>
     </section>
@@ -100,17 +104,20 @@
         <div class="info col">
           <img class='process-arrow' src="./images/idea-arrow.svg" alt="Idea Arrow">
           <img class='process-icon' src="./images/lightbulb.svg" alt="Lightbulb Graphic">
-          <p>After hearing years of patient dissatisfaction, an orthopaedic foot and ankle surgeon decided something had to be done.</p>
+          <p>After hearing years of patient dissatisfaction, an orthopaedic foot and ankle surgeon decided something had
+            to be done.</p>
         </div>
         <div class="info col">
           <img class='process-arrow' src="./images/design-arrow.svg" alt="Design Arrow">
           <img class='process-icon' src="./images/gears.svg" alt="Lightbulb Graphic">
-          <p>Dozens of 3D printed iterations, alongside specialist guidance, honed the design's shape and material choices.</p>
+          <p>Dozens of 3D printed iterations, alongside specialist guidance, honed the design's shape and material
+            choices.</p>
         </div>
         <div class="info col">
           <img class='process-arrow' src="./images/testing-arrow.svg" alt="Testing Arrow">
           <img class='process-icon' src="./images/clipboard.svg" alt="Lightbulb Graphic">
-          <p>A three month user focused study validated the splint's design. A quality improvement study with the NHS is now underway.</p>
+          <p>A three month user focused study validated the splint's design. A quality improvement study with the NHS is
+            now underway.</p>
         </div>
       </div>
     </section>
@@ -129,35 +136,23 @@
             <h3>Stability and Security</h3>
             <div class="fraction divider"></div>
           </div>
-          <div class="fraction-wrap">
-            <p class="numerator">9.0</p>
-            <div class="fraction-line"></div>
-            <p class="denomenator">10</p>
-          </div>
+          <img class='fraction-svg' src="./images/fraction-9.0.svg" alt="">
         </div>
         <div class="info col fraction1">
           <div>
             <h3>Ease of Application</h3>
             <div class="fraction divider"></div>
           </div>
-          <div class="fraction-wrap">
-            <p class="numerator">8.6</p>
-            <div class="fraction-line"></div>
-            <p class="denomenator">10</p>
-          </div>
+          <img class='fraction-svg' src="./images/fraction-8.6.svg" alt="">
         </div>
         <div class="info col fraction1">
           <div>
             <h3>Material Comfort</h3>
             <div class="fraction divider"></div>
           </div>
-          <div class="fraction-wrap">
-            <p class="numerator">8.7</p>
-            <div class="fraction-line"></div>
-            <p class="denomenator">10</p>
-          </div>
+          <img class='fraction-svg' src="./images/fraction-8.7.svg" alt="">
         </div>
-       
+
       </div>
     </section>
     <section id='wholesale' class='slide col'>
@@ -187,14 +182,15 @@
         <a href='mailto:sales@thetismedical.com' class="explore preorder">Pre Order</a>
       </div>
     </section>
-    <section id='about' class='slide col'>
+    <section id='quality' class='slide col'>
       <div class="slide-title">
         <div class="divider"></div>
-        <h1>About</h1>
+        <h1>Quality</h1>
         <div class="divider"></div>
       </div>
       <div class="about-wrap">
-        <p class='intro'>Thetis Medical Ltd is a UK based company with all Achilles splints made domestically. All manufacturers
+        <p class='intro'>Thetis Medical Ltd is a UK based company with all Achilles splints made domestically. All
+          manufacturers
           are ISO 9001
           certified.</p>
         <img class='uk-map' src="./images/UK.svg" alt="">
@@ -209,91 +205,27 @@
         <img src="./images/logo.svg" alt="">
       </div>
     </section>
-    <!-- <section class="mountain slide">
-      <div class="hero-img">
-        <img src="./images/white_bg_zoomed.jpg" alt="render" />
-        <div class="reveal-img"></div>
-      </div>
-      <div class="hero-desc">
-        <div class="title">
-          <h2>
-            Achilles Rupture <span class="mountain-span">Night Splint.</span>
-          </h2>
-          <div class="title-swipe t-swipe1"></div>
-        </div>
-        <p>
-          For the 10 weeks following Achilles Tendon Rupture, the
-          foot must be held plantar flexed. Sleeping in this position,
-          with current technology, is difficult and uncomfortable.
-        </p>
-        <a class="explore mountain-exp">Coming Soon</a>
-        <div class="reveal-text"></div>
-      </div>
-    </section>
-    <section class="hike slide">
-      <div class="hero-img">
-        <img src="./images/Side on Patent Drawing.jpg" alt="side on drawing" />
-        <div class="reveal-img"></div>
-      </div>
-      <div class="hero-desc">
-        <div class="title">
-          <h2>How does it <span class="hike-span">help?</span></h2>
-          <div class="title-swipe t-swipe2"></div>
-        </div>
-        <p>
-          After dozens of iterations, this design was selected for its
-          simplicity. Its low profile, contoured shape makes sleeping easy,
-          whilst the three straps hold your foot securely.
-        </p>
-        <a href="./images/Instructions_new.pdf" download="Thetis_Medical_Instructions"
-          class="explore hike-exp">Instructions</a>
-        <div class="reveal-text"></div>
-      </div>
-    </section>
-    <section class="fashion slide">
-      <div class="hero-img">
-        <img src="./images/timeline.jpg" alt="timeline image" />
-        <div class="reveal-img"></div>
-      </div>
-      <div class="hero-desc">
-        <div class="title">
-          <h2>
-            When can I <span class="fashion-span">get one?</span>
-          </h2>
-          <div class="title-swipe t-swipe3"></div>
-        </div>
-        <p>
-          The patent pending product launch is scheduled for October 2021. We are working as
-          hard as we can to launch soon and help the 11 000 annual UK patients with this injury.
-        </p>
-        <a href="mailto: info@thetismedical.com" class="explore fashion-exp">Contact us</a>
-        <div class="reveal-text"></div>
-      </div>
-    </section> -->
   </main>
   <nav class="nav-bar">
-    <div class="nav-links">
+    <div class="nav-content">
       <div>
-        <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="182mm" height="167.25mm"
-          viewBox="0 0 515.91 474.09">
-          <circle cx="260.79" cy="442.91" r="31.18" />
-          <circle cx="260.79" cy="360" r="38.98" />
-          <circle cx="260.79" cy="261.5" r="46.77" />
-          <circle cx="260.79" cy="54.57" r="54.57" />
-          <path
-            d="M297.82,205.67c1.8-24.95,22.31-38.58,46.95-44.26,37.49-8.66,186.09,3.51,193.45,40.06,7.89,39.22-114.51,128.31-187.94,89.36-23.33-12.37-55-44.73-52.5-84.55C297.79,206.08,297.81,205.87,297.82,205.67Z"
-            transform="translate(-22.68 -55.98)" />
-          <path
-            d="M269.1,205.67c-1.84-24.95-22.83-38.58-48.05-44.26-38.38-8.66-190.47,3.51-198,40.06C15,240.69,140.25,329.78,215.41,290.83c23.88-12.37,56.32-44.73,53.74-84.55C269.13,206.08,269.12,205.87,269.1,205.67Z"
-            transform="translate(-22.68 -55.98)" />
-        </svg>
+        <h1>About Us</h1>
+        <p>As a company we focus solely on medical splints for the Achilles Tendon. With such a narrow scope, all of our
+          attention can be focused on designing and optimising the treatment of these products.</p>
+        <br>
+          <p>We work combine the knowledge of orthopaedic specialists with design and engineering to make the lives of
+          pateitns and medical professionals alike easier.</p>
+        <br>
+          <p>Our work is based on patented technology to create a comfortable, but secure, splint. This holds the foot at
+          the proper angle to facilitate recovery.</p>
       </div>
     </div>
-    <div class="contact">
-      <ul class='nav-links'>
-        <a href='#products'>Products</a>
-        <a id="nav-link" href='#wholesale'>Wholesale</a>
-      </ul>
+    <div class="footer-content">
+      <div class='footer-words'>
+        <h1>Contact</h1>
+        <a href="mailto: info@thetismedical.com">info@thetismedical.com</a>
+      </div>
+      <img src="./images/logo.svg" alt="">
     </div>
   </nav>
   <div class="cursor">
