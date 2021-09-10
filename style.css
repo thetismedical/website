@@ -164,7 +164,7 @@ a.explore.landing{
   flex-direction: row;
   justify-content: space-around;
   width: 80vw;
-  padding: 3vw 0;
+  padding: 2vh 0;
 }
 
 .info-wrap.row.wholesale {
@@ -180,8 +180,10 @@ a.explore.landing{
   justify-content: flex-end;
 }
 
+
 .info h2 {
   font-size: 2rem;
+  padding-bottom: 2vh;
 }
 
 .info h3 {
@@ -218,18 +220,34 @@ a.explore.preorder {
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 2rem;
+  padding: 2vh;
   border-radius: 3rem;
 }
 
-.process-arrow {
-  width: 10vw;
+.info.col img{
+  padding: 0 0 2vh 0;
 }
 
-.process-icon {
-  max-height: 32vh;
-  padding: 4vh;
+img.process-arrow {
+  width: 30vw;
+  padding: 0;
 }
+
+img.process-icon {
+  max-width: 15vw;
+  max-height: 32vh;
+  padding: 4vh 0 ;
+}
+
+.info.col p{
+  width: 90%;
+  height: 20vh;
+}
+
+.splint-desc p{
+  height: 5vh;
+}
+
 
 .fraction1 {
   background-color: rgba(125, 154, 150, 0.32);
