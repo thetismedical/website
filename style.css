@@ -52,7 +52,7 @@ main {
   justify-content: space-between;
 }
 
-.landing-para h1 {
+.landing-para h2 {
   font-family: 'Zen Dots';
   font-size: 3.5rem;
   padding-bottom: 6vh;
@@ -192,6 +192,8 @@ a.explore.landing {
 }
 
 
+
+
 .info h2 {
   font-size: 2rem;
   padding-bottom: 2vh;
@@ -255,6 +257,7 @@ img.process-icon {
 #night-splint-desc,
 #emergency-splint-desc {
   height: 15vh;
+  z-index: 2;
 }
 
 .learn-more {
@@ -342,7 +345,7 @@ img.fraction-svg {
   align-self: center;
 }
 
-.footer-words h1 {
+.footer-words h2 {
   font-size: 3.5rem;
 }
 
@@ -439,7 +442,7 @@ img.fraction-svg {
   color: var(--main-bg-color)
 }
 
-.nav-content h1 {
+.nav-content h2 {
   font-size: 2.5rem;
   padding: 2vh 0;
 }
@@ -673,7 +676,7 @@ body.hide {
     justify-content: space-between;
   }
 
-  .landing-para h1 {
+  .landing-para h2 {
     font-family: 'Zen Dots';
     font-size: 2rem;
     padding-bottom: 4vh;
@@ -735,6 +738,10 @@ body.hide {
 
   }
 
+  #emergency-splint-img {
+    padding: 10vh 0 4vh 0;
+  }
+
   .slide {
     display: block;
     width: 100%;
@@ -743,14 +750,15 @@ body.hide {
   }
 
   .info.col.fraction1 {
-    width: 60vw;
+    width: 55vw;
+    /* height: 55vw; */
     max-width: 250px;
     padding: 1rem 0;
   }
 
   img.fraction-svg {
-    width: 10vw;
-    height: 18vh;
+    width: 7vw;
+    height: 15vh;
     padding: 2vh 0;
   }
 
@@ -774,10 +782,10 @@ body.hide {
   }
 
   .info.col h3 {
-    width: 70vw;
+    width: 50vw;
     max-width: 200px;
     margin: auto;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 
   .info.col img {
@@ -789,7 +797,7 @@ body.hide {
   }
 
   .info.col.wholesale img {
-    width: 55vw;
+    width: 40vw;
     padding: 0;
   }
 
@@ -803,7 +811,11 @@ body.hide {
   }
 
   .info-wrap.row.fractions {
-    height: 130vh;
+    padding: 2vh 0;
+  }
+
+  .info-wrap.row.fractions {
+    height: 110vh;
     justify-content: space-around;
   }
 
@@ -885,7 +897,7 @@ body.hide {
     padding: 0;
   }
 
-  .fastion-text h1 {
+  .fastion-text h2 {
     margin: 2rem 0rem;
   }
 
@@ -929,6 +941,10 @@ body.hide {
 
   }
 
+  #emergency-splint-img img{
+    padding-top: 12vh 0 0 0;
+  }
+
 
   .footer {
     background-color: var(--main-font-color);
@@ -950,7 +966,7 @@ body.hide {
     height: 15vh;
   }
 
-  .footer-words h1 {
+  .footer-words h2 {
     font-size: 2rem;
   }
 
@@ -969,7 +985,7 @@ body.hide {
 
   }
 
-  .nav-content h1 {
+  .nav-content h2 {
     font-size:1.75rem;
     padding: 2vh 0;
   }
@@ -987,7 +1003,7 @@ body.hide {
 }
 
 @media screen and (min-width: 684px) and (max-width: 900px) {
-  .landing-para h1 {
+  .landing-para h2 {
     font-size: 2.5rem;
   }
 
@@ -1009,7 +1025,7 @@ body.hide {
 }
 
 @media screen and (min-width: 900px) and (max-width: 1260px) {
-  .landing-para h1 {
+  .landing-para {
     font-size: 3rem;
   }
 
@@ -1023,5 +1039,4 @@ body.hide {
   .info.col.fraction1 h3{
     font-size: 1.25rem;
   }
-
 }
