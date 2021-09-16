@@ -101,21 +101,21 @@ function cursor(e) {
 
 function activeCursor(e) {
   const item = e.target;
-    if (item.id === "logo" || item.classList.contains("burger")) {
+    if (item.id === "logo" || item.classList.contains("burger") || item.classList.contains("big-link") || item.classList.contains("learn-more") || item.classList.contains("landing-link")){
       mouse.classList.add("nav-active");
     } else {
       mouse.classList.remove("nav-active");
     }
     if (item.classList.contains("explore")) {
       mouse.classList.add("explore-active");
-      gsap.to(".title-swipe", 1, {
+      gsap.to(".title-swipe", 0.5, {
         y: "0%"
       });
       mouseTxt.innerText = "Tap";
     } else {
       mouse.classList.remove("explore-active");
       mouseTxt.innerText = "";
-      gsap.to(".title-swipe", 1, {
+      gsap.to(".title-swipe", 0.5, {
         y: "100%"
       });
     }
@@ -125,12 +125,12 @@ function activeCursor(e) {
 function navToggle(e) {
   if (!e.target.classList.contains("active")) {
     e.target.classList.add("active");
-    gsap.to(".line1", 0.5, {
+    gsap.to(".line1", 0.25, {
       rotate: "45",
       y: 5,
       background: "white"
     });
-    gsap.to(".line2", 0.5, {
+    gsap.to(".line2", 0.25, {
       rotate: "-45",
       y: -5,
       background: "white"
@@ -144,12 +144,12 @@ function navToggle(e) {
     document.body.classList.add("hide");
   } else {
     e.target.classList.remove("active");
-    gsap.to(".line1", 0.5, {
+    gsap.to(".line1", 0.25, {
       rotate: "0",
       y: 0,
       background: "black"
     });
-    gsap.to(".line2", 0.5, {
+    gsap.to(".line2", 0.25, {
       rotate: "0",
       y: 0,
       background: "black"

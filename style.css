@@ -7,7 +7,7 @@
 :root {
   --main-bg-color: rgb(255, 255, 255);
   --main-font-color: rgb(5, 5, 5);
-  --green-color: #7D9A96;
+  --green-color: #639283;
   --about-bg-color: rgb(11, 12, 15);
   --purple-highlight-color: rgb(109, 58, 204);
   --orange-highlight-color: rgb(216, 79, 25);
@@ -45,7 +45,7 @@ main {
 }
 
 .landing-para {
-  padding-top: 33vh;
+  padding-top: 28vh;
   width: 30vw;
   display: flex;
   flex-direction: column;
@@ -124,8 +124,9 @@ a.explore.landing {
 }
 
 .slide {
+  position: relative;
   color: white;
-  min-height: 80vh;
+  min-height: 30vh;
   margin: auto;
   width: 80vw;
   display: flex;
@@ -136,7 +137,7 @@ a.explore.landing {
 }
 
 .slide-title {
-  padding: 2vh 0;
+  padding: 3vh 0;
   display: flex;
   flex-direction: column;
   font-family: 'Zen Dots', cursive;
@@ -188,8 +189,12 @@ a.explore.landing {
 }
 
 #night-splint-img,
-#emergency-splint-img {
+#trauma-splint-img {
   padding: 4vh 0;
+}
+
+.main-img {
+  padding: 2rem 2rem 2rem 0;
 }
 
 
@@ -256,21 +261,21 @@ img.process-icon {
 }
 
 
-.product-row{
+.product-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 80vw;
 }
 
-.product-row p{
+.product-row p {
   font-size: 1.5rem;
   padding: 0.5rem;
   border: 4px solid black;
 }
 
 #night-splint-desc,
-#emergency-splint-desc {
+#trauma-splint-desc {
   height: 15vh;
   z-index: 2;
 }
@@ -279,6 +284,7 @@ img.process-icon {
   padding: 4vh 0;
   font-size: 1.5rem;
   color: black;
+  z-index: 5;
 }
 
 
@@ -451,11 +457,13 @@ img.fraction-svg {
 
 .nav-content {
   display: flex;
-  flex-direction: column;
-  padding: 0 15vw;
+  flex-direction: row;
+  padding: 0 10vw 0 15vw;
   transform: translateY(18vh);
-  align-items: left;
-  color: var(--main-bg-color)
+  color: var(--main-bg-color);
+  justify-content: space-between;
+
+
 }
 
 .nav-content h2 {
@@ -464,17 +472,36 @@ img.fraction-svg {
 }
 
 .nav-content p {
-  width: 55vw;
+  width: 47.5vw;
   font-size: 1.25rem;
   text-align: justify;
 }
 
-/* .nav-links a {
-  padding: 2vh 0;
-  font-size: 2rem;
+.nav-links a {
+  padding: 1.25rem 2rem;
+  border: 4px solid var(--main-bg-color);
+  text-align: center;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: 0.005s ease;
   color: var(--main-bg-color);
-  flex-basis: 30rem;
-} */
+}
+
+.nav-links a:hover {
+  background-color: var(--main-bg-color);
+  color: var(--main-font-color);
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  color: var(--main-bg-color);
+  width: 22vw;
+  height: 30vh;
+  justify-content: space-between;
+  padding-top: 4vh;
+}
 
 .logo {
   width: 68vh;
@@ -484,10 +511,6 @@ img.fraction-svg {
   min-height: 50vh;
   flex: 1;
   flex-basis: 25rem;
-}
-
-.nav-links h3 {
-  padding: 3rem 0rem;
 }
 
 .contact {
@@ -524,7 +547,7 @@ img.fraction-svg {
   position: absolute;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.25s ease-in-out;
   transition-property: background, transform;
   transform-origin: 75% 75%;
 }
@@ -583,6 +606,10 @@ body.hide {
   overflow: hidden;
 }
 
+.landing-link{
+  z-index: 5;
+}
+
 /* OTHER PAGES */
 
 .landing.splint {
@@ -594,39 +621,81 @@ body.hide {
   display: flex;
   margin: auto;
   justify-content: space-between;
-  font-size: 4rem;
-  width: 60vw;
-  padding: 10vh 0;
+  font-size: 3.125rem;
+  width: 65vw;
+  padding: 4vh 0 8vh 0;
 }
 
 .big-links a {
   color: var(--main-font-color);
   padding: 1rem 2rem;
+
 }
 
-.border {
+.big-link {
+  z-index: 5;
+  border: rgba(125, 154, 150, 0) 6px solid;
+  transition: 0.01s ease;
+
+}
+
+.big-link.border {
   border: var(--main-font-color) 6px solid;
 }
 
+
+.big-link.border {
+  border: var(--main-font-color) 4px solid;
+}
+
+
 .splint-intro {
-  padding: 6vh 0;
+  padding: 4vh 0;
   width: 100%;
   font-size: 1.75rem;
+}
+
+.product-display {
+  display: flex;
+  padding: 2vh 0;
+  justify-content: space-between;
+}
+
+.product-display img,
+.product-display video {
+  width: 53vw;
+  padding-right: 4vw;
+  object-fit: cover;
+}
+
+.product-desc{
+  width: 30vw;
+}
+
+.product-display h1 {
+  font-size: 3.5rem;
+  padding-bottom: 6vh;
+}
+
+.product-display p {
+  padding-top: 6vh;
+  font-size: 1.25rem;
 }
 
 .intro.large {
   font-size: 1.325rem;
   padding: 2vh 0;
+  width: 65vw;
 }
 
-.boot-problems-wrap {
+.bullet-wrap {
   display: flex;
   width: 60vw;
   margin: auto;
   justify-content: space-between;
 }
 
-.boot-problems {
+.bullet-points {
   display: flex;
   flex-direction: column;
   font-size: 2rem;
@@ -637,12 +706,78 @@ body.hide {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 2vh 0;
+  font-size: 1.5rem;
+  padding: 4vh 0;
 }
 
-.boot-problems img {
+.bullet-points img {
   width: 5vw;
   padding: 0 1rem;
+}
+
+.product-solution {
+  display: flex;
+}
+
+.product-solution img {
+  width: 50vw;
+  margin: auto;
+}
+
+.warnings {
+  margin: auto;
+}
+
+.warnings h4 {
+  padding-top: 4vh;
+  font-size: 1.5rem;
+}
+
+.size-chart {
+  width: 50vw;
+}
+
+.instructions-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+}
+
+.instruction {
+  display: flex;
+  width: 35vw;
+}
+
+.instruction-img {
+  width: 20vw;
+  align-self: flex-start;
+  padding-top: 6vh;
+}
+
+.instruction p {
+  width: 12vw;
+  padding-top: 12vh;
+  font-size: 1.125rem;
+}
+
+.trauma-instruction {
+  font-size: 1.5rem;
+  padding: 2vh 15vw 2vh 0;
+  margin: 0;
+  align-self: left;
+}
+
+.explore.pre-order {
+  text-align: center;
+}
+
+
+.downloads {
+  padding: 4vh 0;
+  align-items: left;
+  justify-content: left;
+  margin: 0;
+  display: flex;
 }
 
 @media screen and (max-width: 684px) {
@@ -681,7 +816,7 @@ body.hide {
     display: flex;
     width: 90%;
     margin: auto;
-    height: 86vh;
+    /* height: 86vh; */
   }
 
   .landing-para {
@@ -727,10 +862,11 @@ body.hide {
     flex-direction: column;
     flex-wrap: wrap;
     width: 60vw;
+    padding-top: 6vh;
   }
 
   .slide-title {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 
   .landing-nav a {
@@ -749,14 +885,14 @@ body.hide {
     transform: translateX(-30vw)
   }
 
-  .product-row{
+  .product-row {
     flex-direction: column;
     align-items: center;
     margin: auto;
     height: 15vh;
   }
 
-  .product-row p{
+  .product-row p {
     font-size: 1rem;
     padding: 0.5rem;
     border: 4px solid black;
@@ -767,7 +903,7 @@ body.hide {
 
   }
 
-  #emergency-splint-img {
+  #trauma-splint-img {
     padding: 10vh 0 4vh 0;
   }
 
@@ -775,7 +911,7 @@ body.hide {
     display: block;
     width: 100%;
     text-align: center;
-    min-height: 60vh;
+    min-height: 30vh;
   }
 
   .info.col.fraction1 {
@@ -971,7 +1107,7 @@ body.hide {
 
   }
 
-  #emergency-splint-img img{
+  #trauma-splint-img img {
     padding-top: 12vh 0 0 0;
   }
 
@@ -1016,7 +1152,7 @@ body.hide {
   }
 
   .nav-content h2 {
-    font-size:1.75rem;
+    font-size: 1.75rem;
     padding: 2vh 0;
   }
 
@@ -1026,10 +1162,148 @@ body.hide {
     text-align: justify;
 
   }
+
   .cursor {
     border: none;
   }
 
+  .big-links {
+    font-size: 1.25rem;
+    width: 90vw;
+    padding-top: 2vh;
+    justify-content: space-around;
+  }
+
+
+  .product-display {
+    flex-direction: column;
+    display: flex;
+    padding: 0;
+    margin: auto;
+  }
+
+  .explore.pre-order {
+    display: flex;
+    padding: 1rem 2rem;
+    width: 50vw;
+    max-width: 250px;
+    justify-content: space-around;
+    margin: auto;
+
+  }
+
+  .product-display img,
+  .product-display video {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .product-display h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 4vh 0;
+  }
+
+  a.product-display.explore {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    margin: auto;
+    font-size: 1rem;
+  }
+
+  .product-display p {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .splint-intro {
+    padding: 6vh 0;
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .intro.large {
+    font-size: 1.125rem;
+    padding: 2vh 0;
+    text-align: justify;
+    width: 85vw;
+    margin: auto;
+  }
+
+
+  .bullet-wrap {
+    width: 85vw;
+    justify-content: space-between;
+    padding: 2vh 0;
+    flex-direction: column;
+
+  }
+
+  .bullet-points {
+    width: 85vw;
+  }
+
+  .boot-point {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2vh 0;
+    flex-wrap: wrap;
+    font-size: 1.25rem;
+  }
+
+  .bullet-points img {
+    width: 10vw;
+    padding: 0 2vw;
+  }
+
+  .trauma-instruction{
+    font-size: 1.125rem;
+    text-align: justify;
+    margin:auto;
+    padding-left: 10vw;
+  }
+
+  .warnings h4 {
+    width: 80%;
+    margin: auto;
+    font-size: 1rem;
+  }
+
+  .size-chart {
+    width: 90vw;
+  }
+
+  .instructions-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+  }
+
+  .instruction {
+    display: flex;
+    margin: auto;
+    width: 90vw;
+    justify-content: space-between;
+  }
+
+  .instruction-img {
+    width: 55vw;
+    align-self: flex-start;
+    padding-top: 6vh;
+  }
+
+  .instruction p {
+    width: 35vw;
+    padding-top: 0;
+    align-self: center;
+    font-size: 0.925rem;
+  }
 }
 
 @media screen and (min-width: 684px) and (max-width: 900px) {
@@ -1044,12 +1318,117 @@ body.hide {
   .info.col {
     padding: 0;
   }
+
   .cursor {
     border: none;
   }
 
-  .info.col.fraction1 h3{
+  .big-links {
+    font-size: 2rem;
+  }
+
+  .info.col.fraction1 h3 {
     font-size: 1.125rem;
+  }
+
+  .bullet-points {
+    font-size: 1.25rem;
+  }
+
+  .bullet-points img {
+    width: 6vw;
+    padding: 0 1vw;
+  }
+
+  .product-display {
+    flex-direction: column;
+    display: flex;
+    padding: 0;
+    margin: auto;
+  }
+
+  .product-display img,
+  .product-display video {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .product-display h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 4vh 0;
+  }
+
+  a.product-display.explore {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    margin: auto;
+    font-size: 1rem;
+  }
+
+  .product-display p {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  .explore.pre-order {
+    display: flex;
+    padding: 1rem 2rem;
+    width: 50vw;
+    max-width: 250px;
+    justify-content: space-around;
+    margin: auto;
+  }
+
+  .intro.large {
+    width: 80vw;
+  }
+
+
+  .warnings h4 {
+    width: 80vw;
+    margin: auto;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .size-chart {
+    width: 60vw;
+  }
+
+  .instructions-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+  }
+
+  .instruction {
+    display: flex;
+    margin: auto;
+    width: 60vw;
+    justify-content: space-between;
+  }
+
+  .instruction-img {
+    width: 35vw;
+    align-self: flex-start;
+    padding-top: 6vh;
+  }
+
+  .instruction p {
+    width: 25vw;
+    padding-top: 0;
+    align-self: center;
+    font-size: 0.925rem;
+  }
+
+  .trauma-instruction{
+    font-size: 1.25rem;
   }
 
 }
@@ -1066,7 +1445,51 @@ body.hide {
   .cursor {
     border: none;
   }
-  .info.col.fraction1 h3{
+
+  .big-links {
+    font-size: 2.5rem;
+  }
+
+  .product-display h1 {
+    font-size: 3rem;
+  }
+
+  .splint-intro {
+    font-size: 1.5rem;
+  }
+
+  .info.col.fraction1 h3 {
     font-size: 1.25rem;
+  }
+
+  .bullet-points img {
+    width: 6vw;
+    padding: 0 1.5vw;
+  }
+
+  .instructions-wrap {
+    display: flex;
+    width: 80vw;
+  }
+
+  .instruction {
+    width: 40vw;
+  }
+
+  .instruction-img {
+    width: 25vw;
+  }
+
+  .instruction p {
+    width: 15vw;
+    padding-top: 12vh;
+  }
+
+  .product-display img{
+    width: 40vw;
+  }
+
+  .product-desc{
+    width: 30vw;
   }
 }
