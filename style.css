@@ -688,6 +688,10 @@ body.hide {
   width: 65vw;
 }
 
+.download a{
+  color: var(--main-font-color);
+}
+
 .bullet-wrap {
   display: flex;
   width: 60vw;
@@ -778,6 +782,10 @@ body.hide {
   justify-content: left;
   margin: 0;
   display: flex;
+}
+
+.downloads a{
+  color: var(--main-font-color);
 }
 
 @media screen and (max-width: 684px) {
