@@ -480,7 +480,8 @@ img.fraction-svg {
   width: 47.5vw;
   font-size: 1.25rem;
   text-align: justify;
-}
+  margin: 1.25rem 0;
+  }
 
 .nav-links a {
   padding: 1.25rem 2rem;
