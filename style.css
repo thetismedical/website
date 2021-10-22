@@ -437,6 +437,12 @@ img.fraction-svg {
   font-size: 1.5rem;
   text-decoration: none;
   cursor: pointer;
+  transition: 0.005 ease;
+}
+
+.explore:hover,
+a.explore.pre-order:hover {
+  transform: scale(1.02);
 }
 
 .nav-bar {
@@ -544,7 +550,7 @@ img.fraction-svg {
   top: -15%;
   opacity: 0;
 } */
-
+/* 
 .cursor {
   width: 3rem;
   height: 3rem;
@@ -575,7 +581,7 @@ img.fraction-svg {
   left: 50%;
   font-size: 0.5rem;
   transform: translate(-50%, -50%);
-}
+} */
 
 .title {
   position: relative;
@@ -643,6 +649,7 @@ body.hide {
   font-size: 3.125rem;
   width: 65vw;
   padding: 4vh 0 8vh 0;
+  transition: 0.005s ease;
 }
 
 .big-links a {
@@ -665,6 +672,11 @@ body.hide {
 
 .big-link.border {
   border: var(--main-font-color) 4px solid;
+}
+
+.big-links a:hover{
+  background-color: var(--main-font-color);
+  color: var(--main-bg-color)
 }
 
 
@@ -1360,10 +1372,10 @@ body.hide {
   }
 
   .nav-links a {
-    padding: 0.75rem 1rem;
+    padding: 1rem 1.5rem;
     border: 4px solid var(--main-bg-color);
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.0625rem;
     cursor: pointer;
   }
 
@@ -1514,6 +1526,16 @@ body.hide {
 
   .trauma-instruction {
     font-size: 1.25rem;
+  }
+
+  .product-desc {
+    width: 80vw;
+  }
+
+  a.explore.landing{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
   }
 
 }
@@ -1913,6 +1935,7 @@ body.hide {
     font-size: 1.5rem;
     text-decoration: none;
     cursor: pointer;
+    transition: 0.1s;
   }
 
   .nav-bar {
