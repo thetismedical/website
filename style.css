@@ -130,13 +130,16 @@ a.explore.landing {
 
 .sleep-pie{
   display: flex;
+  flex-direction: row;
   margin: auto;
   align-items: center;
+  width: 62vw;
+  margin: 8vh 0;
+  justify-content: space-between;
 }
 
-.sleep-pie img{
-  width: 60vw;
-  margin: 8vh 0;
+img.pie,img.key {
+  width: 30vw;
 }
 
 .slide {
@@ -209,8 +212,14 @@ a.explore.landing {
   padding: 4vh 0;
 }
 
+
+
 .main-img {
   padding: 2rem 2rem 2rem 0;
+}
+
+.main-img.trauma{
+  padding: 3rem 2rem 3rem 0;
 }
 
 
@@ -885,10 +894,12 @@ body.hide {
   }
 
   a.explore.landing {
+    margin: auto;
     width: 50vw;
     max-width: 180px;
     max-height: 10vh;
     padding: 4vw 2vw;
+    justify-content: center;
     align-items: center;
     text-align: center !important;
   }
@@ -934,12 +945,13 @@ body.hide {
     flex-direction: column;
     align-items: center;
     margin: auto;
-    height: 15vh;
+    /* height: 12.5vh; */
   }
 
   .product-row p {
     font-size: 1rem;
     padding: 0.5rem;
+    margin: 1vh;
     border: 4px solid black;
   }
 
@@ -1335,14 +1347,19 @@ body.hide {
     padding-left: 10vw;
   }
   .sleep-pie{
-    margin: auto;
+    margin: 2vh auto;
+    flex-direction: column;
+    width: 90vw;
     align-items: center;
-  }
-  .sleep-pie img{
-    width: 86vw;
-    margin: 2vh 7vw;
-  }
 
+  }
+  img.pie {
+    width: 60vw;
+    margin: 0 7vw;
+  }
+  img.key {
+    width: 80vw;
+  }
   .warnings h4 {
     width: 80%;
     margin: auto;
@@ -1583,12 +1600,40 @@ body.hide {
     font-size: 2.5rem;
   }
 
+  .product-display {
+    flex-direction: column;
+    display: flex;
+    padding: 0;
+    width: 60vw;
+    margin: auto;
+    align-items: center;
+  }
+
+  div.product-desc{
+    width: 60vw;
+  }
+
   .product-display h1 {
     font-size: 3rem;
+    text-align: center;
+    margin: 2vh 0;
+    padding-bottom: 2vh;
+  }
+
+  .product-desc p{
+    margin: auto;
+    text-align: center;
+    padding-top: 4vh;
+  }
+
+  a.explore.landing{
+    margin: auto;
   }
 
   .splint-intro {
     font-size: 1.5rem;
+    width: 50vw;
+
   }
 
   .info.col.fraction1 h3 {
@@ -1622,12 +1667,18 @@ body.hide {
   }
 
   .product-display img {
-    width: 40vw;
+    width: 60vw;
   }
 
-  .product-desc {
-    width: 30vw;
+  /* .footer-content img{
+    max-width: 20vw;
+    align-self: flex-start;
   }
+
+  .footer-words{
+    height: 15vh;
+  } */
+
 }
 
 @media screen and (min-width: 1500px) {
