@@ -138,8 +138,11 @@ a.explore.landing {
   justify-content: space-between;
 }
 
-img.pie,img.key {
-  width: 30vw;
+img.pie {
+  width: 28vw;
+}
+img.key{
+  width: 32vw
 }
 
 .slide {
