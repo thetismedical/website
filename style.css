@@ -854,7 +854,7 @@ body.hide {
   color: var(--main-font-color);
 }
 
-#mc_embed_signup{
+.mailchimp.wrapper{
   background-color: var(--main-bg-color);
   border: 5px solid black;
   color: var(--main-font-color);
@@ -864,11 +864,11 @@ body.hide {
   width: 80vw;
 }
 
-.mc-field-group{
+.mailchimp.form{
   display: flex;
   flex-direction: column;
 }
-.mc-field-group label{
+.mailchimp.form label{
   margin-bottom: 2rem;
   font-size: 2rem;
 }
