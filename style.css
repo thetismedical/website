@@ -874,16 +874,22 @@ body.hide {
 }
 #mce-EMAIL{
   padding: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 1.5rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   border-radius: 1rem;
 }
 
+.mailchimp.response{
+  margin: 0rem 2rem 1rem 2rem;
+  font-size: 1rem;
+  color: var(--main-font-color);
+}
 
 
-@media screen and (max-width: 684px) {
+
+@media screen and (max-width: 800px) {
   main {
     width: 100%;
     margin: 0;
@@ -1193,6 +1199,7 @@ body.hide {
 
   .nav-links {
     text-align: center;
+    max-height: 23vh;
   }
 
   /* .logo {
@@ -1490,9 +1497,39 @@ body.hide {
     margin: 2rem 1rem 0 0;
   }
 
+  .mailchimp.wrapper{
+    margin: 1rem auto;
+    padding: 1rem;
+    position: relative;
+    width: 90vw;
+  }
+
+  .mailchimp.explore{
+    width: 70vw;
+    font-size: 1.125rem;
+    padding: 1.25rem 2rem;
+  }
+  
+
+  .mailchimp.form label{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+
+  #mce-EMAIL{
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    border-radius: 1rem;
+  }
+  .mailchimp.response{
+    margin: 0rem 0rem 1rem 0rem;
+  }
 }
 
-@media screen and (min-width: 684px) and (max-width: 900px) {
+@media screen and (min-width: 800px) and (max-width: 900px) {
   .landing-para h1 {
     font-size: 2.5rem;
   }
