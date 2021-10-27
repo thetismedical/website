@@ -14,7 +14,6 @@
   --blue-highlight-color: rgb(94, 204, 212);
   --green-highlight-color: rgb(82, 185, 159);
   --red-highlight-color: rgb(233, 64, 71);
-
   --main-width: 80vw;
   --widescreen-width: 60vw;
 }
@@ -461,6 +460,7 @@ img.fraction-svg {
   font-size: 1.5rem;
   text-decoration: none;
   cursor: pointer;
+  border: none;
   transition: 0.005 ease;
 }
 
@@ -853,6 +853,35 @@ body.hide {
 .downloads a {
   color: var(--main-font-color);
 }
+
+#mc_embed_signup{
+  background-color: var(--main-bg-color);
+  border: 5px solid black;
+  color: var(--main-font-color);
+  margin: 2rem auto;
+  padding: 2rem;
+  position: relative;
+  width: 80vw;
+}
+
+.mc-field-group{
+  display: flex;
+  flex-direction: column;
+}
+.mc-field-group label{
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+#mce-EMAIL{
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  border-radius: 1rem;
+}
+
+
 
 @media screen and (max-width: 684px) {
   main {
