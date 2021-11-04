@@ -22,8 +22,8 @@ html {
   scroll-behavior: smooth;
 }
 
-a:link{
-  text-decoration: none!important;
+a:link {
+  text-decoration: none !important;
 }
 
 .col {
@@ -857,7 +857,7 @@ body.hide {
   color: var(--main-font-color);
 }
 
-.mailchimp.wrapper{
+.mailchimp.wrapper {
   background-color: var(--main-bg-color);
   border: 5px solid black;
   color: var(--main-font-color);
@@ -867,17 +867,18 @@ body.hide {
   width: 80vw;
 }
 
-.mailchimp.mini.wrapper{
-   border: none;
-   padding: 0;
-   margin: 0; 
+.mailchimp.mini.wrapper {
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
-.mailchimp.form{
+.mailchimp.form {
   display: flex;
   flex-direction: column;
 }
-.mailchimp.mini.form{
+
+.mailchimp.mini.form {
   display: flex;
   flex-direction: row;
   border: 3px solid black;
@@ -889,11 +890,13 @@ body.hide {
   height: 10vh;
 
 }
-.mailchimp.form label{
+
+.mailchimp.form label {
   margin-bottom: 2rem;
   font-size: 2rem;
 }
-#mce-EMAIL{
+
+#mce-EMAIL {
   padding: 1rem;
   margin-bottom: 1rem;
   font-size: 1.5rem;
@@ -901,7 +904,8 @@ body.hide {
   font-weight: 600;
   border-radius: 1rem;
 }
-#mce-EMAIL.mini{
+
+#mce-EMAIL.mini {
   transform: translateX(0.25rem);
   width: 30vw;
   height: 8vh;
@@ -916,21 +920,22 @@ body.hide {
   flex-direction: column;
   /* z-index: -1; */
 }
-#mce-EMAIL.mini:focus{
+
+#mce-EMAIL.mini:focus {
   outline: none;
   background: var(--main-bg-color);
-  
+
   /* border-bottom: 2px solid black; */
 }
 
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-input:-webkit-autofill:active{
-    -webkit-box-shadow: 0 0 0 30px var(--main-bg-color) inset !important;
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px var(--main-bg-color) inset !important;
 }
 
-.response{
+.response {
   width: 35vw;
   margin: 1rem 0;
   line-height: 150%;
@@ -938,17 +943,17 @@ input:-webkit-autofill:active{
 }
 
 
-.mini.explore.mailchimp{
+.mini.explore.mailchimp {
   max-width: 4vh;
   max-height: 10vh;
-  background-color: rgba(0,0,0,0);
-  color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
   display: flex;
   z-index: 2;
 
 }
 
-.send-btn.explore{
+.send-btn.explore {
   height: 8vh;
   font-size: 95%;
   align-self: right;
@@ -964,13 +969,13 @@ input:-webkit-autofill:active{
   grid-row-start: 1;
 } */
 
-.mailchimp.response{
+.mailchimp.response {
   margin: 0rem 2rem 1rem 2rem;
   font-size: 1rem;
   color: var(--main-font-color);
 }
 
-.blog-landing{
+.blog-landing {
   width: 72vw;
   margin: 4vh auto;
   margin-bottom: 2vh;
@@ -979,7 +984,8 @@ input:-webkit-autofill:active{
   flex-direction: row;
   justify-content: space-between;
 }
-.scroll{
+
+.scroll {
   margin: auto;
   display: flex;
   width: 100vw;
@@ -994,14 +1000,14 @@ input:-webkit-autofill:active{
   background-color: red;
 } */
 
-.blog-landing img{
+.blog-landing img {
   max-height: 70vh;
   max-width: 48vh;
   z-index: 1;
   align-self: flex-end;
 }
 
-.blog-words{
+.blog-words {
   width: 40vw;
   display: flex;
   flex-direction: column;
@@ -1010,15 +1016,16 @@ input:-webkit-autofill:active{
 
 
 
-.blog-landing h3{
+.blog-landing h3 {
   font-family: 'Raleway';
   font-size: 1.375rem;
-  font-weight: 400;;
+  font-weight: 400;
+  ;
   /* width: 100%; */
   margin: 2.5vh 0;
 }
 
-.blog-landing h4{
+.blog-landing h4 {
   font-family: 'Raleway';
   font-size: 1.05rem;
   font-weight: 400;
@@ -1026,7 +1033,7 @@ input:-webkit-autofill:active{
   margin: 2.5vh 0;
 }
 
-.blog.slide{
+.blog.slide {
   width: 80vw;
   font-weight: 600;
   font-family: 'Raleway';
@@ -1035,17 +1042,18 @@ input:-webkit-autofill:active{
   align-items: flex-start;
 }
 
-.coming-soon{
+.coming-soon {
   font-family: Raleway;
   font-weight: 600;
   font-size: 1.5rem;
   padding: 1rem;
 }
 
-.questions{
+.questions {
   width: 20vw;
 }
-.questions h3{
+
+.questions h3 {
   font-size: 1rem;
   margin: 4vh 0;
   color: black;
@@ -1053,22 +1061,22 @@ input:-webkit-autofill:active{
 
 }
 
-.answers{
+.answers {
   margin: 0 10vw;
   width: 60vw;
 }
 
-.answers p{
+.answers p {
   font-weight: 400;
   text-align: justify;
 }
 
-.blog.slide h2{
+.blog.slide h2 {
   font-size: 1.375rem;
   margin: 4vh 0;
 }
 
-.shares{
+.shares {
   display: flex;
   flex-direction: column;
   height: 33vh;
@@ -1080,7 +1088,7 @@ input:-webkit-autofill:active{
   z-index: 1;
 }
 
-.share-icon{
+.share-icon {
   display: flex;
   align-self: flex-end;
   justify-content: flex-end;
@@ -1091,19 +1099,20 @@ input:-webkit-autofill:active{
 }
 
 
-.share-links{
+.share-links {
   display: flex;
   flex-basis: 40vw;
 }
 
-.author-share{
+.author-share {
   display: flex;
 }
 
-.blog-landing.shares h3{
+.blog-landing.shares h3 {
   font-family: 'Zen Dots';
 
 }
+
 .shares img {
   max-height: 8vh;
   min-height: 8vh;
@@ -1111,14 +1120,14 @@ input:-webkit-autofill:active{
   margin: 0 1rem 0 0;
 }
 
-.row{
+.row {
   display: flex;
   width: 60vw;
   margin: auto;
   justify-content: space-between;
 }
 
-.article-wrap{
+.article-wrap {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1127,10 +1136,11 @@ input:-webkit-autofill:active{
   padding: 4vh 0;
 }
 
-.divider.blog{
+.divider.blog {
   transform: translateX(0);
 }
-.article{
+
+.article {
   /* border: 3px solid black; */
   width: 60vw;
   height: none;
@@ -1139,7 +1149,7 @@ input:-webkit-autofill:active{
   color: black;
 }
 
-.article-wrap h2{
+.article-wrap h2 {
   font-size: 2.5rem;
   /* margin-bottom: 2vh; */
   text-decoration: none;
@@ -1148,7 +1158,7 @@ input:-webkit-autofill:active{
 
 }
 
-.article li{
+.article li {
   font-family: 'Raleway';
   font-size: 1.25rem;
   font-weight: 500;
@@ -1160,11 +1170,11 @@ input:-webkit-autofill:active{
 
 }
 
-  
-.blog-landing h1{
+
+.blog-landing h1 {
   font-size: 3.25rem;
-  margin:  0 0 4vh 0;
-  
+  margin: 0 0 4vh 0;
+
 }
 
 
@@ -1207,160 +1217,180 @@ input:-webkit-autofill:active{
     /* height: 86vh; */
   }
 
-  .blog-landing{
+  .blog-landing {
     width: 90vw;
     flex-direction: column;
     margin: 2vh auto;
     height: 143vh;
   }
-  .blog-landing img{
+
+  .blog-landing img {
     margin: auto;
     max-height: 50vh;
     align-self: center;
   }
+  .blog-landing h1 {
+    font-size: 2.5rem;
+  
+  }
+
+  .blog-landing h3 {
+    width: 70vw;
+  }
+
+  .blog-landing h4 {
+    width: 60vw;
+    margin: 4vh 0;
+  }
+
+  .blog.slide {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+  }
+
+  .questions {
+    width: 90vw;
+    margin: 2vh 0;
+  }
+
+  .questions h3 {
+    font-size: 1rem;
+    margin: 0 0 4vh 0;
+    text-align: left;
+  }
+
+  .answers {
+    margin: 0;
+    width: 90vw;
+  }
+
+  .answers p {
+    font-weight: 400;
+    text-align: justify;
+  }
+
+  .blog.slide h2 {
+    font-size: 1.375rem;
+    margin: 4vh 0;
+    text-align: left;
+  }
+
+  .blog.slide{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  
+
+  .shares {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 4vh 0;
+  }
+
+  img.share-icon {
+    max-width: 20vh;
+    min-width: 15vw;
+    margin: 0;
+    padding: 0;
+    max-height: 20vh;
+  }
+
+  .mailchimp.wrapper {
+    background-color: var(--main-bg-color);
+    border: 5px solid black;
+    color: var(--main-font-color);
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+    width: 80vw;
+  }
+
+  .mailchimp.mini.wrapper {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mailchimp.form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mailchimp.mini.form {
+    width: 90vw;
+  }
+
+  #mce-EMAIL.mini {
+    width: 65vw;
+    padding-left: 0.5rem;
+    border: none;
+    font-size: 1rem;
+  }
 
 
-.blog-landing h3{
-  width: 70vw;
-}
-
-.blog-landing h4{
-  width: 60vw;
-  margin: 4vh 0;
-}
-
-.blog.slide{
-  width: 90vw;
-  margin: auto;
-  display: flex;
-  /* flex-direction: column; */
-  align-items: flex-start;
-}
-
-.questions{
-  width: 22.5vw;
-}
-.questions h3{
-  font-size: 1rem;
-  margin: 0 0 4vh 0;
-  text-align: left;
-}
-
-.answers{
-  margin: 0 0 0 5vw;
-  width: 62.5vw;
-}
-
-.answers p{
-  font-weight: 400;
-  text-align: justify;
-}
-
-.blog.slide h2{
-  font-size: 1.375rem;
-  margin: 4vh 0;
-  text-align: left;
-}
-
-.shares{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 90vw;
-  margin: 4vh 0;
-}
-img.share-icon{
-  max-width: 20vh;
-  min-width: 15vw;
-  margin: 0;
-  padding: 0;
-  max-height: 20vh;
-}
-
-.mailchimp.wrapper{
-  background-color: var(--main-bg-color);
-  border: 5px solid black;
-  color: var(--main-font-color);
-  margin: 2rem auto;
-  padding: 2rem;
-  position: relative;
-  width: 80vw;
-}
-
-.mailchimp.mini.wrapper{
-   border: none;
-   padding: 0;
-   margin: 0; 
-}
-
-.mailchimp.form{
-  display: flex;
-  flex-direction: column;
-}
-.mailchimp.mini.form{
-  width: 90vw;
-}
-
-#mce-EMAIL.mini{
-  width: 60vw;
-  border: none;
-  font-size: 1.25rem;
-}
+  .response {
+    width: 90vw;
+    margin: 1rem 0;
+    line-height: 150%;
+    font-family: Raleway;
+  }
 
 
-.response{
-  width: 90vw;
-  margin: 1rem 0;
-  line-height: 150%;
-  font-family: Raleway;
-}
+  .mini.explore.mailchimp {
+    max-width: 4vh;
+    max-height: 10vh;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    display: flex;
+    z-index: 2;
 
+  }
 
-.mini.explore.mailchimp{
-  max-width: 4vh;
-  max-height: 10vh;
-  background-color: rgba(0,0,0,0);
-  color: rgba(0,0,0,0);
-  display: flex;
-  z-index: 2;
+  .send-btn.explore {
+    height: 8vh;
+    align-self: right;
+    margin: 0 auto;
+    padding: 0 1rem;
+    transform: translateX(-0.3vw);
 
-}
+  }
 
-.send-btn.explore{
-  height: 8vh;
-  align-self: right;
-  margin: 0 auto;
-  padding: 0 1rem;
-  transform: translateX(-0.3vw);
-
-}
-
-/* 
+  /* 
 .layered > * {
   grid-column-start: 1;
   grid-row-start: 1;
 } */
 
-.mailchimp.response{
-  margin: 0rem 2rem 1rem 2rem;
-  font-size: 1rem;
-  color: var(--main-font-color);
-}
+  .mailchimp.response {
+    margin: 0rem 2rem 1rem 2rem;
+    font-size: 1rem;
+    color: var(--main-font-color);
+  }
 
-.author-share{
-  display: flex;
-}
+  .author-share {
+    display: flex;
+  }
 
-.blog-landing.shares h3{
-  font-family: 'Zen Dots';
+  .blog-landing.shares h3 {
+    font-family: 'Zen Dots';
 
-}
-.shares img {
-  max-height: 8vh;
-  min-height: 8vh;
-  padding: 0;
-  margin: 0 1rem 0 0;
-}
+  }
+
+  .shares img {
+    max-height: 8vh;
+    min-height: 8vh;
+    padding: 0;
+    margin: 0 1rem 0 0;
+  }
 
 
   .landing-para {
@@ -1389,7 +1419,7 @@ img.share-icon{
     text-align: center !important;
   }
 
-  a.explore.landing.home{
+  a.explore.landing.home {
     margin: 0;
     align-items: left;
   }
@@ -1932,23 +1962,38 @@ img.share-icon{
     margin: 2rem 1rem 0 0;
   }
 
-  .mailchimp.wrapper{
+  .mailchimp.wrapper {
     margin: 1rem auto;
     padding: 1rem;
     position: relative;
     width: 90vw;
   }
 
+  .article {
+    width: 90vw;
+  }
+
+  .article-wrap h2 {
+    width: 90vw;
+    font-size: 2rem;
+  }
+
+  .coming-soon {
+    width: 80vw;
+    margin: 0;
+    padding: 0;
+  }
 
 
-  .mailchimp.explore{
+
+  .mailchimp.explore {
     width: 70vw;
     font-size: 1.125rem;
     padding: 1.25rem 2rem;
   }
-  
 
-  .mailchimp.form label{
+
+  .mailchimp.form label {
     margin-bottom: 2rem;
     font-size: 1.5rem;
   }
@@ -1961,9 +2006,13 @@ img.share-icon{
     font-weight: 600;
     border-radius: 1rem;
   }
-  .mailchimp.response{
+
+
+  .mailchimp.response {
     margin: 0rem 0rem 1rem 0rem;
   }
+
+
 }
 
 @media screen and (min-width: 800px) and (max-width: 900px) {
@@ -2891,7 +2940,7 @@ img.share-icon{
   border-radius: 5px;
   transition: 25ms ease-out;
   padding: 0.5em 0.75em;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif
 }
 
 .resp-sharing-button__icon svg {
@@ -3000,9 +3049,13 @@ img.share-icon{
 }
 
 .resp-sharing-button--hackernews {
-background-color: #FF6600
+  background-color: #FF6600
 }
-.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--hackernews:hover,
+.resp-sharing-button--hackernews:focus {
+  background-color: #FB6200
+}
 
 .resp-sharing-button--vk {
   background-color: #507299
