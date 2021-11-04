@@ -20,7 +20,10 @@
 
 html {
   scroll-behavior: smooth;
+}
 
+a:link{
+  text-decoration: none!important;
 }
 
 .col {
@@ -525,10 +528,10 @@ a.explore.pre-order:hover {
 }
 
 .nav-links a {
-  padding: 1.25rem 2rem;
+  padding: 1rem 2rem;
   border: 4px solid var(--main-bg-color);
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   cursor: pointer;
   transition: 0.005s ease;
   color: var(--main-bg-color);
@@ -545,7 +548,7 @@ a.explore.pre-order:hover {
   flex-direction: column;
   color: var(--main-bg-color);
   width: 22vw;
-  height: 30vh;
+  height: 38vh;
   justify-content: space-between;
   padding-top: 4vh;
 }
@@ -864,9 +867,27 @@ body.hide {
   width: 80vw;
 }
 
+.mailchimp.mini.wrapper{
+   border: none;
+   padding: 0;
+   margin: 0; 
+}
+
 .mailchimp.form{
   display: flex;
   flex-direction: column;
+}
+.mailchimp.mini.form{
+  display: flex;
+  flex-direction: row;
+  border: 3px solid black;
+  border-radius: 2.5rem;
+  width: 35vw;
+  justify-content: space-between;
+  margin: 0;
+  align-items: center;
+  height: 10vh;
+
 }
 .mailchimp.form label{
   margin-bottom: 2rem;
@@ -880,6 +901,68 @@ body.hide {
   font-weight: 600;
   border-radius: 1rem;
 }
+#mce-EMAIL.mini{
+  transform: translateX(0.25rem);
+  width: 30vw;
+  height: 8vh;
+  border: none;
+  margin: 0;
+  font-size: 1.175rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  border-radius: 1rem;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  /* z-index: -1; */
+}
+#mce-EMAIL.mini:focus{
+  outline: none;
+  background: var(--main-bg-color);
+  
+  /* border-bottom: 2px solid black; */
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px var(--main-bg-color) inset !important;
+}
+
+.response{
+  width: 35vw;
+  margin: 1rem 0;
+  line-height: 150%;
+  font-family: Raleway;
+}
+
+
+.mini.explore.mailchimp{
+  max-width: 4vh;
+  max-height: 10vh;
+  background-color: rgba(0,0,0,0);
+  color: rgba(0,0,0,0);
+  display: flex;
+  z-index: 2;
+
+}
+
+.send-btn.explore{
+  height: 8vh;
+  font-size: 95%;
+  align-self: right;
+  margin: 0 auto;
+  padding: 0 1rem;
+  transform: translateX(-0.3vw);
+
+}
+
+/* 
+.layered > * {
+  grid-column-start: 1;
+  grid-row-start: 1;
+} */
 
 .mailchimp.response{
   margin: 0rem 2rem 1rem 2rem;
@@ -887,6 +970,202 @@ body.hide {
   color: var(--main-font-color);
 }
 
+.blog-landing{
+  width: 72vw;
+  margin: 4vh auto;
+  margin-bottom: 2vh;
+  margin-left: 16vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.scroll{
+  margin: auto;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  font-size: 0.9rem;
+}
+
+/* #mc_embed_signup_scroll,#mc_embed_signup_scroll.validate{
+  max-width: 40vw;
+  background-color: red;
+} */
+
+.blog-landing img{
+  max-height: 70vh;
+  max-width: 48vh;
+  z-index: 1;
+  align-self: flex-end;
+}
+
+.blog-words{
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  padding-right: 5vw;
+}
+
+
+
+.blog-landing h3{
+  font-family: 'Raleway';
+  font-size: 1.375rem;
+  font-weight: 400;;
+  /* width: 100%; */
+  margin: 2.5vh 0;
+}
+
+.blog-landing h4{
+  font-family: 'Raleway';
+  font-size: 1.05rem;
+  font-weight: 400;
+  /* width: 100%; */
+  margin: 2.5vh 0;
+}
+
+.blog.slide{
+  width: 80vw;
+  font-weight: 600;
+  font-family: 'Raleway';
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.coming-soon{
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.questions{
+  width: 20vw;
+}
+.questions h3{
+  font-size: 1rem;
+  margin: 4vh 0;
+  color: black;
+  text-decoration: underline;
+
+}
+
+.answers{
+  margin: 0 10vw;
+  width: 60vw;
+}
+
+.answers p{
+  font-weight: 400;
+  text-align: justify;
+}
+
+.blog.slide h2{
+  font-size: 1.375rem;
+  margin: 4vh 0;
+}
+
+.shares{
+  display: flex;
+  flex-direction: column;
+  height: 33vh;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 4vw;
+  align-self: flex-end;
+  z-index: 1;
+}
+
+.share-icon{
+  display: flex;
+  align-self: flex-end;
+  justify-content: flex-end;
+  margin: 0 auto;
+  padding: 0;
+  width: 4vw;
+
+}
+
+
+.share-links{
+  display: flex;
+  flex-basis: 40vw;
+}
+
+.author-share{
+  display: flex;
+}
+
+.blog-landing.shares h3{
+  font-family: 'Zen Dots';
+
+}
+.shares img {
+  max-height: 8vh;
+  min-height: 8vh;
+  padding: 0;
+  margin: 0 1rem 0 0;
+}
+
+.row{
+  display: flex;
+  width: 60vw;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.article-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 4vh 0;
+}
+
+.divider.blog{
+  transform: translateX(0);
+}
+.article{
+  /* border: 3px solid black; */
+  width: 60vw;
+  height: none;
+  min-height: none;
+  padding: 1rem;
+  color: black;
+}
+
+.article-wrap h2{
+  font-size: 2.5rem;
+  /* margin-bottom: 2vh; */
+  text-decoration: none;
+  align-self: left;
+  width: 65vw;
+
+}
+
+.article li{
+  font-family: 'Raleway';
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 1rem;
+  color: var(--main-font-color);
+  list-style-type: none;
+  text-decoration: underline;
+
+
+}
+
+  
+.blog-landing h1{
+  font-size: 3.25rem;
+  margin:  0 0 4vh 0;
+  
+}
 
 
 @media screen and (max-width: 800px) {
@@ -927,6 +1206,162 @@ body.hide {
     margin: auto;
     /* height: 86vh; */
   }
+
+  .blog-landing{
+    width: 90vw;
+    flex-direction: column;
+    margin: 2vh auto;
+    height: 143vh;
+  }
+  .blog-landing img{
+    margin: auto;
+    max-height: 50vh;
+    align-self: center;
+  }
+
+
+.blog-landing h3{
+  width: 70vw;
+}
+
+.blog-landing h4{
+  width: 60vw;
+  margin: 4vh 0;
+}
+
+.blog.slide{
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: flex-start;
+}
+
+.questions{
+  width: 22.5vw;
+}
+.questions h3{
+  font-size: 1rem;
+  margin: 0 0 4vh 0;
+  text-align: left;
+}
+
+.answers{
+  margin: 0 0 0 5vw;
+  width: 62.5vw;
+}
+
+.answers p{
+  font-weight: 400;
+  text-align: justify;
+}
+
+.blog.slide h2{
+  font-size: 1.375rem;
+  margin: 4vh 0;
+  text-align: left;
+}
+
+.shares{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90vw;
+  margin: 4vh 0;
+}
+img.share-icon{
+  max-width: 20vh;
+  min-width: 15vw;
+  margin: 0;
+  padding: 0;
+  max-height: 20vh;
+}
+
+.mailchimp.wrapper{
+  background-color: var(--main-bg-color);
+  border: 5px solid black;
+  color: var(--main-font-color);
+  margin: 2rem auto;
+  padding: 2rem;
+  position: relative;
+  width: 80vw;
+}
+
+.mailchimp.mini.wrapper{
+   border: none;
+   padding: 0;
+   margin: 0; 
+}
+
+.mailchimp.form{
+  display: flex;
+  flex-direction: column;
+}
+.mailchimp.mini.form{
+  width: 90vw;
+}
+
+#mce-EMAIL.mini{
+  width: 60vw;
+  border: none;
+  font-size: 1.25rem;
+}
+
+
+.response{
+  width: 90vw;
+  margin: 1rem 0;
+  line-height: 150%;
+  font-family: Raleway;
+}
+
+
+.mini.explore.mailchimp{
+  max-width: 4vh;
+  max-height: 10vh;
+  background-color: rgba(0,0,0,0);
+  color: rgba(0,0,0,0);
+  display: flex;
+  z-index: 2;
+
+}
+
+.send-btn.explore{
+  height: 8vh;
+  align-self: right;
+  margin: 0 auto;
+  padding: 0 1rem;
+  transform: translateX(-0.3vw);
+
+}
+
+/* 
+.layered > * {
+  grid-column-start: 1;
+  grid-row-start: 1;
+} */
+
+.mailchimp.response{
+  margin: 0rem 2rem 1rem 2rem;
+  font-size: 1rem;
+  color: var(--main-font-color);
+}
+
+.author-share{
+  display: flex;
+}
+
+.blog-landing.shares h3{
+  font-family: 'Zen Dots';
+
+}
+.shares img {
+  max-height: 8vh;
+  min-height: 8vh;
+  padding: 0;
+  margin: 0 1rem 0 0;
+}
+
 
   .landing-para {
     padding-top: 25vh;
@@ -1503,6 +1938,8 @@ body.hide {
     position: relative;
     width: 90vw;
   }
+
+
 
   .mailchimp.explore{
     width: 70vw;
@@ -2437,4 +2874,184 @@ body.hide {
     color: var(--main-font-color);
   }
 
+}
+
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+/* Non solid icons get a stroke */
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+/* Solid icons get a fill */
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #bd081c
+}
+
+.resp-sharing-button--pinterest:hover {
+  background-color: #8c0615
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465C
+}
+
+.resp-sharing-button--tumblr:hover {
+  background-color: #222d3c
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf
+}
+
+.resp-sharing-button--reddit:hover {
+  background-color: #3a80c1
+}
+
+.resp-sharing-button--google {
+  background-color: #dd4b39
+}
+
+.resp-sharing-button--google:hover {
+  background-color: #c23321
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5
+}
+
+.resp-sharing-button--linkedin:hover {
+  background-color: #046293
+}
+
+.resp-sharing-button--email {
+  background-color: #777
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e
+}
+
+.resp-sharing-button--xing {
+  background-color: #1a7576
+}
+
+.resp-sharing-button--xing:hover {
+  background-color: #114c4c
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #1da851
+}
+
+.resp-sharing-button--hackernews {
+background-color: #FF6600
+}
+.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--vk {
+  background-color: #507299
+}
+
+.resp-sharing-button--vk:hover {
+  background-color: #43648c
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+.resp-sharing-button--email {
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.resp-sharing-button--email:hover,
+.resp-sharing-button--email:active {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366;
+  border-color: #25D366;
+}
+
+.resp-sharing-button--whatsapp:hover,
+.resp-sharing-button--whatsapp:active {
+  background-color: #1DA851;
+  border-color: #1DA851;
 }
