@@ -1466,18 +1466,20 @@ input:-webkit-autofill:active {
       -ms-grid-row-align: left;
       align-self: left;
   width: 65vw;
-
 }
 
 .article li {
+
+  margin: 1rem;
+  list-style-type: none;
+  text-decoration: underline;
+}
+
+.article a{
   font-family: 'Raleway';
   font-size: 1.25rem;
   font-weight: 500;
-  margin: 1rem;
   color: var(--main-font-color);
-  list-style-type: none;
-  text-decoration: underline;
-
 
 }
 
