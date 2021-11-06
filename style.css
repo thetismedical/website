@@ -95,6 +95,10 @@ input {
   padding-top: 30vh;
 }
 
+.landing-nav li{
+  list-style-type: none;
+}
+
 .landing-nav a {
   color: var(--main-font-color);
   font-size: 2rem;
