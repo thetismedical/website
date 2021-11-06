@@ -2223,7 +2223,7 @@ input:-webkit-autofill:active {
   .nav-links {
     text-align: center;
     max-height: none;
-    min-height: 45vh;
+    min-height: 42.5vh;
     -ms-flex-pack: distribute;
     justify-content: space-around;
   }
@@ -3402,7 +3402,7 @@ input:-webkit-autofill:active {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: none;
     background: var(--main-font-color);
     display: -webkit-box;
     display: -ms-flexbox;
