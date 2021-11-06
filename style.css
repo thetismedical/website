@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -237,7 +244,9 @@ img.key {
 }
 
 .slide-title.blog{
-  transform: translateX(5vw);
+  -webkit-transform: translateX(5vw);
+      -ms-transform: translateX(5vw);
+          transform: translateX(5vw);
 }
 
 .slide-title.blog h2{
@@ -440,7 +449,9 @@ img.process-icon {
 }
 
 .learn-more p:hover {
-  transform: scale(1.025)
+  -webkit-transform: scale(1.025);
+      -ms-transform: scale(1.025);
+          transform: scale(1.025)
 }
 
 .fraction1 {
@@ -662,7 +673,9 @@ img.fraction-svg {
 }
 
 .email-icon:hover{
-  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .nav-bar {
@@ -759,7 +772,9 @@ img.fraction-svg {
 
 a:hover,
 .landing-nav li:hover {
-  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .nav-links a:hover {
@@ -1074,7 +1089,9 @@ body.hide {
 
 .warnings {
   margin: auto;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .warnings h4 {
@@ -1561,10 +1578,16 @@ input:-webkit-autofill:active {
 }
 
 .other-articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: auto;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 6vh 0 2vh 0;
 }
 
@@ -1733,6 +1756,7 @@ input:-webkit-autofill:active {
     justify-content: space-between;
     width: 90vw;
     margin: 4vh 0;
+    height: 10vh;
   }
 
   img.share-icon {
@@ -1904,7 +1928,9 @@ input:-webkit-autofill:active {
   }
 
   .slide-title.blog{
-    transform: translateX(3.5vw);
+    -webkit-transform: translateX(3.5vw);
+        -ms-transform: translateX(3.5vw);
+            transform: translateX(3.5vw);
   }
 
 
@@ -2579,6 +2605,10 @@ input:-webkit-autofill:active {
 
   .article {
     width: 90vw;
+  }
+
+  .article-wrap{
+    padding:0;
   }
 
   .article-wrap h2 {
