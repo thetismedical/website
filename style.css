@@ -27,6 +27,11 @@ a:link {
   text-decoration: none !important;
 }
 
+a{
+  color: var(--main-font-color);
+
+}
+
 .col {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -662,6 +667,7 @@ a.explore.pre-order:hover {
 
 .burger {
   cursor: pointer;
+  padding: 0.5rem;
 }
 
 .nav-content {
@@ -936,6 +942,8 @@ body.hide {
   padding: 4vh 0;
   width: 100%;
   font-size: 1.75rem;
+  font-family: Raleway;
+  font-weight: 600;
 }
 
 .product-display {
@@ -968,10 +976,12 @@ body.hide {
 .product-display p {
   padding-top: 6vh;
   font-size: 1.25rem;
+  font-family: Raleway;
+  font-weight: 600;
 }
 
 .intro.large {
-  font-size: 1.325rem;
+  font-size: 1.5rem;
   padding: 2vh 0;
   width: 65vw;
 }
@@ -1036,11 +1046,16 @@ body.hide {
 
 .warnings {
   margin: auto;
+  align-items: center;
 }
 
 .warnings h4 {
-  padding-top: 4vh;
+  padding-top: 3vh;
+  text-align: center;
+  margin: auto;
   font-size: 1.5rem;
+  font-family: Raleway;
+  font-weight: 800;
 }
 
 .size-chart {
@@ -1075,11 +1090,18 @@ body.hide {
   width: 12vw;
   padding-top: 12vh;
   font-size: 1.125rem;
+  font-family: Raleway;
+  font-weight: 500;
+}
+
+.trauma-instructions-wrap p {
+  font-family: Raleway;
+  font-weight: 600;
 }
 
 .trauma-instruction {
   font-size: 1.5rem;
-  padding: 2vh 15vw 2vh 0;
+  padding: 1vh 15vw 1vh 0;
   margin: 0;
   -ms-flex-item-align: left;
       -ms-grid-row-align: left;
@@ -1287,6 +1309,7 @@ input:-webkit-autofill:active {
           justify-content: center;
   height: 10vh;
   font-size: 0.9rem;
+  text-decoration: underline;
 }
 
 /* #mc_embed_signup_scroll,#mc_embed_signup_scroll.validate{
@@ -1295,7 +1318,7 @@ input:-webkit-autofill:active {
 } */
 
 .blog-landing img {
-  max-height: 70vh;
+  max-height: 67.5vh;
   max-width: 48vh;
   z-index: 1;
   -ms-flex-item-align: end;
@@ -1313,8 +1336,6 @@ input:-webkit-autofill:active {
           flex-direction: column;
   padding-right: 5vw;
 }
-
-
 
 .blog-landing h3 {
   font-family: 'Raleway';
@@ -1511,6 +1532,18 @@ input:-webkit-autofill:active {
 
 }
 
+.other-articles{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  margin: 6vh 0 2vh 0;
+}
+
+.other-articles h3{
+  font-size: 2rem;
+  text-decoration: underline;
+}
 
 
 .blog-landing h1 {
@@ -2383,6 +2416,7 @@ input:-webkit-autofill:active {
     width: 80%;
     margin: auto;
     font-size: 1rem;
+ 
   }
 
   .size-chart {
