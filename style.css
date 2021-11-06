@@ -97,12 +97,12 @@ input {
 
 .landing-nav li{
   list-style-type: none;
+  padding: 1rem 4rem 1rem 0;
 }
 
 .landing-nav a {
   color: var(--main-font-color);
   font-size: 2rem;
-  padding: 1rem 4rem 1rem 0;
 }
 
 .landing-link {
@@ -243,6 +243,8 @@ img.key {
       align-self: flex-start;
   width: 80vw;
   max-width: 1000px;
+  font-family: Raleway;
+  font-weight: 600;
   font-size: 1.25rem;
 }
 
@@ -311,7 +313,7 @@ img.key {
 
 .info h3 {
   font-size: 1.5rem;
-  padding-bottom: 2vh;
+  padding: 1vh 0;
   width: 15vw;
 }
 
@@ -374,6 +376,8 @@ img.process-icon {
 .info.col p {
   width: 90%;
   height: 20vh;
+  font-family: Raleway;
+  font-weight: 600;
 }
 
 
@@ -403,12 +407,24 @@ img.process-icon {
 }
 
 .learn-more {
-  padding: 4vh 0;
-  font-size: 1.5rem;
-  color: black;
+  margin: 4vh 0;
   z-index: 5;
+  width: 20vw;
+
+
 }
 
+.learn-more p{
+  font-size: 1.675rem;
+  max-height: 7.5vh;
+  color: black;
+  text-decoration: underline;
+  margin: 0 auto;
+}
+
+.learn-more p:hover{
+  transform: scale(1.025)
+}
 
 .fraction1 {
   background-color: rgba(125, 154, 150, 0.32);
@@ -706,6 +722,10 @@ a.explore.pre-order:hover {
   -o-transition: 0.005s ease;
   transition: 0.005s ease;
   color: var(--main-bg-color);
+}
+
+a:hover,.landing-nav li:hover{
+  transform: scale(1.05);
 }
 
 .nav-links a:hover {

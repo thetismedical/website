@@ -39,12 +39,7 @@ const navbar = document.querySelector(".nav-bar")
 // }
 
 function navToggle(e) {
-  if(navbar.classList.contains("active")){
-    navbar.classList.remove("active")
-  }
-  else{
-    navbar.classList.add("active")
-  }
+
   if (!e.target.classList.contains("active")) {
     e.target.classList.add("active");
     gsap.to(".line1", 0.25, {
@@ -83,6 +78,15 @@ function navToggle(e) {
       clipPath: "circle(0px at 88% 8%)"
     });
     document.body.classList.remove("hide");
+  }
+  if(navbar.classList.contains("active")){
+    setTimeout(function() {
+      navbar.classList.remove("active")
+    }, 500);
+    
+  }
+  else{
+    navbar.classList.add("active")
   }
 }
 
