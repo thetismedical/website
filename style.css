@@ -1260,6 +1260,7 @@ body.hide {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  background-color: rgba(0,0,0,0);
   /* z-index: -1; */
 }
 
@@ -1662,8 +1663,12 @@ input:-webkit-autofill:active {
     -ms-flex-direction: column;
     flex-direction: column;
     margin: 2vh auto;
-    height: 143vh;
+    /* height: 160vh; */
   }
+
+  /* .blog-words {
+    height: 80vh;
+  } */
 
   .blog-landing img {
     margin: auto;
@@ -1755,7 +1760,7 @@ input:-webkit-autofill:active {
     -ms-flex-pack: justify;
     justify-content: space-between;
     width: 90vw;
-    margin: 4vh 0;
+    margin: 4vh 0 0 0;
     height: 10vh;
   }
 
@@ -1801,6 +1806,7 @@ input:-webkit-autofill:active {
     width: 65vw;
     padding-left: 0.5rem;
     border: none;
+    border-radius: 1rem;
     font-size: 1rem;
   }
 
