@@ -9,6 +9,7 @@ function copyToClipboard() {
   }
 
 const burger = document.querySelector(".burger");
+const navbar = document.querySelector(".nav-bar")
 
 // if (window.innerWidth > 1024) {
 
@@ -38,6 +39,12 @@ const burger = document.querySelector(".burger");
 // }
 
 function navToggle(e) {
+  if(navbar.classList.contains("active")){
+    navbar.classList.remove("active")
+  }
+  else{
+    navbar.classList.add("active")
+  }
   if (!e.target.classList.contains("active")) {
     e.target.classList.add("active");
     gsap.to(".line1", 0.25, {

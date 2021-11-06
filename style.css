@@ -634,10 +634,14 @@ a.explore.pre-order:hover {
           flex-direction: column;
   /* justify-content: space-around; */
   /* padding: 12vh 20vw; */
-  z-index: 5;
+  z-index: -1;
   opacity: 1;
   clip-path: circle(0px at 88% 8%);
   -webkit-clip-path: circle(0px at 88% 8%);
+}
+
+.nav-bar.active{
+  z-index: 5;
 }
 
 .burger {
