@@ -236,6 +236,14 @@ img.key {
 
 }
 
+.slide-title.blog{
+  transform: translateX(5vw);
+}
+
+.slide-title.blog h2{
+  padding-left: 5vw;
+}
+
 .divider {
   width: 90vw;
   height: 0.2rem;
@@ -372,7 +380,7 @@ div.preorder {
 }
 
 img.process-arrow {
-  width: 27.5vw;
+  width: 26vw;
   padding: 0;
 }
 
@@ -495,6 +503,10 @@ img.fraction-svg {
   display: flex;
   width: 80vw;
 }
+/* 
+.gb-flag{
+  max-width: 15vw;
+} */
 
 .uk-map {
   min-height: 60vh;
@@ -1889,6 +1901,10 @@ input:-webkit-autofill:active {
 
   .slide-title {
     font-size: 1.25rem;
+  }
+
+  .slide-title.blog{
+    transform: translateX(3.5vw);
   }
 
 
