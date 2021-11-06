@@ -1834,6 +1834,7 @@ input:-webkit-autofill:active {
 
   .send-btn.explore {
     height: 8vh;
+    min-height: 8vh;
     -ms-flex-item-align: right;
     -ms-grid-row-align: right;
     align-self: right;
