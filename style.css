@@ -1306,6 +1306,7 @@ input:-webkit-autofill:active {
   align-self: right;
   margin: 0 auto;
   padding: 0 1rem;
+  background-color: var(--green-color);
   -webkit-transform: translateX(-0.3vw);
   -ms-transform: translateX(-0.3vw);
   transform: translateX(-0.3vw);
