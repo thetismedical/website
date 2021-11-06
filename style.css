@@ -1836,6 +1836,7 @@ input:-webkit-autofill:active {
     -ms-flex-item-align: right;
     -ms-grid-row-align: right;
     align-self: right;
+    border-radius: 1rem;
     margin: 0 auto;
     padding: 0 1rem;
     -webkit-transform: translateX(-0.3vw);
