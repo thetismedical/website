@@ -128,7 +128,7 @@ input {
 
 }
 
-a.explore.landing {
+.explore.landing {
   margin: 0;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -352,7 +352,7 @@ div.preorder {
   justify-content: flex-end;
 }
 
-a.explore.preorder {
+.explore.preorder {
   padding: 1rem 5rem;
 }
 
@@ -637,10 +637,20 @@ img.fraction-svg {
 }
 
 .explore:hover,
-a.explore.pre-order:hover {
+.explore.pre-order:hover {
   -webkit-transform: scale(1.02);
   -ms-transform: scale(1.02);
   transform: scale(1.02);
+}
+
+.email-icon, .email-icon button{
+  background-color: rgba(0,0,0,0);
+  border: 0px solid rgba(0,0,0,0);
+  cursor: pointer;
+}
+
+.email-icon:hover{
+  transform: scale(1.05);
 }
 
 .nav-bar {
