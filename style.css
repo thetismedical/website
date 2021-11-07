@@ -2255,16 +2255,14 @@ input:-webkit-autofill:active {
     margin: 2vh 0;
   }
 
-  .nav-links {
-    position: relative;
+  /* .nav-links {
     text-align: center;
-    -ms-flex-pack: distribute;
     color: var(--main-bg-color);
     width: 90vw;
     margin: auto;
     max-width: 300px;
     padding-top: 0;
-  }
+  } */
 
   .nav-links a {
     padding: 1rem 1.5rem;
