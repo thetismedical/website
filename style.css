@@ -776,7 +776,6 @@ img.fraction-svg {
 .nav-text{
   color: var(--main-bg-color);
   font-size: 1rem;
-  display: flex;
   margin-right: 5vw;
 } 
 
