@@ -2263,7 +2263,7 @@ input:-webkit-autofill:active {
     width: 90vw;
     margin: auto;
     max-width: 300px;
-    padding-top: 0;
+    padding-top: 4vh;
     height: 40vh;
   }
 
