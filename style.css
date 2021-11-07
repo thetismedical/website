@@ -793,7 +793,21 @@ img.fraction-svg {
   color: var(--main-bg-color);
 }
 
-/* 
+.nav-links a {
+  padding: 1rem 2rem;
+  margin-bottom: 2vh;
+  border: 4px solid var(--main-bg-color);
+  text-align: center;
+  font-size: 1.125rem;
+  cursor: pointer;
+  -webkit-transition: 0.005s ease;
+  -o-transition: 0.005s ease;
+  transition: 0.005s ease;
+  width: 22.5vw;
+  color: var(--main-bg-color);
+}
+
+
 .nav-links {
   display: -webkit-inline-box;
   display: -webkit-box;
@@ -815,19 +829,7 @@ img.fraction-svg {
   flex-shrink: 0;
 }
 
-.nav-links a {
-  padding: 1rem 2rem;
-  margin-bottom: 2vh;
-  border: 4px solid var(--main-bg-color);
-  text-align: center;
-  font-size: 1.125rem;
-  cursor: pointer;
-  -webkit-transition: 0.005s ease;
-  -o-transition: 0.005s ease;
-  transition: 0.005s ease;
-  width: 22.5vw;
-  color: var(--main-bg-color);
-}
+
 
 a:hover,
 .landing-nav li:hover {
@@ -841,7 +843,7 @@ a:hover,
   color: var(--main-font-color);
   text-decoration: none;
 }
- */
+
 
 .logo {
   width: 68vh;
@@ -2246,32 +2248,23 @@ input:-webkit-autofill:active {
 
   }
   .nav-bits{
-    /* display: flex;
+    display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
     flex: 0;
     -webkit-flex: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0; 
-    margin: 2vh 0; */
+    margin: 2vh 0;
   }
 
   .nav-links {
     position: relative;
     text-align: center;
-    /* max-height: none; */
-    /* min-height: 42.5vh; */
-    
-
+    width: 70vw;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
   }
 
-  /* .logo {
-    width: 0%;
-    padding: 1rem;
-    position: absolute;
-  } */
 
   .contact h2 {
     padding-top: 10rem;
@@ -2370,6 +2363,7 @@ input:-webkit-autofill:active {
 
   .nav-text {
     margin-top: 4vh;
+    margin-bottom: 4vh;
     flex: 0;
     -webkit-flex: 0;
     -ms-flex-negative: 0;
@@ -2622,7 +2616,7 @@ input:-webkit-autofill:active {
     flex-shrink: 0;
   } */
 
-  /* .nav-links a {
+  .nav-links a {
     padding: 1rem 1.5rem;
     border: 4px solid var(--main-bg-color);
     text-align: center;
@@ -2634,10 +2628,11 @@ input:-webkit-autofill:active {
 
   .nav-links {
     color: var(--main-bg-color);
-    width: 80vw;
+    width: 90vw;
+    margin: auto;
     max-width: 300px;
     padding-top: 0;
-  } */
+  }
 
 
   .socials {
