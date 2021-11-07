@@ -2242,13 +2242,13 @@ input:-webkit-autofill:active {
     display: block;
     overflow: scroll;
     /* min-height: 150vh; */
-
   }
+
   .nav-bits{
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
-    height: 100vh;v
+    height: 100vh;
     margin: 2vh 0;
   }
 
