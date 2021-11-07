@@ -2221,6 +2221,7 @@ input:-webkit-autofill:active {
   }
 
   .nav-links {
+    position: relative;
     text-align: center;
     max-height: none;
     min-height: 42.5vh;
