@@ -2256,6 +2256,9 @@ input:-webkit-autofill:active {
     height: 20vh;
     transform: translateY(0);
   }
+  .footer-content.nav img{
+    align-self: center;
+  }
 
   .nav-links {
     text-align: center;
