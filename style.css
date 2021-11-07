@@ -2244,7 +2244,7 @@ input:-webkit-autofill:active {
     /* min-height: 150vh; */
 
   }
-  .nav-bits{
+  /* .nav-bits{
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
@@ -2253,7 +2253,7 @@ input:-webkit-autofill:active {
     -ms-flex-negative: 0;
     flex-shrink: 0; 
     margin: 2vh 0;
-  }
+  } */
 
   /* .nav-links {
     text-align: center;
