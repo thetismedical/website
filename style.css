@@ -2253,6 +2253,7 @@ input:-webkit-autofill:active {
   }
 
   .footer-content.nav {
+    height: 20vh;
     transform: translateY(0);
   }
 
