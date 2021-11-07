@@ -317,6 +317,7 @@ img.key {
 #night-splint-img,
 #trauma-splint-img {
   padding: 4vh 0;
+  max-height: 60vh;
 }
 
 
