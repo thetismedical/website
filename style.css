@@ -768,6 +768,7 @@ img.fraction-svg {
   -webkit-transition: 0.005s ease;
   -o-transition: 0.005s ease;
   transition: 0.005s ease;
+  width: 22.5vw;
   color: var(--main-bg-color);
 }
 
@@ -2328,7 +2329,6 @@ input:-webkit-autofill:active {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding: 0 10vw;
     -webkit-transform: translateY(12vh);
     -ms-transform: translateY(12vh);
     transform: translateY(12vh);
@@ -2336,7 +2336,7 @@ input:-webkit-autofill:active {
     -ms-flex-align: left;
     align-items: left;
     color: var(--main-bg-color);
-    padding-bottom: 5rem;
+    padding-bottom: 0 10vw 5rem 10vw;
     flex: 0;
     -webkit-flex: 0;
     -ms-flex-negative: 0;
@@ -2585,9 +2585,9 @@ input:-webkit-autofill:active {
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
     padding: 6vw 10vw 20vw 10vw;
-    -webkit-transform: translateY(12vh);
+    /* -webkit-transform: translateY(12vh);
     -ms-transform: translateY(12vh);
-    transform: translateY(12vh);
+    transform: translateY(12vh); */
     color: var(--main-bg-color);
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -2600,6 +2600,8 @@ input:-webkit-autofill:active {
     text-align: center;
     font-size: 1.0625rem;
     cursor: pointer;
+    width: 70vw;
+    margin: 1.5vh auto;
   }
 
   .nav-links {
@@ -2607,7 +2609,7 @@ input:-webkit-autofill:active {
     width: 80vw;
     max-width: 300px;
     /* height: 27.5vh; */
-    padding-top: 2vh;
+    padding-top: 0;
   }
 
 
