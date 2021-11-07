@@ -774,12 +774,12 @@ img.fraction-svg {
   margin: 2rem 4rem 2rem 0;
 }
 
-.nav-bar h2 {
+.nav-text h2 {
   font-size: 2.5rem;
   padding: 2vh 0;
 }
 
-.nav-bar p {
+.nav-text p {
   width: 47.5vw;
   font-size: 1.125rem;
   text-align: justify;
@@ -2370,12 +2370,12 @@ input:-webkit-autofill:active {
     flex-shrink: 0;
   }
 
-  .nav-bar h2 {
+  .nav-text h2 {
     font-size: 1.75rem;
     padding: 2vh 0;
   }
 
-  .nav-bar p {
+  .nav-text p {
     width: 80vw;
     font-size: 1rem;
     text-align: justify;
@@ -3462,12 +3462,12 @@ input:-webkit-autofill:active {
 
 
 
-  .nav-bar h2 {
+  .nav-text h2 {
     font-size: 2.5rem;
     padding: 2vh 0;
   }
 
-  .nav-bar p {
+  .nav-text p {
     width: 40vw;
     font-size: 1.5rem;
     text-align: justify;
