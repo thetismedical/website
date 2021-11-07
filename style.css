@@ -2242,14 +2242,13 @@ input:-webkit-autofill:active {
   .nav-bar {
     display: block;
     overflow: scroll;
-    height: 120vh;
   }
 
   .nav-bits {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
-    height: 100vh;
+    min-height: 100vh;
     margin: 2vh 0;
   }
 
@@ -2264,6 +2263,7 @@ input:-webkit-autofill:active {
     margin: auto;
     max-width: 300px;
     padding-top: 0;
+    height: 40vh;
   }
 
   .nav-links a {
@@ -2377,6 +2377,7 @@ input:-webkit-autofill:active {
     -webkit-flex: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0;
+    height: 60vh;
 
   }
 
