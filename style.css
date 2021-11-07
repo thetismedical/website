@@ -777,6 +777,8 @@ img.fraction-svg {
 .nav-text h2 {
   font-size: 2.5rem;
   padding: 2vh 0;
+  color:var(--main-bg-color);
+
 }
 
 .nav-text p {
@@ -784,6 +786,8 @@ img.fraction-svg {
   font-size: 1.125rem;
   text-align: justify;
   margin: 1.25rem 0;
+  color:var(--main-bg-color);
+
 }
 
 .nav-text{
