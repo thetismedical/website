@@ -556,7 +556,7 @@ img.fraction-svg {
 .footer-content.nav {
   padding: 0;
   margin: 0 auto;
-  transform: translateY(-5vh);
+  transform: translateY(-3vh);
   z-index: -1;
 }
 
@@ -726,8 +726,8 @@ img.fraction-svg {
   padding: 0.5rem;
 }
 
-.nav-bits{
-   display: flex;
+.nav-bits {
+  display: flex;
   display: -webkit-inline-box;
   justify-content: space-between;
   margin-top: 7.5vh;
@@ -773,18 +773,18 @@ img.fraction-svg {
   margin: 2rem 4rem 2rem 0;
 }
 
-.nav-text{
+.nav-text {
   color: var(--main-bg-color);
   font-size: 1rem;
   margin-right: 5vw;
-} 
+}
 
 .nav-text p {
   width: 47.5vw;
   font-size: 1.125rem;
   text-align: justify;
   margin: 1.25rem 0;
-  color:var(--main-bg-color);
+  color: var(--main-bg-color);
 }
 
 .nav-text h2 {
@@ -793,7 +793,7 @@ img.fraction-svg {
   color: var(--main-bg-color);
 }
 
-/* .nav-links a {
+.nav-links a {
   padding: 1rem 2rem;
   margin-bottom: 2vh;
   border: 4px solid var(--main-bg-color);
@@ -824,7 +824,7 @@ img.fraction-svg {
   -webkit-flex: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-} */
+}
 
 
 
@@ -1982,6 +1982,7 @@ input:-webkit-autofill:active {
 
 
 
+
   a.landing-link {
     font-size: 1rem;
     padding: 1rem 2rem 1rem 0;
@@ -2244,7 +2245,7 @@ input:-webkit-autofill:active {
     /* min-height: 150vh; */
   }
 
-  .nav-bits{
+  .nav-bits {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
@@ -2252,16 +2253,20 @@ input:-webkit-autofill:active {
     margin: 2vh 0;
   }
 
-  /* .nav-links {
+  .footer-content.nav {
+    transform: translateY(0);
+  }
+
+  .nav-links {
     text-align: center;
     color: var(--main-bg-color);
     width: 90vw;
     margin: auto;
     max-width: 300px;
     padding-top: 0;
-  } */
+  }
 
-  /* .nav-links a {
+  .nav-links a {
     padding: 1rem 1.5rem;
     border: 4px solid var(--main-bg-color);
     text-align: center;
@@ -2269,7 +2274,7 @@ input:-webkit-autofill:active {
     cursor: pointer;
     width: 70vw;
     margin: 1.5vh auto;
-  } */
+  }
 
   .contact h2 {
     padding-top: 10rem;
@@ -2372,7 +2377,7 @@ input:-webkit-autofill:active {
     -webkit-flex: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0;
- 
+
   }
 
   .nav-text h2 {
@@ -2598,7 +2603,8 @@ input:-webkit-autofill:active {
     align-self: center;
     font-size: 0.925rem;
   }
-/* 
+
+  /* 
   .nav-content {
     position: relative;
     display: -webkit-box;
