@@ -555,6 +555,7 @@ img.fraction-svg {
 
 .footer-content.nav {
   padding: 0;
+  margin: 0 auto;
   transform: translateY(-5vh);
   z-index: -1;
 }
@@ -723,6 +724,7 @@ img.fraction-svg {
 }
 
 .nav-bits{
+  display: -webkit-inline-box;
   height: 60vh;
   display: flex;
   justify-content: space-between;
@@ -794,6 +796,7 @@ img.fraction-svg {
 }
 
 .nav-links {
+  display: -webkit-inline-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2240,7 +2243,9 @@ input:-webkit-autofill:active {
 
   .nav-bar {
     display: block;
-    overflow-y: scroll;
+    overflow: scroll;
+    /* min-height: 150vh; */
+
   }
   .nav-bits{
     flex-direction: column-reverse;
@@ -2258,6 +2263,8 @@ input:-webkit-autofill:active {
     text-align: center;
     /* max-height: none; */
     /* min-height: 42.5vh; */
+    
+
     -ms-flex-pack: distribute;
     justify-content: space-around;
   }
