@@ -726,12 +726,12 @@ img.fraction-svg {
   padding: 0.5rem;
 }
 
-/* .nav-bits{
+.nav-bits{
    display: flex;
   display: -webkit-inline-box;
   justify-content: space-between;
   margin-top: 7.5vh;
-} */
+}
 
 
 
@@ -2244,16 +2244,13 @@ input:-webkit-autofill:active {
     /* min-height: 150vh; */
 
   }
-  /* .nav-bits{
+  .nav-bits{
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
-    flex: 0;
-    -webkit-flex: 0;
-    -ms-flex-negative: 0;
-    flex-shrink: 0; 
+    height: 100vh;v
     margin: 2vh 0;
-  } */
+  }
 
   /* .nav-links {
     text-align: center;
