@@ -687,6 +687,8 @@ img.fraction-svg {
 .nav-bar {
   display: none;
   position: fixed;
+  /* Safari Trick 3D Transform */
+  transform: translate3d(0,0,0); 
   /* overflow-y: scroll; */
   top: 0;
   left: 0;
