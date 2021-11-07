@@ -733,6 +733,10 @@ img.fraction-svg {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  flex: 0;
+  -webkit-flex: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .socials {
@@ -2601,6 +2605,10 @@ input:-webkit-autofill:active {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    flex: 0;
+    -webkit-flex: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
   }
 
   .nav-links a {
