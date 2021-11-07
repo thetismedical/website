@@ -9,7 +9,7 @@ function copyToClipboard() {
   }
 
 const burger = document.querySelector(".burger");
-const navbar = document.querySelector(".nav-bar")
+const navbar = document.querySelector(".nav-bar");
 
 // if (window.innerWidth > 1024) {
 
