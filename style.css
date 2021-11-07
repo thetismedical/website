@@ -799,6 +799,10 @@ a:hover,
   -ms-flex-pack: justify;
   /* justify-content: space-between; */
   padding-top: 4vh;
+  flex: 0;
+  -webkit-flex: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -2333,7 +2337,18 @@ input:-webkit-autofill:active {
     align-items: left;
     color: var(--main-bg-color);
     padding-bottom: 5rem;
+    flex: 0;
+    -webkit-flex: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
 
+  }
+
+  .nav-text{
+    flex: 0;
+    -webkit-flex: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
   }
 
   .nav-content h2 {
