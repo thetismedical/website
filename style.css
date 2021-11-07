@@ -2242,7 +2242,7 @@ input:-webkit-autofill:active {
   .nav-bar {
     display: block;
     overflow: scroll;
-    /* min-height: 150vh; */
+    height: 120vh;
   }
 
   .nav-bits {
