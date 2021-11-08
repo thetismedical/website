@@ -1381,6 +1381,10 @@ input:-webkit-autofill:active {
   text-decoration: underline;
 }
 
+.scroll a{
+  align-self: flex-start;
+}
+
 /* #mc_embed_signup_scroll,#mc_embed_signup_scroll.validate{
   max-width: 40vw;
   background-color: red;
@@ -1410,10 +1414,10 @@ input:-webkit-autofill:active {
 .blog-landing h3 {
   font-family: 'Raleway';
   font-size: 1.375rem;
-  font-weight: 400;
+  font-weight: 600;
   ;
   /* width: 100%; */
-  margin: 2.5vh 0;
+  margin: 3vh 0;
 }
 
 .blog-landing h4 {
@@ -1421,7 +1425,7 @@ input:-webkit-autofill:active {
   font-size: 1.05rem;
   font-weight: 400;
   /* width: 100%; */
-  margin: 2.5vh 0;
+  margin: 0 0 3vh 0;
 }
 
 .blog.slide {
@@ -1624,7 +1628,7 @@ input:-webkit-autofill:active {
 
 .blog-landing h1 {
   font-size: 3.25rem;
-  margin: 0 0 4vh 0;
+  margin: 0;
 
 }
 
@@ -1713,7 +1717,7 @@ input:-webkit-autofill:active {
 
   .blog-landing h4 {
     width: 60vw;
-    margin: 4vh 0;
+    margin: 1vh 0 2vh 0;
   }
 
   .blog.slide {
