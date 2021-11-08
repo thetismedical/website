@@ -1425,7 +1425,7 @@ input:-webkit-autofill:active {
   font-size: 1.05rem;
   font-weight: 400;
   /* width: 100%; */
-  margin: 0 0 3vh 0;
+  margin: 1vh 0 3vh 0;
 }
 
 .blog.slide {
