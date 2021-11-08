@@ -3329,7 +3329,6 @@ input:-webkit-autofill:active {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    height: 25vh;
   }
 
   .footer-content {
