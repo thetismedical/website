@@ -55,8 +55,8 @@ body {
 
 
 main {
-  position: absolute;
-  width: 100vw;
+  /* position: absolute; */
+  width: 100%;
 }
 
 input {
@@ -80,7 +80,7 @@ input {
 
 .landing-para {
   padding-top: 28vh;
-  width: 30vw;
+  width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -129,6 +129,7 @@ input {
   margin: auto;
   position: absolute;
   width: 105vh;
+  max-width: 100%;
   padding-top: 2vh;
   z-index: -1;
   right: 0;
@@ -872,49 +873,6 @@ a:hover,
   line-height: 2rem;
 }
 
-/* .reveal-img,
-.reveal-text {
-  position: absolute;
-  width: 100%;
-  height: 150%;
-  background: var(--main-font-color);
-  left: 0;
-  top: -15%;
-  opacity: 0;
-} */
-/* 
-.cursor {
-  width: 3rem;
-  height: 3rem;
-  border: 2px solid var(--main-font-color);
-  border-radius: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  transition: all 0.25s ease-in-out;
-  transition-property: background, transform;
-  transform-origin: 75% 75%;
-}
-
-.cursor.nav-active {
-  background: var(--green-color);
-  transform: scale(3);
-}
-
-.cursor.explore-active {
-  background: var(--main-font-color);
-  transform: scale(3);
-  color: var(--main-bg-color)
-}
-
-.cursor-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 0.5rem;
-  transform: translate(-50%, -50%);
-} */
-
 .title {
   position: relative;
   overflow: hidden;
@@ -1337,11 +1295,6 @@ input:-webkit-autofill:active {
 
 }
 
-/* 
-.layered > * {
-  grid-column-start: 1;
-  grid-row-start: 1;
-} */
 
 .mailchimp.response {
   margin: 0rem 2rem 1rem 2rem;
@@ -1371,7 +1324,7 @@ input:-webkit-autofill:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100vw;
+  width: 100%;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -1568,6 +1521,7 @@ input:-webkit-autofill:active {
   align-items: center;
   margin: auto;
   padding: 4vh 0;
+  max-width: 100%;
 }
 
 .divider.blog {
@@ -1597,7 +1551,7 @@ input:-webkit-autofill:active {
 
 .article li {
 
-  margin: 1rem;
+  padding: 1rem;
   list-style-type: none;
   text-decoration: underline;
 }
@@ -1738,12 +1692,15 @@ input:-webkit-autofill:active {
 
   .questions {
     width: 90vw;
-    margin: 2vh 0;
+    padding: 2vh 0;
   }
+
+
 
   .questions h3 {
     font-size: 1rem;
-    margin: 0 0 4vh 0;
+    padding: 0;
+    margin: 4vh 0;
     text-align: left;
   }
 
@@ -1906,8 +1863,8 @@ input:-webkit-autofill:active {
   }
 
   .shares img {
-    max-height: 4vh;
-    min-height: 4vh;
+    max-height: 6vh;
+    min-height: 6vh;
     padding: 0;
     margin: 0 1rem 0 0;
   }
@@ -2587,7 +2544,7 @@ input:-webkit-autofill:active {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -2858,7 +2815,7 @@ input:-webkit-autofill:active {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
