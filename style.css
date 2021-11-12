@@ -1046,7 +1046,9 @@ body.hide {
   padding: 2vh 0;
   width: 65vw;
 }
-
+.download{
+  text-decoration: underline;
+}
 .download a {
   color: var(--main-font-color);
 }
