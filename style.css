@@ -5,6 +5,11 @@
 * Browsers: last 4 version
 */
 
+/* @font-face {
+  font-family: 'Zen Dots';
+  src: url('./fonts/ZenDots-Regulat.ttf') format('ttf');
+} */
+
 * {
   margin: 0;
   padding: 0;
@@ -1610,9 +1615,6 @@ input:-webkit-autofill:active {
 
 
 @media screen and (max-width: 800px) {
-  main {
-
-  }
 
   body{
     width: 90vw;
