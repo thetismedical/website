@@ -1452,7 +1452,7 @@ input:-webkit-autofill:active {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  height: 33vh;
+  height: 36vh;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -1462,6 +1462,12 @@ input:-webkit-autofill:active {
   -ms-flex-item-align: end;
   align-self: flex-end;
   z-index: 1;
+}
+
+.shares a{
+  width: 12vw;
+  align-items: center;
+  margin: 1vh 0;
 }
 
 .share-icon {
@@ -1751,36 +1757,6 @@ input:-webkit-autofill:active {
     -ms-flex-align: start;
     align-items: flex-start;
   }
-
-
-
-
-
-  .shares {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    width: 90vw;
-    margin: 4vh 0 0 0;
-    height: 10vh;
-    max-height: 200px;
-  }
-
-  img.share-icon {
-    max-width: 20vh;
-    min-width: 15vw;
-    margin: 0;
-    padding: 0;
-    max-height: 5vh;
-  }
-
   .mailchimp.wrapper {
     background-color: var(--main-bg-color);
     border: 5px solid black;
@@ -1879,11 +1855,53 @@ input:-webkit-autofill:active {
 
   }
 
-  .shares img {
-    max-height: 6vh;
-    min-height: 6vh;
+  
+
+  .shares {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    margin: 4vh 0;
+    height: 10vh;
+    max-height: 200px;
+  }
+
+  /* img.share-icon {
+    max-width: 20vh;
+    min-width: 15vw;
+    margin: 0;
     padding: 0;
-    margin: 0 1rem 0 0;
+    max-height: 5vh;
+  } */
+
+
+  
+  .shares a{
+    display: flex;
+    max-width: 12vw;
+    max-height: 18vw;
+    align-items: center;
+    padding: 0;
+    margin: 2vw auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shares img {
+    max-height: 12vw;
+    /* min-height: 6vh; */
+    width: 12vw;
+    padding: 0;
+    margin: 0;
+    align-self: center;
   }
 
 
@@ -1971,7 +1989,7 @@ input:-webkit-autofill:active {
 
   a.landing-link {
     font-size: 1rem;
-    padding: 1rem 2rem 1rem 0;
+    margin: 1rem 2rem 1rem 0;
   }
 
   .dotty-logo {
@@ -2327,8 +2345,9 @@ input:-webkit-autofill:active {
 
 
   .footer-content img {
-    max-width: 12vh;
-    max-height: 12vh;
+    max-width: 10vh;
+    max-height: 10vh;
+    align-self: flex-start;
   }
 
   .footer-words h2 {
@@ -2629,14 +2648,19 @@ input:-webkit-autofill:active {
     -ms-flex-pack: justify;
     justify-content: space-between;
     height: 14vh;
+    width: 70vw;
+  }
+
+  .socials a{
+    margin-top: 2rem;
   }
 
 
   .socials img {
     height: 6vh;
+    margin: 0 auto;
     -webkit-filter: invert(100%);
     filter: invert(100%);
-    margin: 2rem 1rem 0 0;
   }
 
   .mailchimp.wrapper {
