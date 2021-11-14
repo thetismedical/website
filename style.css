@@ -774,6 +774,15 @@ img.fraction-svg {
   -ms-flex-pack: justify;
   justify-content: space-between;
   height: 14vh;
+  width: 40vw;
+}
+
+.socials a{
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  align-items: left;
+  justify-content: left;
 }
 
 
@@ -782,6 +791,7 @@ img.fraction-svg {
   -webkit-filter: invert(100%);
   filter: invert(100%);
   margin: 2rem 4rem 2rem 0;
+  align-self: left;
 }
 
 .nav-text {
@@ -1516,7 +1526,6 @@ input:-webkit-autofill:active {
 
 .shares img {
   height: 8vh;
-  width: 8vh;
   max-height: 8vh;
   min-height: 8vh;
   padding: 0;
@@ -2929,12 +2938,12 @@ input:-webkit-autofill:active {
     margin: auto;
   }
 
-  .footer-content img {
+  /* .footer-content img {
     max-height: 20vh;
     max-width: 20vw;
     height: 20vh;
     width: 20vw;
-  }
+  } */
 
   /* .nav-links {
     text-align: center;
@@ -3010,12 +3019,12 @@ input:-webkit-autofill:active {
 
   }
 
-  .footer-content img {
+  /* .footer-content img {
     height: 20vh;
     width: 20vw;
     max-height: 20vh;
     max-width: 20vw;
-  }
+  } */
 
 
   .info.col.fraction1 h3 {
@@ -3394,7 +3403,7 @@ input:-webkit-autofill:active {
     justify-content: space-between;
   }
 
-  .footer-content img {
+  /* .footer-content img {
     width: 20vw;
     height: 20vh;
     max-height: 20vh;
@@ -3402,7 +3411,7 @@ input:-webkit-autofill:active {
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
-  }
+  } */
 
   .footer-words h2 {
     font-size: 3.5rem;
