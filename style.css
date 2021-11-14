@@ -323,6 +323,7 @@ img.key {
 #night-splint-img,
 #trauma-splint-img {
   padding: 4vh 0;
+  height: 60vh;
   max-height: 60vh;
 }
 
@@ -401,6 +402,8 @@ img.process-arrow {
 }
 
 img.process-icon {
+  width: 12vw;
+  height: 32vh;
   max-width: 12vw;
   max-height: 32vh;
   padding: 4vh 0;
@@ -467,6 +470,7 @@ img.process-icon {
 }
 
 img.fraction-svg {
+  height: 25vh;
   max-height: 25vh;
   padding: 4vh 0;
 }
@@ -1511,6 +1515,8 @@ input:-webkit-autofill:active {
 }
 
 .shares img {
+  height: 8vh;
+  width: 8vh;
   max-height: 8vh;
   min-height: 8vh;
   padding: 0;
@@ -1682,6 +1688,7 @@ input:-webkit-autofill:active {
 
   .blog-landing img {
     margin: auto;
+    height: 50vh;
     max-height: 50vh;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
@@ -1903,6 +1910,7 @@ input:-webkit-autofill:active {
 
   .shares img {
     max-height: 12vw;
+    height: 12vh;
     /* min-height: 6vh; */
     width: 12vw;
     padding: 0;
@@ -2208,6 +2216,8 @@ input:-webkit-autofill:active {
   img.process-icon {
     max-height: 25vh;
     max-width: min(50vw, 150px);
+    height: 25vh;
+    width: 50vw;
     padding: 2vh;
   }
 
@@ -2356,6 +2366,8 @@ input:-webkit-autofill:active {
   .footer-content img {
     max-width: 10vh;
     max-height: 10vh;
+    width: 10vh;
+    height: 10vh;
     align-self: flex-start;
   }
 
@@ -2920,6 +2932,8 @@ input:-webkit-autofill:active {
   .footer-content img {
     max-height: 20vh;
     max-width: 20vw;
+    height: 20vh;
+    width: 20vw;
   }
 
   /* .nav-links {
@@ -2997,6 +3011,8 @@ input:-webkit-autofill:active {
   }
 
   .footer-content img {
+    height: 20vh;
+    width: 20vw;
     max-height: 20vh;
     max-width: 20vw;
   }
@@ -3270,6 +3286,8 @@ input:-webkit-autofill:active {
   }
 
   img.process-icon {
+    width: 12vw;
+    height: 32vh;
     max-width: 12vw;
     max-height: 32vh;
     padding: 4vh 0;
@@ -3377,6 +3395,8 @@ input:-webkit-autofill:active {
   }
 
   .footer-content img {
+    width: 20vw;
+    height: 20vh;
     max-height: 20vh;
     max-width: 20vw;
     -ms-flex-item-align: center;
