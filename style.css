@@ -1611,8 +1611,12 @@ input:-webkit-autofill:active {
 
 @media screen and (max-width: 800px) {
   main {
-    width: 100%;
-    margin: 0;
+
+  }
+
+  body{
+    width: 90vw;
+    margin: auto;
   }
 
   .nav-header {
@@ -1636,9 +1640,9 @@ input:-webkit-autofill:active {
   }
 
   .divider {
-    -webkit-transform: translateX(3vw);
-    -ms-transform: translateX(3vw);
-    transform: translateX(3vw);
+    -webkit-transform: translateX(-2vw);
+    -ms-transform: translateX(-2vw);
+    transform: translateX(-2vw);
   }
 
   .fraction.divider {
@@ -1655,7 +1659,7 @@ input:-webkit-autofill:active {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 90%;
+    width: 100%;
     margin: auto;
     /* height: 86vh; */
   }
@@ -1964,9 +1968,9 @@ input:-webkit-autofill:active {
   }
 
   .slide-title.blog {
-    -webkit-transform: translateX(3.5vw);
-    -ms-transform: translateX(3.5vw);
-    transform: translateX(3.5vw);
+    -webkit-transform: translateX(-2vw);
+    -ms-transform: translateX(-2vw);
+    transform: translateX(-2vw);
   }
 
 
@@ -2003,6 +2007,7 @@ input:-webkit-autofill:active {
     width: 45vh;
     padding: 0;
     margin: 0;
+    transform: translateX(5%);
   }
 
   .product-row {
@@ -2324,6 +2329,8 @@ input:-webkit-autofill:active {
     -ms-flex-pack: center;
     justify-content: center;
     height: 25vh;
+    width: 100vw;
+    transform: translateX(-5vw)
   }
 
   .footer-content {
