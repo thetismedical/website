@@ -322,7 +322,7 @@ img.key {
 
 #night-splint-img,
 #trauma-splint-img {
-  padding: 4vh 0;
+  padding: 0 0 4vh 0;
   /* min-height: 40vh; */
   max-height: 60vh;
   object-fit: cover;
@@ -447,6 +447,7 @@ img.process-icon {
   margin: 4vh 0;
   z-index: 5;
   width: 20vw;
+
 
 
 }
@@ -778,7 +779,7 @@ img.fraction-svg {
   width: 40vw;
 }
 
-.socials a{
+.socials a {
   width: 6rem;
   height: 6rem;
   display: flex;
@@ -1484,7 +1485,7 @@ input:-webkit-autofill:active {
   z-index: 1;
 }
 
-.shares a{
+.shares a {
   width: 12vw;
   align-items: center;
   margin: 1vh 0;
@@ -1632,7 +1633,7 @@ input:-webkit-autofill:active {
 
 @media screen and (max-width: 800px) {
 
-  body{
+  body {
     width: 90vw;
     margin: auto;
   }
@@ -1780,6 +1781,7 @@ input:-webkit-autofill:active {
     -ms-flex-align: start;
     align-items: flex-start;
   }
+
   .mailchimp.wrapper {
     background-color: var(--main-bg-color);
     border: 5px solid black;
@@ -1878,7 +1880,7 @@ input:-webkit-autofill:active {
 
   }
 
-  
+
 
   .shares {
     display: -webkit-box;
@@ -1906,8 +1908,8 @@ input:-webkit-autofill:active {
   } */
 
 
-  
-  .shares a{
+
+  .shares a {
     display: flex;
     max-width: 12vw;
     max-height: 18vw;
@@ -1932,6 +1934,7 @@ input:-webkit-autofill:active {
   .landing-para {
     padding-top: 25vh;
     width: 90vw;
+    margin: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2060,6 +2063,7 @@ input:-webkit-autofill:active {
     height: 20vh;
     z-index: 2;
     padding: 0;
+    margin: 0 auto;
   }
 
 
@@ -2124,7 +2128,7 @@ input:-webkit-autofill:active {
 
   .info.col p {
     font-size: 1.25rem;
-    max-height: 30vh;
+    height: 20vh;
     margin-bottom: 4vh;
   }
 
@@ -2342,6 +2346,7 @@ input:-webkit-autofill:active {
   .learn-more {
     font-size: 1.25rem;
     width: 50vw;
+    margin: 4vh 0 0 0;
   }
 
 
@@ -2683,7 +2688,7 @@ input:-webkit-autofill:active {
     width: 70vw;
   }
 
-  .socials a{
+  .socials a {
     margin-top: 2rem;
   }
 
