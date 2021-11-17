@@ -2294,7 +2294,7 @@ input:-webkit-autofill:active {
   }
 
   .footer-content.nav {
-    height: 20vh;
+    min-height: 20vh;
     max-width: 100%;
     width: 90vw;
     margin: auto;
@@ -2706,6 +2706,11 @@ input:-webkit-autofill:active {
     margin-top: 2rem;
     height: 5vh;
     width: 5vh;
+  }
+
+  .nav.socials a{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
 
