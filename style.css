@@ -808,6 +808,7 @@ img.fraction-svg {
   color: var(--main-bg-color);
   font-size: 1rem;
   margin-right: 5vw;
+  min-height: 50vh;
 }
 
 .nav-text p {
@@ -958,7 +959,7 @@ body.hide {
 
 .big-links a {
   color: var(--main-font-color);
-  padding: 1rem 2rem;
+  padding: 2vh 4vw;
 
 }
 
@@ -984,7 +985,6 @@ body.hide {
   background-color: var(--main-font-color);
   color: var(--main-bg-color)
 }
-
 
 .splint-intro {
   padding: 4vh 0;
@@ -2293,7 +2293,7 @@ input:-webkit-autofill:active {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
-    min-height: 120vh;
+    min-height: 126vh;
     max-width: 90vw;
     margin: 2vh 0;
   }
@@ -2315,8 +2315,8 @@ input:-webkit-autofill:active {
     color: var(--main-bg-color);
     width: 90vw;
     margin: auto;
-    /* padding-top: 6vh; */
-    height: 54vh;
+    padding: 10vh 0;
+    height: 58vh;
   }
 
   .nav-links a {
@@ -2327,7 +2327,7 @@ input:-webkit-autofill:active {
     cursor: pointer;
     width: 70vw;
     margin: auto;
-    margin-bottom: 5vh;
+    margin-bottom: 7vh;
 
   }
 
@@ -2440,8 +2440,9 @@ input:-webkit-autofill:active {
     -webkit-flex: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    height: 80vh;
-    width: 80vw;
+    min-height: 76vh;
+    height: 84vh;
+    width: 84vw;
     margin: auto;
 
   }
@@ -2452,6 +2453,7 @@ input:-webkit-autofill:active {
   }
 
   .nav-text p {
+    /* min-height: 50vh; */
     width: 100%;
     font-size: 1rem;
     text-align: justify;
@@ -2464,6 +2466,7 @@ input:-webkit-autofill:active {
   .big-links {
     font-size: 1.25rem;
     width: 90vw;
+    max-width: 92vw;
     padding-top: 2vh;
     -ms-flex-pack: distribute;
     justify-content: space-around;
@@ -2506,10 +2509,13 @@ input:-webkit-autofill:active {
 
   .product-desc {
     width: 80vw;
+    max-width: 100%;
   }
 
   .product-display h1 {
     width: 80vw;
+    max-width: 100%;
+
     font-size: 2.5rem;
     text-align: center;
     padding: 4vh 0;
@@ -2543,6 +2549,8 @@ input:-webkit-autofill:active {
     padding: 2vh 0;
     text-align: justify;
     width: 85vw;
+    max-width: 100%;
+
     margin: auto;
   }
 
@@ -2562,6 +2570,8 @@ input:-webkit-autofill:active {
 
   .bullet-points {
     width: 85vw;
+    max-width: 100%;
+
   }
 
   .boot-point {
@@ -2624,6 +2634,8 @@ input:-webkit-autofill:active {
 
   .size-chart {
     width: 90vw;
+    max-width: 100%;
+
   }
 
   .instructions-wrap {
@@ -2649,6 +2661,8 @@ input:-webkit-autofill:active {
     display: flex;
     margin: auto;
     width: 90vw;
+    max-width: 100%;
+
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -2656,6 +2670,8 @@ input:-webkit-autofill:active {
 
   .instruction-img {
     width: 55vw;
+    max-width: 100%;
+
     -ms-flex-item-align: start;
     align-self: flex-start;
     padding-top: 6vh;
@@ -2663,6 +2679,8 @@ input:-webkit-autofill:active {
 
   .instruction p {
     width: 35vw;
+    max-width: 100%;
+
     padding-top: 0;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
@@ -2732,10 +2750,14 @@ input:-webkit-autofill:active {
     padding: 1rem;
     position: relative;
     width: 90vw;
+    max-width: 100%;
+
   }
 
   .article {
     width: 90vw;
+    max-width: 100%;
+
   }
 
   .article-wrap {
@@ -2744,6 +2766,8 @@ input:-webkit-autofill:active {
 
   .article-wrap h2 {
     width: 90vw;
+    max-width: 100%;
+
     font-size: 2rem;
   }
 
@@ -2972,20 +2996,6 @@ input:-webkit-autofill:active {
     margin: auto;
   }
 
-  /* .footer-content img {
-    max-height: 20vh;
-    max-width: 20vw;
-    height: 20vh;
-    width: 20vw;
-  } */
-
-  /* .nav-links {
-    text-align: center;
-
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-  } */
-
 }
 
 @media screen and (min-width: 900px) and (max-width: 1260px) {
@@ -2995,6 +3005,7 @@ input:-webkit-autofill:active {
 
   .dotty-logo {
     width: 90vh;
+    max-width: 100%;
     padding-top: 4vh;
   }
 

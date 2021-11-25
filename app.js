@@ -29,7 +29,7 @@ function navToggle(e) {
       color: "white"
     });
     gsap.to(".nav-bar", 1, {
-      clipPath: "circle(2500px at 100% -10%)"
+      clipPath: "circle(3500px at 100% -10%)"
     });
     document.body.classList.add("hide");
   } else {
