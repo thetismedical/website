@@ -1611,6 +1611,11 @@ input:-webkit-autofill:active {
 
 }
 
+a.article.explore{
+  color: white;
+  font-family: Zen Dots;
+  padding: 1rem 2rem;
+}
 
 
 .other-articles {
