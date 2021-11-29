@@ -1221,7 +1221,8 @@ body.hide {
   flex-direction: row;
   border: 3px solid black;
   border-radius: 2.5rem;
-  width: 35vw;
+  width: 42vw;
+  max-width: 450px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -1248,13 +1249,14 @@ body.hide {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   border-radius: 1rem;
+
 }
 
 #mce-EMAIL.mini {
   -webkit-transform: translateX(0.25rem);
   -ms-transform: translateX(0.25rem);
   transform: translateX(0.25rem);
-  width: 30vw;
+  width: 25vw;
   height: 8vh;
   border: none;
   margin: 0;
@@ -1273,6 +1275,8 @@ body.hide {
   -ms-flex-direction: column;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0);
+  margin-right: 4vw;
+
   /* z-index: -1; */
 }
 
@@ -1371,11 +1375,6 @@ input:-webkit-autofill:active {
 .scroll a {
   align-self: flex-start;
 }
-
-/* #mc_embed_signup_scroll,#mc_embed_signup_scroll.validate{
-  max-width: 40vw;
-  background-color: red;
-} */
 
 .blog-landing img {
   height: 67.5vh;
@@ -1599,7 +1598,7 @@ input:-webkit-autofill:active {
 
 .article li {
 
-  padding: 1rem;
+  padding-bottom: 3rem;
   list-style-type: none;
   text-decoration: underline;
 }
@@ -1611,6 +1610,8 @@ input:-webkit-autofill:active {
   color: var(--main-font-color);
 
 }
+
+
 
 .other-articles {
   display: -webkit-box;
@@ -1633,8 +1634,9 @@ input:-webkit-autofill:active {
 
 
 .blog-landing h1 {
-  font-size: 3.25rem;
+  font-size: 2.5rem;
   margin: 0;
+  width: 80vw;
 
 }
 
@@ -1714,10 +1716,6 @@ input:-webkit-autofill:active {
     align-self: center;
   }
 
-  .blog-landing h1 {
-    font-size: 2.5rem;
-
-  }
 
   .blog-landing h3 {
     width: 70vw;
@@ -1742,15 +1740,18 @@ input:-webkit-autofill:active {
 
   .questions {
     width: 90vw;
-    padding: 2vh 0;
+  }
+
+  .questions a{
+    margin: 4vh 0;
   }
 
 
 
   .questions h3 {
-    font-size: 1rem;
+    font-size: 1.125rem;
     padding: 0;
-    margin: 4vh 0;
+    margin: 6vh 0;
     text-align: left;
   }
 
@@ -1821,11 +1822,13 @@ input:-webkit-autofill:active {
   }
 
   #mce-EMAIL.mini {
-    width: 65vw;
-    padding-left: 0.5rem;
+    width: 54vw;
+    padding:  1vh 0 1vh 4vw;
     border: none;
     border-radius: 1rem;
     font-size: 1rem;
+    margin-right: 8vw;
+
   }
 
 
