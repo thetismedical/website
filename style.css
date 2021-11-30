@@ -1162,6 +1162,12 @@ body.hide {
   align-self: left;
 }
 
+.vid{
+  width: 100%;
+  margin: 4vh 0;
+}
+
+
 .explore.pre-order {
   text-align: center;
 }
