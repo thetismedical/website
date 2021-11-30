@@ -1165,6 +1165,7 @@ body.hide {
 .vid{
   width: 100%;
   margin: 4vh 0;
+  max-width: 80vw;
 }
 
 
