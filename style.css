@@ -15,6 +15,8 @@
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: Raleway;
+  font-weight: 600;
 }
 
 :root {
@@ -52,7 +54,7 @@ a {
 }
 
 body {
-  font-family: 'Zen Dots';
+  font-family: 'Raleway';
   line-height: 1.25;
   overflow-x: hidden;
   position: relative;
@@ -99,7 +101,7 @@ input {
 }
 
 .landing-para h1 {
-  font-family: 'Zen Dots';
+  font-family: 'Raleway';
   font-size: 3.5rem;
   padding-bottom: 6vh;
 }
@@ -155,7 +157,8 @@ input {
 
 #logo {
   color: var(--main-font-color);
-  font-family: 'Zen Dots', cursive;
+  font-family: 'Raleway', cursive;
+  font-size: 2rem;
 }
 
 .nav-header {
@@ -242,7 +245,7 @@ img.key {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  font-family: 'Zen Dots', cursive;
+  font-family: 'Raleway', cursive;
   font-size: 2rem;
   -ms-flex-item-align: start;
   align-self: flex-start;
@@ -380,6 +383,8 @@ div.preorder {
 
 .explore.preorder {
   padding: 1rem 5rem;
+  font-weight: 600;
+  
 }
 
 .info.col {
@@ -479,7 +484,7 @@ img.fraction-svg {
 }
 
 .fraction-wrap {
-  font-family: 'Zen Dots';
+  font-family: 'Raleway';
   font-size: 2.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -507,6 +512,7 @@ img.fraction-svg {
 
 .fraction.divider {
   width: 100%;
+  height: 2px;s
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
   transform: translateX(0);
@@ -514,7 +520,7 @@ img.fraction-svg {
 
 .fraction-line {
   width: 10vw;
-  height: 0.25rem;
+  height: 0.2rem;
   margin: 0.4rem black;
   background-color: var(--main-font-color);
   -webkit-transform: rotate(-60deg) translate(2vh, 2vw);
@@ -661,7 +667,7 @@ img.fraction-svg {
 }
 
 .hero-desc h2 {
-  font-family: 'Zen Dots', cursive;
+  font-family: 'Raleway', cursive;
   font-size: 3.6rem;
 }
 
@@ -676,7 +682,7 @@ img.fraction-svg {
   background: var(--green-color);
   border-radius: 2rem;
   color: var(--main-bg-color);
-  font-family: 'Zen Dots', cursive;
+  font-family: 'Raleway', cursive;
   font-size: 1.5rem;
   text-decoration: none;
   cursor: pointer;
@@ -752,28 +758,6 @@ img.fraction-svg {
   justify-content: space-between;
   margin-top: 7.5vh;
 }
-
-
-
-/* .nav-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  padding: 20vh 10vw 0 15vw;
-
-  color: var(--main-bg-color);
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  flex: 0;
-  -webkit-flex: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-} */
 
 .socials {
   display: -webkit-box;
@@ -950,6 +934,7 @@ body.hide {
   -ms-flex-pack: justify;
   justify-content: space-between;
   font-size: 3.125rem;
+  font-weight: 800;
   width: 65vw;
   padding: 4vh 0 8vh 0;
   -webkit-transition: 0.005s ease;
@@ -1335,7 +1320,7 @@ input:-webkit-autofill:active {
   -webkit-transform: translateX(-0.3vw);
   -ms-transform: translateX(-0.3vw);
   transform: translateX(-0.3vw);
-
+  font-weight: 600;
 }
 
 
@@ -1536,7 +1521,7 @@ input:-webkit-autofill:active {
 }
 
 .blog-landing.shares h3 {
-  font-family: 'Zen Dots';
+  font-family: 'Raleway';
 
 }
 
@@ -1624,7 +1609,7 @@ input:-webkit-autofill:active {
 
 a.article.explore{
   color: white;
-  font-family: Zen Dots;
+  font-family: Raleway;
   padding: 1rem 2rem;
 }
 
@@ -1881,6 +1866,7 @@ a.article.explore{
     -webkit-transform: translateX(-0.3vw);
     -ms-transform: translateX(-0.3vw);
     transform: translateX(-0.3vw);
+    font-weight: 600;
 
   }
 
@@ -1903,7 +1889,7 @@ a.article.explore{
   }
 
   .blog-landing.shares h3 {
-    font-family: 'Zen Dots';
+    font-family: 'Raleway';
 
   }
 
@@ -1975,7 +1961,7 @@ a.article.explore{
   }
 
   .landing-para h1 {
-    font-family: 'Zen Dots';
+    font-family: 'Raleway';
     font-size: 2rem;
     padding-bottom: 4vh;
     width: 50vw;
@@ -3544,7 +3530,7 @@ a.article.explore{
   }
 
   .hero-desc h2 {
-    font-family: 'Zen Dots', cursive;
+    font-family: 'Raleway', cursive;
     font-size: 3.6rem;
   }
 
@@ -3559,7 +3545,7 @@ a.article.explore{
     background: var(--green-color);
     border-radius: 2rem;
     color: var(--main-bg-color);
-    font-family: 'Zen Dots', cursive;
+    font-family: 'Raleway', cursive;
     font-size: 1.5rem;
     text-decoration: none;
     cursor: pointer;
