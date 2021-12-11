@@ -845,7 +845,10 @@ img.fraction-svg {
   flex-shrink: 0;
 }
 
+.nav-links a{
+  padding: 1rem 1.5rem;
 
+}
 
 a:hover,
 .landing-nav li:hover {
