@@ -346,6 +346,10 @@ img.key {
 }
 
 
+.available-to{
+  margin-bottom: 6vh;
+  text-align: center;
+}
 
 
 .info h2 {
@@ -1117,6 +1121,8 @@ body.hide {
   width: 70vw;
 }
 
+
+
 .instruction {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1151,6 +1157,23 @@ body.hide {
   -ms-flex-item-align: left;
   -ms-grid-row-align: left;
   align-self: left;
+}
+
+.instruction-part{
+  display: flex;
+  width: 100%;
+  margin: 4vh 0;
+  justify-content: space-between;
+}
+.instruction-part img{
+  max-width: 60%;
+  object-fit: contain;
+  margin-right: 4vw;
+}
+
+.instruction-part p{
+  padding: 0;
+  margin: 0;
 }
 
 .vid{
@@ -2615,6 +2638,26 @@ a.article.explore{
     padding-left: 10vw;
   }
 
+  .instruction-part{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+
+  }
+  .instruction-part img{
+    max-width: 100%;
+    object-fit: contain;
+    margin: 4vh 0;
+
+  }
+  
+  .instruction-part p{
+    padding: 0;
+    margin: 0;
+  }
+
   .sleep-pie {
     margin: 2vh auto;
     -webkit-box-orient: vertical;
@@ -3292,6 +3335,8 @@ a.article.explore{
   .main-img {
     padding: 2rem 2rem 2rem 0;
   }
+
+
 
   .info h2 {
     font-size: 2rem;
