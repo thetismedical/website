@@ -58,6 +58,8 @@ body {
   line-height: 1.25;
   overflow-x: hidden;
   position: relative;
+  background: var(--main-bg-color);
+
 }
 
 
@@ -236,10 +238,12 @@ img.key {
   -ms-flex-align: center;
   align-items: center;
   color: var(--main-font-color);
-  background: var(--main-bg-color);
+  background: rgba(0, 0, 0, 0);
+
 }
 
 .slide-title {
+  
   padding: 3vh 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -520,7 +524,7 @@ img.fraction-svg {
 
 .fraction.divider {
   width: 100%;
-  height: 2px;
+  height: 4px;
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
   transform: translateX(0);
@@ -1474,6 +1478,25 @@ input:-webkit-autofill:active {
 
 }
 
+.pain-list{
+  margin: 0 0 0 4rem;
+}
+
+.article.pain-list li{
+  list-style-type: circle;
+  margin: 2vh 0;
+  padding-bottom: 0;
+}
+
+#pain-list-wrap{
+  margin: 0;
+  padding: 0;
+}
+
+.questions ul{
+  padding-left: 2rem;
+}
+
 .answers {
   margin: 0 10vw;
   width: 60vw;
@@ -1482,6 +1505,14 @@ input:-webkit-autofill:active {
 .answers p {
   font-weight: 400;
   text-align: justify;
+}
+
+.answers ul{
+  padding-left: 4rem;
+}
+
+.answers li{
+  margin: 4vh 0;
 }
 
 .bait p {
@@ -1603,7 +1634,7 @@ input:-webkit-autofill:active {
   width: 60vw;
   height: none;
   min-height: none;
-  padding: 1rem;
+  padding: 8vh 1rem 1rem 1rem;
   color: black;
 }
 
@@ -1634,6 +1665,10 @@ input:-webkit-autofill:active {
   font-weight: 500;
   color: var(--main-font-color);
 
+}
+
+.subscribe.intro{
+  margin: 4vh 0 2vh 0;
 }
 
 a.article.explore{
@@ -1705,14 +1740,7 @@ a.article.explore{
     transform: translateX(-2vw);
   }
 
-  .fraction.divider {
-    width: 50vw;
-    max-width: 220px;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-    margin: auto;
-  }
+
 
 
   .landing {
@@ -2122,10 +2150,16 @@ a.article.explore{
   }
 
   .info.col.fraction1 {
-    width: 55vw;
-    /* height: 55vw; */
     max-width: 250px;
     padding: 1rem 0;
+  }
+
+  .fraction-title{
+    width: 80%
+  }
+
+  .fraction-title h3{
+    width: 50%;
   }
 
   img.fraction-svg {
@@ -2158,7 +2192,7 @@ a.article.explore{
   }
 
   .info.col h3 {
-    width: 50vw;
+    /* width: 50vw; */
     max-width: 200px;
     margin: auto;
     font-size: 1.125rem;
@@ -2181,6 +2215,10 @@ a.article.explore{
 
   .info.col.wholesale {
     padding: 0.5rem;
+  }
+
+  .wholesale h3{
+    width: 50vw;
   }
 
   .info.col.wholesale img {
@@ -2254,7 +2292,7 @@ a.article.explore{
   }
 
   .fraction-line {
-    width: 27vw;
+    /* width: 27vw; */
     max-width: 90px;
     height: 0.25rem;
     margin: 0.4rem black;
@@ -3132,9 +3170,6 @@ a.article.explore{
 
 
   .info.col.fraction1 h3 {
-    width: 10vw;
-    max-width: 10vw;
-    min-width: 0vw;
     font-size: 1.25rem;
   }
 
@@ -3201,20 +3236,13 @@ a.article.explore{
     padding-bottom: 6vh;
   }
 
-  .landing-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    width: 50vw;
-    padding-top: 40vh;
+  .landing-nav{
+    width: 70vw;
   }
-
   .landing-nav a {
     color: var(--main-font-color);
     font-size: 2rem;
-    padding: 1rem 8rem 1rem 0;
+    /* padding: 1rem 4rem; */
   }
 
   .dotty-logo {
@@ -3251,15 +3279,17 @@ a.article.explore{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+
   }
 
-  .slide-title {
+  div.slide-title {
     padding: 3vh 0;
     width: var(--widescreen-width);
     margin: auto;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0);
   }
 
   .divider {
@@ -3296,10 +3326,6 @@ a.article.explore{
     -ms-flex-pack: distribute;
     justify-content: space-around;
     width: var(--widescreen-width);
-    padding: 0;
-  }
-
-  img.fraction-svg {
     padding: 0;
   }
 
@@ -3351,7 +3377,7 @@ a.article.explore{
   }
 
   .info img {
-    padding: 6vh 0;
+    padding: 3vh 0;
     width: 30vw;
   }
 
@@ -3449,6 +3475,7 @@ a.article.explore{
 
   .info.col.fraction1 {
     width: 17.5vw;
+    height: 20vw;
     min-width: 10vw;
   }
 
