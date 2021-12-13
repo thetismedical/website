@@ -134,7 +134,7 @@ input {
 
 .landing-link {
   z-index: 5;
-  
+
 }
 
 .dotty-logo {
@@ -243,7 +243,7 @@ img.key {
 }
 
 .slide-title {
-  
+
   padding: 3vh 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -350,7 +350,7 @@ img.key {
 }
 
 
-.available-to{
+.available-to {
   margin-bottom: 6vh;
   text-align: center;
 }
@@ -396,7 +396,7 @@ div.preorder {
 .explore.preorder {
   padding: 1rem 5rem;
   font-weight: 600;
-  
+
 }
 
 .info.col {
@@ -853,7 +853,7 @@ img.fraction-svg {
   flex-shrink: 0;
 }
 
-.nav-links a{
+.nav-links a {
   padding: 1rem 1.5rem;
 
 }
@@ -1163,24 +1163,25 @@ body.hide {
   align-self: left;
 }
 
-.instruction-part{
+.instruction-part {
   display: flex;
   width: 100%;
   margin: 4vh 0;
   justify-content: space-between;
 }
-.instruction-part img{
+
+.instruction-part img {
   max-width: 60%;
   object-fit: contain;
   margin-right: 4vw;
 }
 
-.instruction-part p{
+.instruction-part p {
   padding: 0;
   margin: 0;
 }
 
-.vid{
+.vid {
   width: 100%;
   margin: 4vh 0;
   max-width: 80vw;
@@ -1208,6 +1209,33 @@ body.hide {
 
 .downloads a {
   color: var(--main-font-color);
+}
+
+.quote-wrap {
+  border: 4px solid black;
+  margin: 6rem 4rem 4rem 4rem;
+}
+
+.quote-wrap img {
+  transform: translate(-50%, -50%);
+  max-height: 10rem;
+}
+
+.quote {
+  padding: 0rem 4rem;
+  text-align: center;
+  transform: translateY(-5rem)
+}
+
+.quote p {
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+}
+
+.quote h3 {
+  font-size: 1.625rem;
+  font-weight: 800;
+  margin-top: 2rem;
 }
 
 .mailchimp.wrapper {
@@ -1478,22 +1506,22 @@ input:-webkit-autofill:active {
 
 }
 
-.pain-list{
+.pain-list {
   margin: 0 0 0 4rem;
 }
 
-.article.pain-list li{
+.article.pain-list li {
   list-style-type: circle;
   margin: 2vh 0;
   padding-bottom: 0;
 }
 
-#pain-list-wrap{
+#pain-list-wrap {
   margin: 0;
   padding: 0;
 }
 
-.questions ul{
+.questions ul {
   padding-left: 2rem;
 }
 
@@ -1507,11 +1535,11 @@ input:-webkit-autofill:active {
   text-align: justify;
 }
 
-.answers ul{
+.answers ul {
   padding-left: 4rem;
 }
 
-.answers li{
+.answers li {
   margin: 4vh 0;
 }
 
@@ -1648,7 +1676,7 @@ input:-webkit-autofill:active {
   width: 65vw;
 }
 
-.article ul{
+.article ul {
   margin-bottom: 3vh;
 }
 
@@ -1667,11 +1695,11 @@ input:-webkit-autofill:active {
 
 }
 
-.subscribe.intro{
+.subscribe.intro {
   margin: 4vh 0 2vh 0;
 }
 
-a.article.explore{
+a.article.explore {
   color: white;
   font-family: Raleway;
   padding: 1rem 2rem;
@@ -1775,6 +1803,26 @@ a.article.explore{
     align-self: center;
   }
 
+  .quote-wrap{
+    margin: 4rem 1rem 2rem 1rem;
+  }
+
+  .quote-wrap img {
+    max-height: 7.5rem;
+  }
+
+  .quote {
+    transform: translateY(-3.75rem);
+    padding: 2rem;
+  }
+
+  .quote p {
+    font-size: 1.5rem
+  }
+
+  .quote h3 {
+    font-size: 1.25rem;
+  }
 
   .blog-landing h3 {
     width: 70vw;
@@ -1801,7 +1849,7 @@ a.article.explore{
     width: 90vw;
   }
 
-  .questions a{
+  .questions a {
     margin: 4vh 0;
   }
 
@@ -1882,7 +1930,7 @@ a.article.explore{
 
   #mce-EMAIL.mini {
     width: 54vw;
-    padding:  1vh 0 1vh 4vw;
+    padding: 1vh 0 1vh 4vw;
     border: none;
     border-radius: 1rem;
     font-size: 1rem;
@@ -2154,11 +2202,11 @@ a.article.explore{
     padding: 1rem 0;
   }
 
-  .fraction-title{
+  .fraction-title {
     width: 80%
   }
 
-  .fraction-title h3{
+  .fraction-title h3 {
     width: 50%;
   }
 
@@ -2217,7 +2265,7 @@ a.article.explore{
     padding: 0.5rem;
   }
 
-  .wholesale h3{
+  .wholesale h3 {
     width: 50vw;
   }
 
@@ -2677,7 +2725,7 @@ a.article.explore{
     padding-left: 10vw;
   }
 
-  .instruction-part{
+  .instruction-part {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -2685,14 +2733,15 @@ a.article.explore{
     margin: 0 auto;
 
   }
-  .instruction-part img{
+
+  .instruction-part img {
     max-width: 100%;
     object-fit: contain;
     margin: 4vh 0;
 
   }
-  
-  .instruction-part p{
+
+  .instruction-part p {
     padding: 0;
     margin: 0;
   }
@@ -2825,7 +2874,7 @@ a.article.explore{
     width: 5vh;
   }
 
-  .nav.socials a{
+  .nav.socials a {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
@@ -2854,10 +2903,10 @@ a.article.explore{
 
   }
 
-  
-.article ul{
-  margin-bottom: 0vh;
-}
+
+  .article ul {
+    margin-bottom: 0vh;
+  }
 
   .article-wrap {
     padding: 0;
@@ -3236,9 +3285,10 @@ a.article.explore{
     padding-bottom: 6vh;
   }
 
-  .landing-nav{
+  .landing-nav {
     width: 70vw;
   }
+
   .landing-nav a {
     color: var(--main-font-color);
     font-size: 2rem;
