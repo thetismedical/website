@@ -1623,16 +1623,7 @@ a.explore.article-to-night-splint{
   align-items: center;
   margin: auto;
   padding: 4vh 0;
-  max-width: 90%;
-}
-
-.divider{
-  width: 90%;
-}
-
-.divider.blog {
-  width: 100%;
-
+  max-width: 80%;
 }
 
 .article {
@@ -1645,9 +1636,7 @@ a.explore.article-to-night-splint{
 }
 
 .article-wrap h2 {
- margin: auto;
- text-align: center;
- font-size: 1.5rem;
+ font-size: 2rem;
 }
 
 .article ul {
@@ -2054,11 +2043,7 @@ a.article.explore {
     font-size: 1.25rem;
   }
 
-  .slide-title.blog {
-    -webkit-transform: translateX(-2vw);
-    -ms-transform: translateX(-2vw);
-    transform: translateX(-2vw);
-  }
+
 
 
   ul.landing-nav {
