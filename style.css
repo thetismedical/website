@@ -962,6 +962,12 @@ body.hide {
   font-weight: 600;
 }
 
+.more-reviews h3{
+  font-size: 1.5rem;
+  text-decoration: underline;
+  padding-bottom: 1.5rem;
+}
+
 .product-display {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1205,6 +1211,45 @@ body.hide {
   font-size: 1.625rem;
   font-weight: 800;
   margin-top: 2rem;
+}
+
+.testimonial-wrap{
+  width: 65%;
+  margin: auto;
+  margin: 1rem 0;
+  padding: 2rem;
+  border: black solid 4px;
+}
+
+.testimonial-wrap p{
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+}
+
+.testimonial-author{
+  display: flex;
+}
+
+.testimonial-author img{
+  height: 10vh;
+  width: 10vh;
+  margin-right: 1rem;
+}
+
+.author-words{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.author-words h4{
+  font-size: 1.25rem;
+  padding-bottom: 0.125rem;
+}
+
+.author-words h3{
+  font-weight: 700;
+  font-size: 1.25rem;
 }
 
 .mailchimp.wrapper {
@@ -1761,7 +1806,7 @@ a.article.explore {
   }
 
   .quote-wrap img {
-    max-height: 7.5rem;
+    max-height: 6.5rem;
   }
 
   .quote {
@@ -1775,6 +1820,23 @@ a.article.explore {
 
   .quote h3 {
     font-size: 1.25rem;
+  }
+
+  .testimonial-wrap{
+    width: 90%;
+    margin: auto;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    text-align: left;
+  }
+
+  .testimonial-wrap p{
+    text-align: justify;
+  }
+
+  .testimonial-author h3,
+  .testimonial-author h4{
+    font-size: 1.125rem;
   }
 
   .blog-landing h3 {
@@ -2103,6 +2165,11 @@ a.article.explore {
   .dotty-logo img {
     padding-top: 2vh;
 
+  }
+
+  .divider{
+    width: 90%;
+    margin: auto;
   }
 
 
