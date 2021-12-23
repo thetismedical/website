@@ -1802,11 +1802,12 @@ a.article.explore {
   }
 
   .quote-wrap{
-    margin: 4rem 1rem 2rem 1rem;
+    margin: 4rem auto 2rem auto;
+    width: 70vw;
   }
 
   .quote-wrap img {
-    max-height: 6.5rem;
+    max-height: 25vw;
   }
 
   .quote {
