@@ -2841,7 +2841,9 @@ a.article.explore {
   .socials a {
     margin-top: 2rem;
     height: 5vh;
+    min-height: 48px;
     width: 5vh;
+    min-width: 48px;
   }
 
   .nav.socials a {
