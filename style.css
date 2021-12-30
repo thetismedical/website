@@ -1455,6 +1455,7 @@ input:-webkit-autofill:active {
 
 .blog-landing img {
   height: 67.5vh;
+  width: auto;
   max-height: 500px;
   max-width: 48vh;
   z-index: 1;
