@@ -664,6 +664,10 @@ img.fraction-svg {
   color: var(--main-font-color);
 }
 
+a#blue-link{
+  text-decoration: underline!important;
+}
+
 .explore {
   padding: 1rem 3rem;
   background: var(--green-color);
@@ -1957,11 +1961,17 @@ a.article.explore {
   #mce-EMAIL.mini {
     width: 54vw;
     padding: 1vh 0 1vh 4vw;
+    height: 90%;
     border: none;
     border-radius: 5rem;
     font-size: 1rem;
     margin-right: 8vw;
 
+  }
+
+  .validate{
+    display: flex;
+    flex-direction: column;
   }
 
 
@@ -2056,6 +2066,8 @@ a.article.explore {
     margin: 0;
     align-self: center;
   }
+
+
 
 
   .landing-para {
