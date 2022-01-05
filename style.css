@@ -1517,7 +1517,7 @@ input:-webkit-autofill:active {
 }
 
 a.explore.article-to-night-splint{
-  width: 70%;
+  width: 25%;
 }
 
 .coming-soon {
@@ -1683,7 +1683,7 @@ a.explore.article-to-night-splint{
   align-items: center;
   margin: auto;
   padding: 4vh 0;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .article {
@@ -2127,6 +2127,10 @@ a.article.explore {
 
   .slide-title {
     font-size: 1.25rem;
+  }
+
+  .slide-title.blog h2{
+    padding: 0 5vw;
   }
 
 
@@ -2950,6 +2954,10 @@ a.article.explore {
     margin: 0rem 0rem 1rem 0rem;
   }
 
+  a.explore.article-to-night-splint{
+    width: 70%;
+  }
+
 
 
 }
@@ -3332,6 +3340,8 @@ a.article.explore {
     align-items: center;
     background-color: rgba(0, 0, 0, 0);
   }
+
+
 
   .intro {
     -ms-flex-item-align: start;
