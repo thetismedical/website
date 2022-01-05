@@ -3333,18 +3333,6 @@ a.article.explore {
     background-color: rgba(0, 0, 0, 0);
   }
 
-  .divider {
-    margin: auto;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-    height: 0.2rem;
-    margin: 0.4rem;
-    background: var(--main-font-color);
-    pointer-events: none;
-  
-  }
-
   .intro {
     -ms-flex-item-align: start;
     align-self: flex-start;
