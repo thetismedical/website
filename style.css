@@ -242,6 +242,14 @@ img.key {
   width: 100%;
 }
 
+.slide-title.blog {
+  width: 80%;
+  margin: auto;
+}
+
+.slide-title.blog h2 {
+  font-size: 2rem;
+}
 
 
 .divider {
@@ -573,7 +581,7 @@ img.fraction-svg {
   text-align: left;
 }
 
-.footer-title{
+.footer-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -587,7 +595,7 @@ img.fraction-svg {
   align-self: flex-start;
 }
 
-.footer-title img{
+.footer-title img {
   height: 12vh;
 }
 
@@ -596,7 +604,7 @@ img.fraction-svg {
   font-size: 2rem;
 }
 
-.footer-words p{
+.footer-words p {
   color: white;
 }
 
@@ -664,8 +672,8 @@ img.fraction-svg {
   color: var(--main-font-color);
 }
 
-a#blue-link{
-  text-decoration: underline!important;
+a#blue-link {
+  text-decoration: underline !important;
 }
 
 .explore {
@@ -976,7 +984,7 @@ body.hide {
   font-weight: 600;
 }
 
-.more-reviews h3{
+.more-reviews h3 {
   font-size: 1.5rem;
   text-decoration: underline;
   padding-bottom: 1.5rem;
@@ -1227,7 +1235,7 @@ body.hide {
   margin-top: 2rem;
 }
 
-.testimonial-wrap{
+.testimonial-wrap {
   width: 65%;
   margin: auto;
   margin: 1rem 0;
@@ -1235,33 +1243,33 @@ body.hide {
   border: black solid 4px;
 }
 
-.testimonial-wrap p{
+.testimonial-wrap p {
   margin-bottom: 2rem;
   font-size: 1.125rem;
 }
 
-.testimonial-author{
+.testimonial-author {
   display: flex;
 }
 
-.testimonial-author img{
+.testimonial-author img {
   height: 10vh;
   width: 10vh;
   margin-right: 1rem;
 }
 
-.author-words{
+.author-words {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.author-words h4{
+.author-words h4 {
   font-size: 1.25rem;
   padding-bottom: 0.125rem;
 }
 
-.author-words h3{
+.author-words h3 {
   font-weight: 700;
   font-size: 1.25rem;
 }
@@ -1516,7 +1524,7 @@ input:-webkit-autofill:active {
   margin: auto;
 }
 
-a.explore.article-to-night-splint{
+a.explore.article-to-night-splint {
   width: 25%;
 }
 
@@ -1696,7 +1704,7 @@ a.explore.article-to-night-splint{
 }
 
 .article-wrap h2 {
- font-size: 2rem;
+  font-size: 2rem;
 }
 
 .article ul {
@@ -1816,7 +1824,7 @@ a.article.explore {
     align-self: center;
   }
 
-  .quote-wrap{
+  .quote-wrap {
     margin: 4rem auto 2rem auto;
     width: 70vw;
   }
@@ -1838,7 +1846,7 @@ a.article.explore {
     font-size: 1.25rem;
   }
 
-  .testimonial-wrap{
+  .testimonial-wrap {
     width: 90%;
     margin: auto;
     margin: 1rem auto;
@@ -1846,12 +1854,12 @@ a.article.explore {
     text-align: left;
   }
 
-  .testimonial-wrap p{
+  .testimonial-wrap p {
     text-align: justify;
   }
 
   .testimonial-author h3,
-  .testimonial-author h4{
+  .testimonial-author h4 {
     font-size: 1.125rem;
   }
 
@@ -1969,7 +1977,7 @@ a.article.explore {
 
   }
 
-  .validate{
+  .validate {
     display: flex;
     flex-direction: column;
   }
@@ -2129,8 +2137,14 @@ a.article.explore {
     font-size: 1.25rem;
   }
 
-  .slide-title.blog h2{
+  .slide-title.blog {
+    width: 100%;
+    margin: auto;
+  }
+
+  .slide-title.blog h2 {
     padding: 0 5vw;
+
   }
 
 
@@ -2195,7 +2209,7 @@ a.article.explore {
 
   }
 
-  .divider{
+  .divider {
     width: 90%;
     margin: auto;
   }
@@ -2480,9 +2494,10 @@ a.article.explore {
     margin-bottom: 7vh;
 
   }
-  .learn-more{
+
+  .learn-more {
     width: 50vw;
-    margin: 6vh 0 ;
+    margin: 6vh 0;
   }
 
   .learn-more h4 {
@@ -2554,7 +2569,7 @@ a.article.explore {
     padding: 4vh 0;
   }
 
-  .footer-title{
+  .footer-title {
     flex-direction: column;
   }
 
@@ -2563,7 +2578,7 @@ a.article.explore {
     margin: 2vh auto;
   }
 
-  .footer-title img{
+  .footer-title img {
     height: 10vh;
     margin: 2vh auto
   }
@@ -2574,7 +2589,7 @@ a.article.explore {
     margin: 0;
   }
 
-  .footer-words p{
+  .footer-words p {
     margin: 4vh auto;
     font-size: 1.125rem;
   }
@@ -2877,14 +2892,14 @@ a.article.explore {
     min-width: 48px;
     align-items: center;
     justify-content: center;
-  } 
+  }
 
   .nav.socials a {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
-/* 
+  /* 
   .socials img {
     height: 5vh;
     width: 5vh;
@@ -2907,7 +2922,7 @@ a.article.explore {
     max-width: 100%;
     padding: 1rem 1rem 1rem 1rem;
 
-    }
+  }
 
 
   .article ul {
@@ -2918,7 +2933,7 @@ a.article.explore {
     padding: 0;
   }
 
-  .coming-soon p{
+  .coming-soon p {
     width: 80vw;
     margin: 0;
     padding: 0;
@@ -2954,7 +2969,7 @@ a.article.explore {
     margin: 0rem 0rem 1rem 0rem;
   }
 
-  a.explore.article-to-night-splint{
+  a.explore.article-to-night-splint {
     width: 70%;
   }
 
@@ -3148,7 +3163,7 @@ a.article.explore {
     margin: auto;
   }
 
-  
+
 
 }
 
@@ -3252,7 +3267,7 @@ a.article.explore {
     width: 60vw;
   }
 
-/* 
+  /* 
   .socials img {
     height: 7vh;
     -webkit-filter: invert(100%);
@@ -4092,4 +4107,3 @@ a.article.explore {
   background-color: #1DA851;
   border-color: #1DA851;
 }
-
