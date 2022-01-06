@@ -1034,10 +1034,6 @@ body.hide {
   text-decoration: underline;
 }
 
-.download a {
-  color: var(--main-font-color);
-}
-
 .bullet-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
