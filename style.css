@@ -2158,13 +2158,20 @@ a.article.explore {
     font-size: 1.25rem;
   }
 
+  .slide-title h2{
+    max-width: 80vw;
+    margin: auto;
+  }
+
   .slide-title.blog {
     width: 100%;
     margin: auto;
   }
 
   .slide-title.blog h2 {
-    padding: 0 5vw;
+    padding-left: 5vw;
+    margin:0;
+    max-width: 90vw;
 
   }
 
