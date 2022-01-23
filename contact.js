@@ -74,7 +74,7 @@ function findTraumaPrice(){
         else if (traumaQty.value >= priceLimit)
         {
             totalPrice = round(traumaQty.value*minPrice)
-            traumaPrice.innerText = `\nUnit price: £12.50\nTotal Price: £${totalPrice}`
+            traumaPrice.innerText = `Unit price: £12.50\nTotal Price: £${totalPrice}`
         }    
     }
 }
