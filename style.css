@@ -971,6 +971,8 @@ body.hide {
 .form-wrap{
   width: 100%;
   margin-left: 5vw;
+  padding-bottom: 2rem;
+  
 }
 
 .form-wrap h2{
