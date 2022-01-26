@@ -67,7 +67,7 @@ function findTraumaPrice(){
         }
         else if (traumaQty.value < priceLimit)
         {
-            unitPrice = round(23.3-1.44*Math.log(parseInt(traumaQty.value)))
+            unitPrice = round(28.3-1.44*Math.log(parseInt(traumaQty.value)))
             totalPrice = round(traumaQty.value*unitPrice)
             traumaPrice.innerText = `Unit Price: £${unitPrice}\nTotal Price: £${totalPrice}`
         } 

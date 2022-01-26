@@ -57,8 +57,7 @@
     <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <meta name="description"
-        content="Place bulk orders and ask questions to Thetis Medical with their contact form.">
+    <meta name="description" content="Place bulk orders and ask questions to Thetis Medical with their contact form.">
     <meta property="og:title" content="Thetis Medical Contact" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://thetismedical.com/contact.html" />
@@ -125,82 +124,84 @@
                 </div>
                 <p>&copy;Thetis Medical Ltd 2022</p>
             </div>
-            <div class='form-wrap'>
-                <h2>Contact Us</h2>
-                <form class='form' action="">
+            <form autocomplete="on" action="https://formspree.io/f/mdobaqwr" method="POST" class='form'>
+                <div class='form-wrap'>
+                    <h2>Contact Us</h2>
+
                     <p>Would you like to:</p>
                     <div class="form-row checkbox">
                         <div class="checkbox">
                             <div class="checkbox-edge">
-                                <input checked id='order-check' type="checkbox">
+                                <input name='bulk-order' checked id='order-check' type="checkbox">
                             </div>
                             <label for="order-check">Bulk Order</label>
                         </div>
                         <div class="checkbox">
                             <div class="checkbox-edge">
-                                <input id="ask-a-question" type="checkbox">
+                                <input name='ask-a-question' id="ask-a-question" type="checkbox">
                             </div>
                             <label for="ask-a-question">Ask a question</label>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
-                            <input type="text" placeholder="Name">
+                            <input required name='name' type="text" placeholder="Name">
                         </div>
                         <div class="form-group">
-                            <input type="text" placeholder="Company">
+                            <input  name='company' type="text" placeholder="Company">
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
-                            <input type="email" placeholder="Email">
+                            <input required name='email' type="email" placeholder="Email">
                         </div>
                         <div class="form-group">
-                            <input type="phone" placeholder="Phone">
+                            <input name='phone' type="phone" placeholder="Phone">
                         </div>
                     </div>
                     <div class='order-wrap'>
-                        <p>Enter quantities to get a quote:</p>
+                        <p>Enter quantities to get a quote (ex VAT):</p>
                         <div class="form-row">
                             <div class="form-group flex">
                                 <p>Night Splint</p>
-                                <input id='night-qty' type='text' placeholder='Qty'>
+                                <input name='night-splint-qty' id='night-qty' type='text' placeholder='Qty'>
                             </div>
                             <div class="form-group flex">
                                 <p id='night-price'></p>
                             </div>
-                          
+
                         </div>
                         <div class="form-row">
                             <div class="form-group flex">
                                 <p>Trauma Splint</p>
-                                <input id='trauma-qty' type='text' placeholder='Qty'>
+                                <input name='trauma-splint-qty' id='trauma-qty' type='text' placeholder='Qty'>
                             </div>
                             <div class="form-group flex">
                                 <p id='trauma-price'></p>
                             </div>
-                         
+
                         </div>
 
                     </div>
-                    <div class="form-group message">
+                    <div  class="form-group message">
 
-                        <textarea cols="50" rows="3" maxlength="1000" placeholder="Message"></textarea>
+                        <textarea name='message' cols="50" rows="3" maxlength="1000" placeholder="Message"></textarea>
 
                     </div>
-                </form>
-                <div class="form-row">
-                    <div class="checkbox news">
-                        <div class="checkbox-edge">
-                            <input type="checkbox">
+                    <div class="form-row">
+                        <div class="checkbox news">
+                            <div class="checkbox-edge">
+                                <input name='opt-out' type="checkbox">
+                            </div>
+                            <label>Opt out of all newsletters.</label>
                         </div>
-                        <label>Opt out of all newsletters.</label>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit" value='send' class="explore order-trauma-home">Send</button>
                     </div>
                 </div>
-                <div class="form-row">
-                    <a class="explore order-trauma-home">Send</a>
-                </div>
-            </div>
+            </form>
+
     </main>
     <nav class="nav-bar">
         <div class="nav-bits">

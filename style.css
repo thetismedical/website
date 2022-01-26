@@ -932,8 +932,8 @@ a:hover,
 
 .black-side {
   color: var(--main-bg-color);
-  width: 52vw;
-  padding-right: 5vw;
+  width: 35vw;
+  margin-right: 5vw;
 }
 
 .black-side h1 {
@@ -967,7 +967,7 @@ a:hover,
 
 .form-wrap{
   width: 100%;
-  margin-left: 5vw;
+  /* margin-left: 5vw; */
   padding-bottom: 2rem;
   
 }
@@ -1044,7 +1044,7 @@ a:hover,
 .form-group.flex{
   display: flex;
   justify-content: space-between;
-  margin-left: 2rem;
+  margin: 0 1rem;
 }
 .form-group.flex input{
   max-width: 5rem;
