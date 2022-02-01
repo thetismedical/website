@@ -2002,8 +2002,8 @@ a.article.explore {
   }
 
   .quote {
-    transform: translateY(-3.75rem);
-    padding: 2rem;
+    transform: translateY(-1.75rem);
+    padding: 2rem 1rem ;
   }
 
   .quote p {
@@ -2799,12 +2799,12 @@ a.article.explore {
   }
 
   .big-links {
-    font-size: 1.25rem;
-    width: 90vw;
+    font-size: 1.5rem;
+    width: 80%;
     max-width: 92vw;
     padding-top: 2vh;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
 
@@ -2961,6 +2961,14 @@ a.article.explore {
   .instruction-part p {
     padding: 0;
     margin: 0;
+  }
+
+  .downloads-wrap{
+    padding-top: 2vh;
+  }
+
+  .intro.large.download {
+    padding: 0vh 0 6vh 0;
   }
 
   .sleep-pie {
