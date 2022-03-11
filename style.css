@@ -568,6 +568,8 @@ img.fraction-svg {
   min-height: 25vh;
 }
 
+
+
 .footer-content.nav {
   padding: 0;
   margin: 0 auto;
@@ -609,9 +611,31 @@ img.fraction-svg {
   height: 12vh;
 }
 
-.footer-words a {
+.footer-words a,.footer-words h3 {
   color: white;
-  font-size: 2rem;
+  margin-top: 1rem;
+
+}
+
+.footer-words a{
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+
+}
+
+.footer-words h3{
+  font-size: 1.25rem;
+}
+
+.links-row{
+  display: flex;
+}
+
+.links-column{
+  display: flex;
+  margin-right: 4rem;
+  flex-direction: column;
 }
 
 .footer-words p {
@@ -862,9 +886,9 @@ a#blue-link {
 
 a:hover,
 .landing-nav li:hover {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
   transition: 0.01s ease;
 }
 
@@ -1960,10 +1984,14 @@ a.article.explore {
     position: relative;
   }
 
-
-
-
-
+  .links-row{
+    flex-direction: column;
+  }
+  
+  .links-column{
+    margin: auto;
+    text-align: center;
+  }
 
   .landing {
     display: -webkit-box;
@@ -2771,8 +2799,11 @@ a.article.explore {
     margin: 2vh auto
   }
 
+  .links-row{
+    margin-bottom: 2rem;
+  }
+
   .footer-words a {
-    font-size: 0.8rem;
     padding: 0;
     margin: 0;
   }
@@ -3335,304 +3366,6 @@ a.article.explore {
 
 
 }
-
-/* @media screen and (min-width: 800px) and (max-width: 900px) {
-  .landing-para h1 {
-    font-size: 2.5rem;
-  }
-
-  .process-arrow {
-    max-width: 25vw;
-  }
-
-  .dotty-logo {
-    width: 80vh;
-  }
-
-  .info.col {
-    padding: 0.5rem;
-  }
-
-  .cursor {
-    border: none;
-  }
-
-  .big-links {
-    font-size: 2rem;
-  }
-
-  .info.col.fraction1 h3 {
-    font-size: 1.125rem;
-  }
-
-  .bullet-points {
-    font-size: 1.25rem;
-  }
-
-  .bullet-points img {
-    width: 6vw;
-    padding: 0 1vw;
-  }
-
-  .product-display {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 0;
-    margin: auto;
-  }
-
-  .product-display img,
-  .product-display video {
-    width: 95%;
-    padding-right: 0;
-  }
-
-  .product-display h1 {
-    font-size: 3rem;
-    text-align: center;
-    padding: 4vh 0;
-  }
-
-  a.product-display.explore {
-    width: 100%;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-    text-align: center;
-    margin: auto;
-    font-size: 1rem;
-  }
-
-  .product-display p {
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 1.25rem;
-  }
-
-  .explore.pre-order {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 1rem 2rem;
-    width: 50vw;
-    max-width: 250px;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    margin: auto;
-  }
-
-  a.explore.landing {
-    width: 30vw;
-  }
-
-  .blog-landing {
-    width: 90vw;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    margin: 2vh auto;
-  }
-
-
-
-  a.landing-link {
-    font-size: 1.25rem;
-  }
-
-  .intro.large {
-    width: 80vw;
-  }
-
-
-
-
-  .warnings h4 {
-    width: 80vw;
-    margin: auto;
-    font-size: 1.25rem;
-    text-align: center;
-  }
-
-  .size-chart {
-    width: 60vw;
-  }
-
-  .instructions-wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    width: 100%;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .instruction {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: auto;
-    width: 60vw;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }
-
-  .instruction-img {
-    width: 35vw;
-    -ms-flex-item-align: start;
-    align-self: flex-start;
-    padding-top: 6vh;
-  }
-
-  .instruction p {
-    width: 25vw;
-    padding-top: 0;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-    font-size: 0.925rem;
-  }
-
-  .trauma-instruction {
-    font-size: 1.25rem;
-  }
-
-  .product-desc {
-    width: 80vw;
-  }
-
-  a.explore.landing {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin: auto;
-  }
-
-
-
-}
-
-@media screen and (min-width: 900px) and (max-width: 1260px) {
-  .landing-para {
-    font-size: 3rem;
-  }
-
-  .dotty-logo {
-    width: 90vh;
-    max-width: 100%;
-    padding-top: 4vh;
-  }
-
-  .info.col {
-    padding: 0.5rem;
-  }
-
-  .cursor {
-    border: none;
-  }
-
-  .big-links {
-    font-size: 2.5rem;
-  }
-
-  .product-display {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 0;
-    width: 60vw;
-    margin: auto;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  div.product-desc {
-    width: 60vw;
-  }
-
-  .product-display h1 {
-    font-size: 3rem;
-    text-align: center;
-    margin: 2vh 0;
-    padding-bottom: 2vh;
-  }
-
-  .product-desc p {
-    margin: auto;
-    text-align: center;
-    padding-top: 4vh;
-  }
-
-  a.explore.landing {
-    margin: auto;
-  }
-
-  .splint-intro {
-    font-size: 1.5rem;
-    width: 50vw;
-
-  }
-
-
-  .info.col.fraction1 h3 {
-    font-size: 1.25rem;
-  }
-
-  .bullet-points img {
-    width: 6vw;
-    padding: 0 1.5vw;
-  }
-
-  .instructions-wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 80vw;
-  }
-
-  .instruction {
-    width: 40vw;
-  }
-
-  .instruction-img {
-    width: 25vw;
-  }
-
-  .instruction p {
-    width: 15vw;
-    padding-top: 12vh;
-  }
-
-  .product-display img {
-    width: 60vw;
-  }
-
-
-
-} */
 
 .resp-sharing-button__link,
 .resp-sharing-button__icon {
