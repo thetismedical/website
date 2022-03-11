@@ -157,6 +157,8 @@
         }
     </script>
 
+    <script src="components/nav.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
 
 
 </head>
@@ -166,13 +168,15 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3DL6HS" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
     <header class="nav-header">
-        <h2><a href="./" id="logo">Thetis Medical</a></h2>
+        <h2><a href="./" id="logo">Thetis Medical<sup class="trademark">®</sup></a></h2>
         <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
+           <div class="line1"></div>
+           <div class="line2"></div>
         </div>
-    </header>
+     </header>
+
     <main data-barba="container" data-barba-namespace="splint">
         <section class='landing splint'>
             <div class="big-links">
@@ -302,7 +306,7 @@
                 </div>
             </div>
         </section>
-    
+
         <section class='slide col'>
             <div class="slide-title">
                 <div class="divider"></div>
@@ -350,13 +354,14 @@
                 <div class="divider"></div>
             </div>
             <div class="downloads-wrap">
-            <div class="intro large download">
-                <a href="./images/screen-instructions-induvidual.pdf" target="_blank">Instructions.pdf</a>
+                <div class="intro large download">
+                    <a href="./images/screen-instructions-induvidual.pdf" target="_blank">Instructions.pdf</a>
+                </div>
+                <div class="intro large download">
+                    <a href="./images/information-brochure-night-splint.pdf" target="_blank">Night Splint
+                        Brochure.pdf</a>
+                </div>
             </div>
-            <div class="intro large download">
-                <a href="./images/information-brochure-night-splint.pdf" target="_blank">Night Splint Brochure.pdf</a>
-            </div>
-        </div>
         </section>
         <section id='testimonials' class='slide col'>
             <div class="slide-title">
@@ -406,82 +411,13 @@
                 </div>
             </div>
         </section>
-        <section id='contact' class='footer'>
-            <div class="footer-content">
-                <div class='footer-words'>
-                    <div class='footer-title'>
-                        <h2>Contact</h2>
-                        <img src="./images/logo.svg" alt="Logo Image">
-                    </div>
-                    <div class="socials">
-                        <a class='invert' target="_blank"
-                            href='https://us5.list-manage.com/contact-form?u=c24150147626fd5e19c7684c6&form_id=06069b6e5471c060d76fb6ebe2d5adc7'><img
-                                src="./images/social-media-email.svg" alt="Email Icon"></a>
-                        <a class='invert' href='https://twitter.com/ThetisMedical'><img
-                                src="./images/social-media-twitter.svg" alt="Twitter Icon"></a>
-                        <a class='invert' href='https://www.instagram.com/thetismedical/'><img
-                                src="./images/social-media-insta.svg" alt="Instagram Icon"></a>
-                        <a class='invert' href='https://www.facebook.com/thetismedical'><img
-                                src="./images/social-media-facebook.svg" alt="Facebook Icon"></a>
-                    </div>
-                    <p>&copy;Thetis Medical Ltd 2022</p>
-                </div>
-            </div>
-        </section>
+        <footer-component></footer-component>
     </main>
-    <nav class="nav-bar">
-        <div class="nav-bits">
-            <div class='nav-text'>
-                <h2>About Us</h2>
-                <p>At Thetis Medical, our sole focus is making medical splints for Achilles Tendon injuries.</p>
-                <p>We combine the knowledge of experienced orthopaedic specialists with design and engineering
-                    technology. Our patented design creates a comfortable and secure splint.</p>
-                <p>Thetis splints improve the recovery experience for patients, save hospital staff time and reduce
-                    costs.</p>
-            </div>
-            <div class="nav-links">
-                <a href='../achilles-ruptures.html'>
-                    <h3>Rupture FAQs</h3>
-                </a>
-                <a href='./night-splint.html'>
-                    <h3>Night Splint</h3>
-                </a>
-                <a href='./trauma-splint.html'>
-                    <h3>Trauma Splint</h3>
-                </a>
-            </div>
-        </div>
-        <div class="footer-content nav">
-            <div class='footer-words'>
-                <div class="socials">
-                    <a class='invert'
-                        href='https://us5.list-manage.com/contact-form?u=c24150147626fd5e19c7684c6&form_id=06069b6e5471c060d76fb6ebe2d5adc7'
-                        target='_blank'><img src="./images/social-media-email.svg" alt="Email Icon"></a>
-                    <a class='invert' href='https://twitter.com/ThetisMedical'><img
-                            src="./images/social-media-twitter.svg" alt="Twitter Icon"></a>
-                    <a class='invert' href='https://www.instagram.com/thetismedical/'><img
-                            src="./images/social-media-insta.svg" alt="Instagram Icon"></a>
-                    <a class='invert' href='https://www.facebook.com/thetismedical'><img
-                            src="./images/social-media-facebook.svg" alt="Facebook Icon"></a>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <nav-component class="nav-bar"></nav-component>
     <div class="cursor">
         <span class="cursor-text"></span>
     </div>
-    <!-- <div class="swipe swipe1"></div>
-    <div class="swipe swipe2"></div>
-    <div class="swipe swipe3"></div> -->
-    <!-- <script src="https://unpkg.com/@barba/core"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script> -->
-
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
-        integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
-        integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
-        integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo=" crossorigin="anonymous"></script> -->
+ 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
         integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw=" crossorigin="anonymous"></script>
     <script src="./app.js"></script>

@@ -149,12 +149,20 @@ input {
   color: var(--main-font-color);
   font-family: 'Raleway', cursive;
   font-size: 2rem;
+  display: flex;
+  align-items: flex-start;
 }
 
 #logo-white {
   color: var(--main-bg-color);
   font-family: 'Raleway', cursive;
   font-size: 2rem;
+}
+
+.trademark{
+  font-size:0.8rem;
+  align-self: flex-start;
+  margin: 0.05rem;
 }
 
 .nav-header {
@@ -857,12 +865,15 @@ a:hover,
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
+  transition: 0.01s ease;
 }
 
 .nav-links a:hover {
   background-color: var(--main-bg-color);
   color: var(--main-font-color);
   text-decoration: none;
+  transition: 0.01s ease;
+
 }
 
 
