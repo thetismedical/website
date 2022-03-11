@@ -1,2 +1,3 @@
+Sitemap: https://thetismedical.com/sitemap.xml
 User-agent: *
 Allow: /

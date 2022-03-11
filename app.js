@@ -1,5 +1,3 @@
-
-
 function copyToClipboard() {
   var inputc = document.body.appendChild(document.createElement("input"));
   inputc.value = window.location.href;
@@ -64,6 +62,4 @@ function navToggle(e) {
     navbar.classList.add("active")
   }
 }
-
-//EventListeners
 burger.addEventListener("click", navToggle);
