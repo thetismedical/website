@@ -35,20 +35,20 @@ class Footer extends HTMLElement {
                 <h3>Stay in Touch</h3>
                 <a class='invert' target="_blank"
                 href='mailto:info@thetismedical.com'>Email Us</a>
-             <a class='invert' href='https://www.linkedin.com/company/thetis-medical-ltd'>LinkedIn</a>
-             <a class='invert' href='https://www.instagram.com/thetismedical/'>Instagram</a>
-             <a class='invert' href='https://www.facebook.com/thetismedical'>Facebook</a>
+             <a class='invert' target="_blank" href='https://www.linkedin.com/company/thetis-medical-ltd'>LinkedIn</a>
+             <a class='invert' target="_blank" href='https://www.instagram.com/thetismedical/'>Instagram</a>
+             <a class='invert' target="_blank" href='https://www.facebook.com/thetismedical'>Facebook</a>
              </div>
           </div>
           <div class="socials">
              <a class='invert' target="_blank"
                 href='mailto:info@thetismedical.com'><img
                    src="../images/social-media-email.svg" alt="Email Icon"></a>
-             <a class='invert' href='https://www.linkedin.com/company/thetis-medical-ltd'><img
+             <a class='invert' target="_blank" href='https://www.linkedin.com/company/thetis-medical-ltd'><img
                    src="../images/social-media-linkedin.svg" alt="Linkedin Icon"></a>
-             <a class='invert' href='https://www.instagram.com/thetismedical/'><img
+             <a class='invert' target="_blank" href='https://www.instagram.com/thetismedical/'><img
                    src="../images/social-media-insta.svg" alt="Instagram Icon"></a>
-             <a class='invert' href='https://www.facebook.com/thetismedical'><img
+             <a class='invert' target="_blank" href='https://www.facebook.com/thetismedical'><img
                    src="../images/social-media-facebook.svg" alt="Facebook Icon"></a>
           </div>
           <p>&copy;Thetis Medical Ltd 2022</p>

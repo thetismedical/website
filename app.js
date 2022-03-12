@@ -62,4 +62,18 @@ function navToggle(e) {
     navbar.classList.add("active")
   }
 }
+
 burger.addEventListener("click", navToggle);
+
+orderCheck = document.getElementById('order-check')
+orderWrap = document.getElementsByClassName('order-wrap')[0]
+
+orderCheck.addEventListener("click", hideOrder);
+
+function hideOrder() {
+    if (orderWrap.classList.contains('hide')) {
+        orderWrap.classList.remove('hide')
+    } else {
+        orderWrap.classList.add('hide')
+    }
+}
