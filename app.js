@@ -68,12 +68,16 @@ burger.addEventListener("click", navToggle);
 orderCheck = document.getElementById('order-check')
 orderWrap = document.getElementsByClassName('order-wrap')[0]
 
-orderCheck.addEventListener("click", hideOrder);
+try{
+  orderCheck.addEventListener("click", hideOrder);
 
-function hideOrder() {
-    if (orderWrap.classList.contains('hide')) {
-        orderWrap.classList.remove('hide')
-    } else {
-        orderWrap.classList.add('hide')
-    }
+  function hideOrder() {
+      if (orderWrap.classList.contains('hide')) {
+          orderWrap.classList.remove('hide')
+      } else {
+          orderWrap.classList.add('hide')
+      }
+  }
+} catch(e){
+  console.log('Not Contact Us')
 }
