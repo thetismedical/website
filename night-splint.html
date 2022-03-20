@@ -51,7 +51,9 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <title>Night Splint for Torn Achilles Tendons</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
@@ -136,16 +138,19 @@
             'send_to': 'AW-10797070443/KpwNCMu0_v4CEOvwuJwo'
         });
     </script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-190314957-1">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-190314957-1">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-190314957-1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-190314957-1');
+    </script>
     <script>
         function gtag_report_conversion(url) {
             var callback = function () {
@@ -176,10 +181,10 @@
     <header class="nav-header">
         <h2><a href="./" id="logo">Thetis Medical<sup class="trademark">®</sup></a></h2>
         <div class="burger">
-           <div class="line1"></div>
-           <div class="line2"></div>
+            <div class="line1"></div>
+            <div class="line2"></div>
         </div>
-     </header>
+    </header>
 
     <main data-barba="container" data-barba-namespace="splint">
         <section class='landing splint'>
@@ -195,7 +200,7 @@
                     <a target="blank"
                         href='https://www.amazon.co.uk/dp/B09N5MVY1Q?maas=maas_adg_8B9D03530AA6518FDDAFDD3D5F230434_afap_abs&ref_=aa_maas&tag=maas&ref=myi_il_dp&th=1'
                         class="explore landing order-night-product">Buy on Amazon</a>
-                    <!-- <p>Available NOW on Amazon</p> -->
+                    <div id="stars"><img src="./images/4.7-Stars.svg"></div>
                 </div>
             </div>
             <p class="splint-intro">The ONLY splint for post Achilles rupture recovery. Aimed to improve sleep and make
@@ -415,13 +420,34 @@
                 </div>
             </div>
         </section>
+        <section class='slide col'>
+            <div class="slide-title">
+                <div class="divider"></div>
+                <h2>FAQs</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="faqs">
+                <h4>Can you use the splint for Achilles tendonitis?</h4>
+                <p>No, the splint is only used after rupture of the Achilles tendon. It is not suitable for broken
+                    bones, plantar fasciitis or Achilles tendonitis. The splint holds the foot pointed downwards, in a
+                    tip toe position, for tendon healing. For other conditions, like plantar fasciitis and Achilles
+                    tendonitis, there are different splints deliberately designed to do the opposite, and hold the foot
+                    up.</p>
+                <h4>Can you use the splint instead of a boot?</h4>
+                <p>Yes, it is designed as an alternative - but ONLY for use when resting. You cannot walk or stand in
+                    the splint without crutches.</p>
+                <h4>Is the sizing accurate?</h4>
+                <p>Yes, the sizing is accurate. Sizing is based on foot size, designed to ensure that the splint does
+                    not interfere with the toes.</p>
+            </div>
+        </section>
         <footer-component></footer-component>
     </main>
     <nav-component class="nav-bar"></nav-component>
     <div class="cursor">
         <span class="cursor-text"></span>
     </div>
- 
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
         integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw=" crossorigin="anonymous"></script>
     <script src="./app.js"></script>
