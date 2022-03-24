@@ -1,12 +1,12 @@
-function copyToClipboard() {
-  var inputc = document.body.appendChild(document.createElement("input"));
-  inputc.value = window.location.href;
-  inputc.focus();
-  inputc.select();
-  document.execCommand('copy');
-  inputc.parentNode.removeChild(inputc);
-  alert("URL Copied.");
-  }
+// function copyToClipboard() {
+//   var inputc = document.body.appendChild(document.createElement("input"));
+//   inputc.value = window.location.href;
+//   inputc.focus();
+//   inputc.select();
+//   document.execCommand('copy');
+//   inputc.parentNode.removeChild(inputc);
+//   alert("URL Copied.");
+//   }
 
 const burger = document.querySelector(".burger");
 const navbar = document.querySelector(".nav-bar");
@@ -81,3 +81,15 @@ try{
 } catch(e){
   console.log('Not Contact Us')
 }
+
+function loadMailchimp(){
+  let script = document.createElement('script');
+  script.setAttribute('type', 'text/javascript');
+  script.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js');
+  script.setAttribute('crossorigin', 'anonymous');
+  script.setAttribute('integrity', 'sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw=');
+  document.head.appendChild(script);
+}
+
+const mailchimpInput = document.getElementById('mce-EMAIL') 
+mailchimpInput.addEventListener("click", loadMailchimp);
