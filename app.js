@@ -82,12 +82,19 @@ try{
   console.log('Not Contact Us')
 }
 
-function loadMailchimp(){
+function loadGSAP(){
   let script = document.createElement('script');
   script.setAttribute('type', 'text/javascript');
   script.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js');
   script.setAttribute('crossorigin', 'anonymous');
   script.setAttribute('integrity', 'sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw=');
+  document.head.appendChild(script);
+}
+
+function loadMailchimp(){
+  let script = document.createElement('script');
+  script.setAttribute('type', 'text/javascript');
+  script.setAttribute('src', '//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
   document.head.appendChild(script);
 }
 
