@@ -92,6 +92,7 @@ function loadGSAP(){
 }
 
 function loadMailchimp(){
+  console.log('loading mailchimp')
   let script = document.createElement('script');
   script.setAttribute('type', 'text/javascript');
   script.setAttribute('src', '//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js');
