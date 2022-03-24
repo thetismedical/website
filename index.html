@@ -78,17 +78,19 @@
    </script>
 
    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-190314957-1">
-</script>
-<script async>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-190314957-1">
+   </script>
+   <script async>
+      window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-190314957-1');
-</script>
+      function gtag() {
+         dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-   <script src="components/subscribe.js" type="text/javascript" defer></script>
+      gtag('config', 'UA-190314957-1');
+   </script>
+
    <script src="components/footer.js" type="text/javascript" defer></script>
    <script src="components/nav.js" type="text/javascript" defer></script>
 
@@ -155,7 +157,7 @@
                <h2>Trauma Splint</h2>
                <p id='trauma-splint-desc'>A novel splint for hospitals to treat suspected Achilles injury. Low
                   cost and easy to apply.</p>
-               <img  id='trauma-splint-img' src="./images/A&E.png" alt="Trauma Splint Image" loading="lazy">
+               <img id='trauma-splint-img' src="./images/A&E.png" alt="Trauma Splint Image" loading="lazy">
                <a href='./contact.html' class="explore order-trauma-home">Order Now</a>
                <div class="learn-more">
                   <a href='./trauma-splint.html'>
@@ -300,25 +302,14 @@
          </div>
       </section>
       <footer-component></footer-component>
-    
+
    </main>
    <nav-component class="nav-bar"></nav-component>
    <div class="cursor">
       <span class="cursor-text"></span>
    </div>
-   <!-- <script defer src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script> -->
-   <script async>
-      (function ($) {
-         window.fnames = new Array();
-         window.ftypes = new Array();
-         fnames[0] = 'EMAIL';
-         ftypes[0] = 'email';
-      }(jQuery));
-      var $mcj = jQuery.noConflict(true);
-   </script>
    <script defer rel="preconnect" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
       integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw=" crossorigin="anonymous"></script>
    <script src="./app.js"></script>
 </body>
-
 </html>

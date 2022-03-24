@@ -78,7 +78,7 @@ try {
     }
   }
 } catch (e) {
-  console.log('Not Contact Us')
+  // console.log('Not Contact Us')
 }
 
 function loadGSAP() {
@@ -91,8 +91,9 @@ function loadGSAP() {
 }
 
 function loadMailchimp() {
-  validateMailchimp()
   connectMailchimp()
+  validateMailchimp()
+  jQueryMailchimp()
 }
 
 const mailchimpInput = document.getElementById('mce-EMAIL')
@@ -101,7 +102,7 @@ mailchimpInput.addEventListener("click", loadMailchimp);
 function validateMailchimp() {
   let validate = document.getElementById('valmc')
   if (validate == null) {
-    console.log('validating mailchimp')
+    // console.log('validating mailchimp')
     let script = document.createElement('script');
     script.setAttribute('type', 'text/javascript');
     script.setAttribute('id', 'valmc');
@@ -114,12 +115,25 @@ function validateMailchimp() {
 function connectMailchimp() {
   let connected = document.getElementById('mjcs')
   if (connected == null) {
-    console.log('connecting mailchimp')
+    // console.log('connecting mailchimp')
     let script = document.createElement('script');
     script.setAttribute('type', 'text/javascript');
     script.setAttribute('id', 'mjcs');
     let mcjsScript = `! function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore( m, p)}(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/c24150147626fd5e19c7684c6/d7e07f4cbe8075f8afbf34db0.js");`
     script.setAttribute('innerHTML', mcjsScript);
+    document.head.appendChild(script);
+  }
+}
+
+function jQueryMailchimp() {
+  let jqmc = document.getElementById('jqmc')
+  if (jqmc == null) {
+    // console.log('jQuery mailchimp')
+    let script = document.createElement('script');
+    script.setAttribute('type', 'text/javascript');
+    script.setAttribute('id', 'jqmc');
+    let jqmcScript = `(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='COMPANY';ftypes[1]='text';fnames[2]='ADDRESS';ftypes[2]='address';}(jQuery));var $mcj = jQuery.noConflict(true);`
+    script.setAttribute('innerHTML', jqmcScript);
     document.head.appendChild(script);
   }
 }
