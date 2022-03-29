@@ -3,6 +3,7 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('../fonts/raleway-v26-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('../fonts/raleway-v26-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -16,6 +17,7 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 600;
+  font-display: swap;
   src: url('../fonts/raleway-v26-latin-600.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('../fonts/raleway-v26-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -29,6 +31,7 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
+  font-display: swap;
   src: url('../fonts/raleway-v26-latin-800.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('../fonts/raleway-v26-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -127,7 +130,6 @@
   }
   
   .landing-para h1 {
-    font-family: 'Raleway';
     font-size: 3.5rem;
     margin-top: 4vh;
     padding-bottom: 6vh;
@@ -186,7 +188,6 @@
   
   #logo {
     color: var(--main-font-color);
-    font-family: 'Raleway', cursive;
     font-size: 2rem;
     display: flex;
     align-items: flex-start;
@@ -194,7 +195,6 @@
   
   #logo-white {
     color: var(--main-bg-color);
-    font-family: 'Raleway', cursive;
     font-size: 2rem;
   }
   
@@ -314,7 +314,6 @@
     align-self: flex-start;
     width: 80vw;
     max-width: 1000px;
-    font-family: Raleway;
     font-weight: 600;
     font-size: 1.25rem;
   }
@@ -456,7 +455,6 @@
   .info.col p {
     width: 90%;
     height: 20vh;
-    font-family: Raleway;
     font-weight: 600;
   }
   
@@ -519,7 +517,6 @@
   }
   
   .fraction-wrap {
-    font-family: 'Raleway';
     font-size: 2.5rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -736,7 +733,6 @@
   }
   
   .hero-desc h2 {
-    font-family: 'Raleway', cursive;
     font-size: 3.6rem;
   }
   
@@ -755,7 +751,6 @@
     background: var(--green-color);
     border-radius: 5rem;
     color: var(--main-bg-color);
-    font-family: 'Raleway', cursive;
     font-size: 1.5rem;
     text-decoration: none;
     cursor: pointer;
@@ -1217,7 +1212,6 @@
     padding: 4vh 0;
     width: 100%;
     font-size: 1.75rem;
-    font-family: Raleway;
     font-weight: 600;
   }
   
@@ -1257,7 +1251,6 @@
   .product-display p {
     padding-top: 6vh;
     font-size: 1.25rem;
-    font-family: Raleway;
     font-weight: 600;
   }
   
@@ -1337,7 +1330,6 @@
     text-align: center;
     margin: auto;
     font-size: 1.5rem;
-    font-family: Raleway;
     font-weight: 800;
   }
   
@@ -1375,12 +1367,10 @@
     width: 12vw;
     padding-top: 12vh;
     font-size: 1.125rem;
-    font-family: Raleway;
-    font-weight: 500;
+    font-weight: 600;
   }
   
   .trauma-instructions-wrap p {
-    font-family: Raleway;
     font-weight: 600;
   }
   
@@ -1746,16 +1736,12 @@
   }
   
   .blog-landing h3 {
-    font-family: 'Raleway';
     font-size: 1.375rem;
     font-weight: 600;
-    ;
-    /* width: 100%; */
     margin: 4vh 0 4vh 0vh;
   }
   
   .blog-landing h4 {
-    font-family: 'Raleway';
     font-size: 1.05rem;
     font-weight: 400;
     /* width: 100%; */
@@ -1765,7 +1751,6 @@
   .blog.slide {
     width: 80vw;
     font-weight: 600;
-    font-family: 'Raleway';
     margin: auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1787,7 +1772,6 @@
   }
   
   .coming-soon {
-    font-family: Raleway;
     font-weight: 600;
     font-size: 1.5rem;
   }
@@ -1908,11 +1892,7 @@
     display: -ms-flexbox;
     display: flex;
   }
-  
-  .blog-landing.shares h3 {
-    font-family: 'Raleway';
-  
-  }
+
   
   .shares img {
     height: 8vh;
@@ -1977,7 +1957,6 @@
   }
   
   .article a {
-    font-family: 'Raleway';
     font-size: 1.25rem;
     font-weight: 500;
     color: var(--main-font-color);
@@ -1990,7 +1969,6 @@
   
   a.article.explore {
     color: white;
-    font-family: Raleway;
     padding: 1rem 2rem;
   }
   
@@ -2271,7 +2249,6 @@
       width: 90vw;
       margin: 1rem 0;
       line-height: 150%;
-      font-family: Raleway;
     }
   
   
@@ -2314,13 +2291,6 @@
       display: -ms-flexbox;
       display: flex;
     }
-  
-    .blog-landing.shares h3 {
-      font-family: 'Raleway';
-  
-    }
-  
-  
   
     .shares {
       display: -webkit-box;
@@ -2379,7 +2349,6 @@
     }
   
     .landing-para h1 {
-      font-family: 'Raleway';
       font-size: 2rem;
       padding-bottom: 4vh;
       width: 50vw;
