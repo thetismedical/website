@@ -2007,9 +2007,38 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
+
+  .sitemap{
+      display: flex;
+  }
+
+  .sitemap-title h1{
+      width: 80%;
+      margin: auto;
+      display: flex;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+
+  }
   
-  
-  
+  .sitemap li{
+      margin: 0 0 1rem 1rem;
+      /* list-style: none; */
+      font-size: 1.2rem;
+  }
+
+  .sitemap h2{
+      margin-bottom: 1rem;
+      font-size: 1.75rem;
+  }
+
+  .sitemap-home,.sitemap-faqs{
+      width: 40vw;
+      padding-right: 2rem;
+      margin: 1rem 0;
+  }
+
+
   @media screen and (max-width: 900px) {
   
     body {
