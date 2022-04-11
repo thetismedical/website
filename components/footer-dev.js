@@ -17,6 +17,7 @@ class Footer extends HTMLElement {
                   <h3>Company</h3>
                   <a href="../">Home</a>
                   <a href="../contact.html">Contact Us</a>
+                  <a href="../sitemap.html">Sitemap</a>
                   <h3>Products</h3>
                   <a href="../night-splint.html">Achilles Rupture Night Splint</a>
                   <a href="../trauma-splint.html">Achilles Rupture Trauma Splint</a>
