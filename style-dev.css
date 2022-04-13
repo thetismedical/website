@@ -1207,6 +1207,12 @@
       width:fit-content;
     
   }
+
+  #US-launch,#US-launch p{
+      padding: 0;
+      margin: 0;
+      font-size: 1.35rem;
+  }
   
   .splint-intro {
     padding: 4vh 0;
@@ -3134,6 +3140,14 @@
         width: 55%;
         padding-bottom: 0;
     }
+
+    #US-launch p{
+        margin-top: 5vh;
+        font-size: 1.25rem;
+      padding: 1vh 0;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+  }
   
     .instructions-wrap {
       display: -webkit-box;
