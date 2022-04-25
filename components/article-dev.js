@@ -11,8 +11,8 @@ class Article extends HTMLElement {
        <div class="go-to-subscribe">
         <a href='#subscribe' class="explore go-to-subscribe">Get the eBook</a>
        </div>
-       <h4 class='matthew-solan'>Written by <a target='_blank'
-           href='http://www.matthewsolanorthopaedics.co.uk/'>Matthew Solan</a>.
+       <h4 class='matthew-solan'>Written by <a target='_blank' itemprop='author'
+           href='https://www.londonfootandanklecentre.co.uk/staff/matthew-solan/'>Matthew Solan</a>.
         <br>
         Achilles rupture expert and orthopedic surgeon.</h4>
 `;
