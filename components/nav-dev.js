@@ -16,15 +16,19 @@ class Nav extends HTMLElement {
          costs.</p>
    </div>
    <div class="nav-links">
+   <a href='../night-splint.html'>
+   <h3>Night Splint</h3>
+</a>
+<a href='../trauma-splint.html'>
+   <h3>Trauma Splint</h3>
+</a>
       <a href='../achilles-ruptures.html'>
-         <h3>Rupture FAQs</h3>
-      </a>
-      <a href='../night-splint.html'>
-         <h3>Night Splint</h3>
-      </a>
-      <a href='../trauma-splint.html'>
-         <h3>Trauma Splint</h3>
-      </a>
+      <h3>Rupture FAQs</h3>
+   </a>
+   <a href='../professionals.html'>
+   <h3>Professionals</h3>
+</a>
+
    </div>
 </div>
 <div class="footer-content nav">

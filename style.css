@@ -662,10 +662,32 @@ img.fraction-svg {
   min-height: 25vh;
 }
 
+.slide.col.downloads{
+  margin: auto;
+}
+
 .downloads-wrap {
   padding: 2vh 0;
 }
 
+
+.downloads-wrap h2{
+  align-items: left;
+  margin: 2rem 0 0 0;
+  font-size: 2rem;
+
+}
+
+.intro.large.download{
+  margin: 1rem 0 2rem 4rem;
+}
+
+.intro.large.download li{
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+
+}
 
 
 .footer-content.nav {
@@ -2180,6 +2202,8 @@ a.article.explore {
   .blog-words b {
     font-size: 1.25rem;
     margin-bottom: 2rem;
+    width: 85vw;
+
   }
 
   .blog-landing {
@@ -2262,6 +2286,12 @@ a.article.explore {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
+  }
+
+  .slide.col.professional h2{
+    max-width: 90vw;
+    margin: auto;
+    padding: 2rem;
   }
 
   .questions {
@@ -3187,8 +3217,20 @@ a.article.explore {
     padding-top: 2vh;
   }
 
+  .downloads-wrap h2{
+    align-self: flex-start;
+    text-align: left;
+    padding: 0 2rem;
+  }
+
   .intro.large.download {
     padding: 0vh 0 6vh 0;
+    text-align: left;
+  }
+
+  .intro.large.download li{
+    padding: 0;
+    margin: 2rem 2rem 0 0 ;
     text-align: left;
   }
 
