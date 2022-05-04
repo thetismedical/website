@@ -1,4 +1,4 @@
-let toUS = ['United States','Canada','Mexico','United Kingdom']
+let toUS = ['United States','Canada','Mexico']
 
 let US_URL = 'https://www.amazon.com/dp/B09N5KH4F3?ref=myi_title_dp'
 
@@ -9,17 +9,18 @@ fetch('https://extreme-ip-lookup.com/json/?key=mRicTdUafjFRd3Ufqftq')
     console.log("Country: ", response.country);
     try {
         if (window.location.href.indexOf("night-splint") > -1) {
-            console.log("on product")
             if (toUS.includes(response.country)){
+                console.log(".com")
                 let link = document.getElementById('order-night-product')
                 link.setAttribute("href", US_URL);
+            } else {
+                console.log(".co.uk")
             }
         } else {
-            if (toUS.includes(response.country)){
-                console.log("off product")
-
+            if (!toUS.includes(response.country)){
+                console.log(".co.uk")
                 let link = document.getElementById('order-night-home')
-                link.setAttribute("href", US_URL);
+                link.setAttribute("href", UK_URL);
             }
         }
         

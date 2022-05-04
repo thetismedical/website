@@ -3142,7 +3142,7 @@
     }
 
     #US-launch p{
-        margin-top: 5vh;
+        margin: 5vh 0 0 0;
         font-size: 1.25rem;
       padding: 1vh 0;
       border-top: 2px solid black;
