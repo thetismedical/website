@@ -300,7 +300,7 @@ img.key {
 
 }
 
-.slide.no-break{
+.slide.no-break {
   min-height: fit-content;
 }
 
@@ -367,23 +367,28 @@ img.key {
   align-items: flex-end;
 }
 
-.slide.col.professional{
+.slide.col.professional {
   width: 90;
+  min-height: 10vh;
   margin-top: 1rem;
 }
 
-.info-wrap.row.professional{
+.slide.col.professional h2{
+  margin-bottom: 3rem;
+}
+
+.info-wrap.row.professional {
   margin: auto;
   width: 100%;
   margin: 0 2rem 2rem 2rem;
 }
 
-.info-wrap.col.professional{
+.info-wrap.col.professional {
   padding-left: 4rem;
 
 }
 
-.info-wrap.col.professional h2{
+.info-wrap.col.professional h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -532,7 +537,7 @@ img.process-icon {
 
 
 #night-splint-desc.pros,
-#trauma-splint-desc.pros{
+#trauma-splint-desc.pros {
   max-width: 37.5vw;
   height: fit-content;
   font-size: 1rem;
@@ -662,7 +667,7 @@ img.fraction-svg {
   min-height: 25vh;
 }
 
-.slide.col.downloads{
+.slide.col.downloads {
   margin: auto;
 }
 
@@ -671,18 +676,18 @@ img.fraction-svg {
 }
 
 
-.downloads-wrap h2{
+.downloads-wrap h2 {
   align-items: left;
   margin: 2rem 0 0 0;
   font-size: 2rem;
 
 }
 
-.intro.large.download{
+.intro.large.download {
   margin: 1rem 0 2rem 4rem;
 }
 
-.intro.large.download li{
+.intro.large.download li {
   padding-left: 1rem;
   font-size: 1.5rem;
   margin-bottom: 2rem;
@@ -1773,6 +1778,7 @@ input:-webkit-autofill:active {
 
 .blog-landing {
   width: 72vw;
+  max-width: 1000px;
   margin: 4vh auto;
   margin-bottom: 2vh;
   margin-left: 16vw;
@@ -2225,7 +2231,7 @@ a.article.explore {
     align-self: center;
   }
 
-  .scroll{
+  .scroll {
     padding: 2rem 0;
   }
 
@@ -2288,7 +2294,7 @@ a.article.explore {
     align-items: flex-start;
   }
 
-  .slide.col.professional h2{
+  .slide.col.professional h2 {
     max-width: 90vw;
     margin: auto;
     padding: 2rem;
@@ -3217,7 +3223,7 @@ a.article.explore {
     padding-top: 2vh;
   }
 
-  .downloads-wrap h2{
+  .downloads-wrap h2 {
     align-self: flex-start;
     text-align: left;
     padding: 0 2rem;
@@ -3228,9 +3234,9 @@ a.article.explore {
     text-align: left;
   }
 
-  .intro.large.download li{
+  .intro.large.download li {
     padding: 0;
-    margin: 2rem 2rem 0 0 ;
+    margin: 2rem 2rem 0 0;
     text-align: left;
   }
 
@@ -3505,31 +3511,31 @@ a.article.explore {
     margin: 0 auto;
   }
 
-  .info-wrap.row.professional{
+  .info-wrap.row.professional {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin:auto;
+    margin: auto;
   }
-  
-  .info-wrap.col.professional{
+
+  .info-wrap.col.professional {
     padding: 0;
-  
+
   }
 
   #night-splint-desc.pros,
-#trauma-splint-desc.pros{
-  max-width: 90vw;
-  width: 90vw;
-  text-align: justify;
-  height: fit-content;
-  font-size: 1rem;
-}
+  #trauma-splint-desc.pros {
+    max-width: 90vw;
+    width: 90vw;
+    text-align: justify;
+    height: fit-content;
+    font-size: 1rem;
+  }
 
-#night-splint-img.pros,
-#trauma-splint-img.pros {
-  padding: 0 0 1rem 0;
-}
+  #night-splint-img.pros,
+  #trauma-splint-img.pros {
+    padding: 0 0 1rem 0;
+  }
 
   .form-wrap h2 {
     font-size: 2.5rem;
@@ -3814,4 +3820,26 @@ a.article.explore {
 .resp-sharing-button--whatsapp:active {
   background-color: #1DA851;
   border-color: #1DA851;
+}
+
+@media screen and (min-width: 1366px) {
+  .shares img {
+    width: 6vh;
+    height: 6vh;
+  }
+
+  .info-wrap.row.professional {
+    width: 50vw;
+  }
+
+  .info-wrap.col.professional h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  #night-splint-desc.pros,
+  #trauma-splint-desc.pros {
+    font-size: 1.25rem;
+  }
+
 }
