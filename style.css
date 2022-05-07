@@ -373,7 +373,7 @@ img.key {
   margin-top: 1rem;
 }
 
-.slide.col.professional h2{
+.slide.col.professional h2 {
   margin-bottom: 3rem;
 }
 
@@ -1740,6 +1740,51 @@ input:-webkit-autofill:active {
   font-family: Raleway;
 }
 
+.slide.pathway-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60vw;
+  margin: 2rem auto;
+}
+
+.slide.pathway-info h2 {
+  font-size: 2rem;
+}
+
+.slide.pathway-info>* {
+  margin-bottom: 2rem;
+
+}
+
+.phase h4 {
+  font-size: 1.25rem;
+}
+
+.phase h4 u {
+  padding-right: 5rem;
+}
+
+.phase>* {
+  margin-bottom: 1rem;
+}
+
+.slide.pathway-info b {
+  font-style: italic;
+}
+
+.snakes-and-ladders {
+  width: 60vw;
+  margin: 2rem auto;
+}
+
+.snakes-and-ladders>* {
+  margin-bottom: 2rem;
+}
+
+.snakes-and-ladders.pathway img {
+  max-width: 100%;
+}
 
 .mini.explore.mailchimp {
   max-width: 4vh;
@@ -1876,7 +1921,8 @@ input:-webkit-autofill:active {
 }
 
 a.explore.article-to-night-splint {
-  width: 25%;
+  width: fit-content;
+  margin:auto;
 }
 
 .coming-soon {
@@ -2094,6 +2140,16 @@ a.article.explore {
   align-items: center;
   text-align: center;
   margin: 6vh 0 2vh 0;
+}
+
+.other-articles.btn {
+  margin: 2rem auto;
+  align-self: center;
+}
+
+.explore.article-to-night-splint a {
+  width: fit-content;
+
 }
 
 .other-articles h3 {
@@ -3198,6 +3254,39 @@ a.article.explore {
     padding-left: 10vw;
   }
 
+  .slide.pathway-info {
+    width: 90vw;
+    margin: 2rem auto;
+    text-align: justify;
+  }
+
+
+  
+  .phase h4 u {
+    padding-right: 3rem;
+  }
+  
+  .phase>* {
+    margin-bottom: 1rem;
+  }
+  
+  .slide.pathway-info b {
+    font-style: italic;
+  }
+  
+  .snakes-and-ladders {
+    width: 90vw;
+    margin: 2rem auto;
+  }
+  
+  .snakes-and-ladders>* {
+    margin-bottom: 2rem;
+  }
+  
+  .snakes-and-ladders.pathway img {
+    max-width: 100%;
+  }
+
   .instruction-part {
     display: flex;
     flex-direction: column;
@@ -3434,9 +3523,7 @@ a.article.explore {
     margin: 0rem 0rem 1rem 0rem;
   }
 
-  a.explore.article-to-night-splint {
-    width: 70%;
-  }
+
 
   /* CONTACT PAGE */
 
@@ -3832,7 +3919,7 @@ a.article.explore {
     width: 50vw;
   }
 
-  .info-wrap.col.professional h2{
+  .info-wrap.col.professional h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
   }
