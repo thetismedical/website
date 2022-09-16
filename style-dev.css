@@ -1758,12 +1758,18 @@ input:-webkit-autofill:active {
 }
 
 .phase h4 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .phase h4 u {
   padding-right: 5rem;
 }
+
+.phase b {
+  font-weight: 600;
+}
+
+
 
 .phase>* {
   margin-bottom: 1rem;
@@ -2335,7 +2341,8 @@ a.article.explore {
   }
 
   .scroll {
-    padding: 2rem 0;
+    display: none;
+    visibility: hidden;
   }
 
   .quote-wrap {
@@ -2385,6 +2392,7 @@ a.article.explore {
   .blog-landing h4 {
     width: 60vw;
     margin: 5vh 0 2vh 0;
+    font-size: 1.15rem;
   }
 
   .blog.slide {
@@ -2570,20 +2578,22 @@ a.article.explore {
 
   .shares a {
     display: flex;
-    max-width: 12vw;
     max-height: 18vw;
     align-items: center;
+    width: 100%;
     padding: 0;
-    margin: 2vw auto;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
+  
   }
 
   .shares img {
     max-height: 12vw;
-    height: 12vh;
-    width: 12vw;
-    padding: 0;
+    /* height: 12vh; */
+    /* width: 12vw; */
+    /* width: 80%; */
+    padding: 0.25rem;
     margin: 0;
     align-self: center;
   }
@@ -3302,24 +3312,30 @@ a.article.explore {
     padding-left: 10vw;
   }
 
-  .slide.pathway-info {
+  .slide.pathway-info{
     width: 90vw;
     margin: 2rem auto;
-    text-align: justify;
+    text-align: left;
+
   }
+
+  .slide.pathway-info p,
+  .slide.pathway-info b
+  {
+      text-align: justify;
+      font-size: 1.25rem;
+      line-height: 1.5;
+    }
 
 
   
-  .phase h4 u {
-    padding-right: 3rem;
-  }
-  
+
   .phase>* {
     margin-bottom: 1rem;
   }
   
   .slide.pathway-info b {
-    font-style: italic;
+    font-style: bold;
   }
   
   .snakes-and-ladders {
@@ -3327,6 +3343,11 @@ a.article.explore {
     margin: 2rem auto;
   }
   
+  .snakes-and-ladders p{
+      font-size: 1.25rem;
+      line-height: 1.5;
+    }
+
   .snakes-and-ladders>* {
     margin-bottom: 2rem;
   }
