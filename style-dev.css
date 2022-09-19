@@ -2037,6 +2037,12 @@ a.explore.article-to-night-splint {
   margin: 4vh 0;
 }
 
+.evidence-table{
+  width: 80%;
+  display: flex;
+  margin:auto;
+}
+
 .shares {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2280,6 +2286,8 @@ a.article.explore {
   .links-row {
     flex-direction: column;
   }
+
+
 
   .links-column {
     margin: auto;
