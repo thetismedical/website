@@ -1997,6 +1997,10 @@ a.explore.article-to-night-splint {
   margin:auto;
 }
 
+.article .evidence p{
+    font-size: 1.5rem;
+}
+
 .coming-soon {
   font-weight: 600;
   font-size: 1.5rem;
@@ -3591,6 +3595,8 @@ a.article.explore {
   .article-wrap {
     padding: 0;
   }
+
+
 
   .coming-soon p {
     width: 80vw;
