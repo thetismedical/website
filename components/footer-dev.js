@@ -32,6 +32,7 @@ class Footer extends HTMLElement {
                   <a href="../FAQs/achilles-tear-treatment.html">Achilles Tear Treatment</a>
                   <a href="../FAQs/torn-achilles-recovery.html">Torn Achilles Recovery</a>
                   <a href="../FAQs/life-after-achilles-rupture.html">Life After Achilles Rupture</a>
+                  <a href="../evidence-based-recovery.html">Evidence Based Recovery</a>
                </div>
                <div class="links-column">
                   <h3>Stay in Touch</h3>
