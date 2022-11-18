@@ -16,7 +16,7 @@ class Footer extends HTMLElement {
                <div class="links-column">
                   <h3>Company</h3>
                   <a href="../">Home</a>
-                  <a href="../professionals.html">Contact Us</a>
+                  <a href="../professionals.html">Professionals</a>
                   <a href="../contact.html">Contact Us</a>
                   <a href="../sitemap.html">Sitemap</a>
                   <h3>Products</h3>
