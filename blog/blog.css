@@ -44,7 +44,9 @@
 }
 .table-wrap{
     max-width: 95vw;
-    overflow-x: scroll;
+    overflow-x: auto;
+    margin-left: 0.5rem;
+    
 }
   .blog-table{
     margin: 1rem 0;
@@ -84,3 +86,4 @@
     background-color: var(--green-color);
     color: white;
   }
+
